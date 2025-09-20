@@ -1,0 +1,92 @@
+university:
+  name: 関東学院大学
+
+campuses:
+  - name: 横浜・金沢八景キャンパス
+    address: 〒236-8501 横浜市金沢区六浦東1-50-1
+  - name: 横浜・関内キャンパス
+    address: 〒231-8328 横浜市中区万代町1-1-1
+  - name: 横浜・金沢文庫キャンパス
+    address: 〒236-8502 横浜市金沢区釜利谷南3-22-1
+
+faculties:
+  - name: 国際文化学部
+    campus_names:
+      - 横浜・金沢八景キャンパス
+    departments:
+      - name: 国際文化学科
+
+  - name: 社会学部
+    campus_names:
+      - 横浜・金沢八景キャンパス
+    departments:
+      - name: 現代社会学科
+
+  - name: 法学部
+    campus_names:
+      - 横浜・関内キャンパス
+    departments:
+      - name: 法学科
+      - name: 地域創生学科
+
+  - name: 経済学部
+    campus_names:
+      - 横浜・金沢八景キャンパス
+    departments:
+      - name: 経済学科
+
+  - name: 経営学部
+    campus_names:
+      - 横浜・関内キャンパス
+    departments:
+      - name: 経営学科
+
+  - name: 理工学部
+    campus_names:
+      - 横浜・金沢八景キャンパス
+    departments:
+      - name: 理工学科
+
+  - name: 情報学部
+    campus_names:
+      - 横浜・金沢八景キャンパス
+    departments:
+      - name: 情報学科
+
+  - name: 建築・環境学部
+    campus_names:
+      - 横浜・金沢八景キャンパス
+    departments:
+      - name: 建築・環境学科
+
+  - name: 人間共生学部
+    campus_names:
+      - 横浜・金沢八景キャンパス
+      - 横浜・関内キャンパス
+    departments:
+      - name: コミュニケーション学科
+      - name: 共生デザイン学科
+
+  - name: 教育学部
+    campus_names:
+      - 横浜・金沢八景キャンパス
+    departments:
+      - name: こども発達学科
+
+  - name: 栄養学部
+    campus_names:
+      - 横浜・金沢八景キャンパス
+    departments:
+      - name: 管理栄養学科
+
+  - name: 看護学部
+    campus_names:
+      - 横浜・金沢八景キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://univ.kanto-gakuin.ac.jp/
+  extraction_status: success

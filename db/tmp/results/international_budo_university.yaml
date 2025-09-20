@@ -1,0 +1,20 @@
+university:
+  name: 国際武道大学
+
+campuses:
+  - name: 勝浦キャンパス
+    address: 〒299-5295 千葉県勝浦市新官841
+
+faculties:
+  - name: 体育学部
+    campus_names:
+      - 勝浦キャンパス
+    departments:
+      - name: 武道学科
+      - name: 体育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.budo-u.ac.jp/
+  extraction_status: success

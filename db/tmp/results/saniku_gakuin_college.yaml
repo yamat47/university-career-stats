@@ -1,0 +1,22 @@
+university:
+  name: 三育学院大学
+
+campuses:
+  - name: 大多喜キャンパス
+    address: 〒298-0297 千葉県夷隅郡大多喜町久我原1500
+  - name: 東京校舎
+    address: 〒167-0032 東京都杉並区天沼3-17-15
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - 大多喜キャンパス
+      - 東京校舎
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.saniku.ac.jp/
+  extraction_status: success

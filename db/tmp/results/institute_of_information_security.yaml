@@ -1,0 +1,19 @@
+university:
+  name: 情報セキュリティ大学院大学
+
+campuses:
+  - name: 横浜キャンパス
+    address: 〒221-0835 神奈川県横浜市神奈川区鶴屋町2-14-1
+
+faculties:
+  - name: 情報セキュリティ研究科
+    campus_names:
+      - 横浜キャンパス
+    departments:
+      - name: 情報セキュリティ専攻
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.iisec.ac.jp/
+  extraction_status: success

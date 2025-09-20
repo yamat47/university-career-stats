@@ -1,0 +1,33 @@
+university:
+  name: 植草学園大学
+
+campuses:
+  - name: 千葉若葉キャンパス
+    address: 〒264-0007 千葉県千葉市若葉区小倉町1639番3
+  - name: 椿森キャンパス
+    address: 千葉県千葉市中央区椿森4丁目1-2（千葉医療センター内）
+  - name: 千葉駅前キャンパス
+    address: 〒260-0045 千葉県千葉市中区弁天2丁目8-9
+
+faculties:
+  - name: 発達教育学部
+    campus_names:
+      - 千葉若葉キャンパス
+    departments:
+      - name: 発達支援教育学科
+  - name: 保健医療学部
+    campus_names:
+      - 千葉若葉キャンパス
+    departments:
+      - name: リハビリテーション学科
+  - name: 看護学部
+    campus_names:
+      - 椿森キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.uekusa.ac.jp/
+  extraction_status: success

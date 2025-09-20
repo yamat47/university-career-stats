@@ -1,0 +1,39 @@
+university:
+  name: 駿河台大学
+
+campuses:
+  - name: 駿河台大学
+    address: 〒357-8555 埼玉県飯能市阿須698
+
+faculties:
+  - name: 法学部
+    campus_names:
+      - 駿河台大学
+    departments:
+      - name: 法学科
+  - name: 経済経営学部
+    campus_names:
+      - 駿河台大学
+    departments:
+      - name: 経済経営学科
+  - name: メディア情報学部
+    campus_names:
+      - 駿河台大学
+    departments:
+      - name: メディア情報学科
+  - name: スポーツ科学部
+    campus_names:
+      - 駿河台大学
+    departments:
+      - name: スポーツ科学科
+  - name: 心理学部
+    campus_names:
+      - 駿河台大学
+    departments:
+      - name: 心理学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.surugadai.ac.jp/
+  extraction_status: success

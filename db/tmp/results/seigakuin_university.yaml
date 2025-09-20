@@ -1,0 +1,31 @@
+university:
+  name: 聖学院大学
+
+campuses:
+  - name: さいたま上尾キャンパス
+    address: 〒362-8585 埼玉県上尾市戸崎1-1
+
+faculties:
+  - name: 政治経済学部
+    campus_names:
+      - さいたま上尾キャンパス
+    departments:
+      - name: 政治経済学科
+  - name: 人文学部
+    campus_names:
+      - さいたま上尾キャンパス
+    departments:
+      - name: 国際文化学科
+      - name: 日本文化学科
+      - name: 子ども教育学科
+  - name: 心理福祉学部
+    campus_names:
+      - さいたま上尾キャンパス
+    departments:
+      - name: 心理福祉学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.seigakuin.jp/
+  extraction_status: success

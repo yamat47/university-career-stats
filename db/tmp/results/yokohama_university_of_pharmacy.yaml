@@ -1,0 +1,22 @@
+university:
+  name: 横浜薬科大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒245-0066 神奈川県横浜市戸塚区俣野町601
+
+faculties:
+  - name: 薬学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 健康薬学科
+      - name: 漢方薬学科
+      - name: 臨床薬学科
+      - name: 薬科学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.hamayaku.ac.jp/
+  extraction_status: success

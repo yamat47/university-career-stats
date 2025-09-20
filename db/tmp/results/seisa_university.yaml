@@ -1,0 +1,28 @@
+university:
+  name: 星槎大学
+
+campuses:
+  - name: 横浜事務局
+    address: 神奈川県横浜市青葉区さつきが丘8-80
+  - name: 箱根キャンパス
+    address: 神奈川県足柄下郡箱根町仙石原817-255
+  - name: 横浜キャンパス（大学院）
+    address: 神奈川県横浜市中区日本大通11番 横浜情報文化センター5階
+
+faculties:
+  - name: 共生科学部
+    campus_names:
+      - 箱根キャンパス
+      - 横浜事務局
+    departments:
+      - name: 共生科学専攻
+      - name: 初等教育専攻
+      - name: 福祉専攻
+      - name: スポーツ身体表現専攻
+      - name: グローカルコミュニケーション専攻
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.seisa.ac.jp/
+  extraction_status: success

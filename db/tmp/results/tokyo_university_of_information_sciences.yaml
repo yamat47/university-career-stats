@@ -1,0 +1,24 @@
+university:
+  name: 東京情報大学
+
+campuses:
+  - name: 千葉キャンパス
+    address: 〒265-8501 千葉県千葉市若葉区御成台4-1
+
+faculties:
+  - name: 総合情報学部
+    campus_names:
+      - 千葉キャンパス
+    departments:
+      - name: 総合情報学科
+  - name: 看護学部
+    campus_names:
+      - 千葉キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tuis.ac.jp/
+  extraction_status: success

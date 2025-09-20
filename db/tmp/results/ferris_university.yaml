@@ -1,0 +1,34 @@
+university:
+  name: フェリス女学院大学
+
+campuses:
+  - name: 緑園キャンパス
+    address: 〒245-8650 横浜市泉区緑園4-5-3
+  - name: 山手キャンパス
+    address: 〒231-8651 横浜市中区山手町37
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 緑園キャンパス
+    departments:
+      - name: 英語英米文学科
+      - name: 日本語日本文学科
+      - name: コミュニケーション学科
+  - name: 国際交流学部
+    campus_names:
+      - 緑園キャンパス
+    departments:
+      - name: 国際交流学科
+  - name: 音楽学部
+    campus_names:
+      - 緑園キャンパス
+      - 山手キャンパス
+    departments:
+      - name: 音楽芸術学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.ferris.ac.jp/
+  extraction_status: success

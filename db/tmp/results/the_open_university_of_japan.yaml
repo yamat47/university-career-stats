@@ -1,0 +1,22 @@
+university:
+  name: 放送大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒261-8586 千葉市美浜区若葉2-11
+  - name: 学習センター・サテライトスペース
+    address: 全国47都道府県57拠点（各都道府県に最低1箇所の学習センター）
+
+faculties:
+  - name: 教養学部
+    campus_names:
+      - 本部キャンパス
+      - 学習センター・サテライトスペース
+    departments:
+      - name: 教養学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.ouj.ac.jp/
+  extraction_status: success

@@ -1,0 +1,19 @@
+university:
+  name: 愛国学園大学
+
+campuses:
+  - name: 四街道キャンパス
+    address: 〒284-0005 千葉県四街道市四街道1532
+
+faculties:
+  - name: 人間文化学部
+    campus_names:
+      - 四街道キャンパス
+    departments:
+      - name: 人間文化学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://aikoku-u.ac.jp/
+  extraction_status: success

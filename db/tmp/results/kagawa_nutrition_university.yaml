@@ -1,0 +1,28 @@
+university:
+  name: 女子栄養大学
+
+campuses:
+  - name: 坂戸キャンパス
+    address: 〒350-0288 埼玉県坂戸市千代田3-9-21
+  - name: 駒込キャンパス
+    address: 〒170-8481 東京都豊島区駒込3-24-3
+
+faculties:
+  - name: 栄養学部
+    campus_names:
+      - 坂戸キャンパス
+    departments:
+      - name: 実践栄養学科
+      - name: 保健栄養学科
+      - name: 食文化栄養学科
+  - name: 短期大学部
+    campus_names:
+      - 駒込キャンパス
+    departments:
+      - name: 食物栄養学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.eiyo.ac.jp/
+  extraction_status: success
