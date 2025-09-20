@@ -1,0 +1,26 @@
+university:
+  name: 神戸親和大学
+
+campuses:
+  - name: 鈴蘭台キャンパス
+    address: 〒651-1111 神戸市北区鈴蘭台北町7丁目13-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 鈴蘭台キャンパス
+    departments:
+      - name: 国際文化学科
+      - name: 心理学科
+  - name: 教育学部
+    campus_names:
+      - 鈴蘭台キャンパス
+    departments:
+      - name: 教育学科
+      - name: スポーツ教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kobe-shinwa.ac.jp/
+  extraction_status: success

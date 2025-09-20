@@ -1,0 +1,25 @@
+university:
+  name: 神戸国際大学
+
+campuses:
+  - name: 神戸国際大学キャンパス
+    address: 〒658-0032 神戸市東灘区向洋町中9-1-6
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - 神戸国際大学キャンパス
+    departments:
+      - name: 経済経営学科
+      - name: 国際文化ビジネス・観光学科
+  - name: リハビリテーション学部
+    campus_names:
+      - 神戸国際大学キャンパス
+    departments:
+      - name: 理学療法学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kobe-kiu.ac.jp/
+  extraction_status: success

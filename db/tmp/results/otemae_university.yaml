@@ -1,0 +1,46 @@
+university:
+  name: 大手前大学
+
+campuses:
+  - name: さくら夙川キャンパス
+    address: 〒662-8552 兵庫県西宮市御茂町6番42号
+  - name: 大阪大手前キャンパス
+    address: 〒540-0008 大阪市中央区大手前2丁目1番88号
+
+faculties:
+  - name: 国際日本学部
+    campus_names:
+      - さくら夙川キャンパス
+    departments:
+      - name: 国際日本学科
+  - name: 経営学部
+    campus_names:
+      - さくら夙川キャンパス
+    departments:
+      - name: 経営学科
+  - name: 現代社会学部
+    campus_names:
+      - さくら夙川キャンパス
+    departments:
+      - name: 現代社会学科
+  - name: 建築＆芸術学部
+    campus_names:
+      - さくら夙川キャンパス
+    departments:
+      - name: 建築＆芸術学科
+  - name: 健康栄養学部
+    campus_names:
+      - 大阪大手前キャンパス
+    departments:
+      - name: 管理栄養学科
+  - name: 国際看護学部
+    campus_names:
+      - 大阪大手前キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.otemae.ac.jp/
+  extraction_status: success

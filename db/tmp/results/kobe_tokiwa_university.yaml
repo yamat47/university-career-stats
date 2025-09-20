@@ -1,0 +1,31 @@
+university:
+  name: 神戸常盤大学
+
+campuses:
+  - name: 神戸常盤大学キャンパス
+    address: 〒653-0838 兵庫県神戸市長田区大谷町2丁目6番2
+
+faculties:
+  - name: 保健科学部
+    campus_names:
+      - 神戸常盤大学キャンパス
+    departments:
+      - name: 医療検査学科
+      - name: 診療放射線学科
+      - name: 口腔保健学科
+  - name: 看護学部
+    campus_names:
+      - 神戸常盤大学キャンパス
+    departments:
+      - name: 看護学科
+  - name: 教育学部
+    campus_names:
+      - 神戸常盤大学キャンパス
+    departments:
+      - name: こども教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kobe-tokiwa.ac.jp/univ/
+  extraction_status: success

@@ -1,0 +1,71 @@
+university:
+  name: 神戸学院大学
+
+campuses:
+  - name: ポートアイランド第1キャンパス
+    address: 〒650-8586 神戸市中央区港島1-1-3
+  - name: ポートアイランド第2キャンパス
+    address: 〒650-0045 神戸市中央区港島1-3-11
+  - name: 有瀬キャンパス
+    address: 〒651-2180 神戸市西区伊川谷町有瀬518
+
+faculties:
+  - name: 法学部
+    campus_names:
+      - ポートアイランド第1キャンパス
+    departments:
+      - name: 法律学科
+  - name: 経済学部
+    campus_names:
+      - 有瀬キャンパス
+    departments:
+      - name: 経済学科
+  - name: 経営学部
+    campus_names:
+      - ポートアイランド第1キャンパス
+    departments:
+      - name: 経営学科
+  - name: 人文学部
+    campus_names:
+      - 有瀬キャンパス
+    departments:
+      - name: 人文学科
+  - name: 心理学部
+    campus_names:
+      - 有瀬キャンパス
+    departments:
+      - name: 心理学科
+  - name: 現代社会学部
+    campus_names:
+      - ポートアイランド第1キャンパス
+    departments:
+      - name: 現代社会学科
+      - name: 社会防災学科
+  - name: グローバル・コミュニケーション学部
+    campus_names:
+      - ポートアイランド第1キャンパス
+    departments:
+      - name: グローバル・コミュニケーション学科
+  - name: 総合リハビリテーション学部
+    campus_names:
+      - 有瀬キャンパス
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 社会リハビリテーション学科
+  - name: 栄養学部
+    campus_names:
+      - 有瀬キャンパス
+    departments:
+      - name: 栄養学科
+  - name: 薬学部
+    campus_names:
+      - ポートアイランド第1キャンパス
+    departments:
+      - name: 薬学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kobegakuin.ac.jp/
+  extraction_status: success

@@ -1,0 +1,25 @@
+university:
+  name: 芦屋大学
+
+campuses:
+  - name: 芦屋大学キャンパス
+    address: 〒659-8511 兵庫県芦屋市六麓荘町13番22号
+
+faculties:
+  - name: 臨床教育学部
+    campus_names:
+      - 芦屋大学キャンパス
+    departments:
+      - name: 教育学科
+      - name: 児童教育学科
+  - name: 経営教育学部
+    campus_names:
+      - 芦屋大学キャンパス
+    departments:
+      - name: 経営教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.ashiya-u.ac.jp/
+  extraction_status: partial

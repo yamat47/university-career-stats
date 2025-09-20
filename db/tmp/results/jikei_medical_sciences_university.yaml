@@ -1,0 +1,19 @@
+university:
+  name: 滋慶医療科学大学
+
+campuses:
+  - name: 新大阪キャンパス
+    address: 〒532-0003 大阪市淀川区宮原1-2-8
+
+faculties:
+  - name: 医療科学部
+    campus_names:
+      - 新大阪キャンパス
+    departments:
+      - name: 臨床工学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.juhs.ac.jp/
+  extraction_status: success

@@ -1,0 +1,25 @@
+university:
+  name: 大阪物療大学
+
+campuses:
+  - name: 1号館・2号館キャンパス
+    address: 〒593-8328 大阪府堺市西区鳳北町3-33
+  - name: 3号館キャンパス
+    address: 〒593-8324 大阪府堺市西区鳳東町4-410-5
+  - name: 4号館キャンパス（アリーナ）
+    address: 〒593-8329 大阪府堺市西区下田町23-1
+
+faculties:
+  - name: 保健医療学部
+    campus_names:
+      - 1号館・2号館キャンパス
+      - 3号館キャンパス
+      - 4号館キャンパス（アリーナ）
+    departments:
+      - name: 診療放射線技術学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.butsuryo.ac.jp/
+  extraction_status: success

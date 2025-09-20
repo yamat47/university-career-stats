@@ -1,0 +1,31 @@
+university:
+  name: 園田学園女子大学
+
+campuses:
+  - name: 園田学園女子大学キャンパス
+    address: 〒661-8520 兵庫県尼崎市南塚口町7丁目29-1
+
+faculties:
+  - name: 経営学部
+    campus_names:
+      - 園田学園女子大学キャンパス
+    departments:
+      - name: ビジネス学科
+  - name: こども学部
+    campus_names:
+      - 園田学園女子大学キャンパス
+    departments:
+      - name: こども学科
+  - name: 人間健康学部
+    campus_names:
+      - 園田学園女子大学キャンパス
+    departments:
+      - name: 食マネジメント学科
+      - name: 総合健康学科
+      - name: 人間看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.sonoda-u.ac.jp/
+  extraction_status: success

@@ -1,0 +1,19 @@
+university:
+  name: 大阪行岡医療大学
+
+campuses:
+  - name: 茨木キャンパス
+    address: 〒567-0801 大阪府茨木市総持寺1丁目1番41号
+
+faculties:
+  - name: 医療学部
+    campus_names:
+      - 茨木キャンパス
+    departments:
+      - name: 理学療法学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.yukioka-u.ac.jp/
+  extraction_status: success

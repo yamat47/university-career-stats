@@ -1,0 +1,26 @@
+university:
+  name: 宝塚大学
+
+campuses:
+  - name: 東京新宿キャンパス
+    address: 〒160-0023 東京都新宿区西新宿7丁目11番1号
+  - name: 大阪梅田キャンパス
+    address: 〒530-0012 大阪府大阪市北区芝田1丁目13番16号
+
+faculties:
+  - name: 東京メディア芸術学部
+    campus_names:
+      - 東京新宿キャンパス
+    departments:
+      - name: メディア芸術学科
+  - name: 看護学部
+    campus_names:
+      - 大阪梅田キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.takara-univ.ac.jp/
+  extraction_status: success
