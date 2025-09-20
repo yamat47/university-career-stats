@@ -1,0 +1,19 @@
+university:
+  name: 武蔵野学院大学
+
+campuses:
+  - name: 狭山キャンパス
+    address: 〒350-1328 埼玉県狭山市広瀬台3-26-1
+
+faculties:
+  - name: 国際コミュニケーション学部
+    campus_names:
+      - 狭山キャンパス
+    departments:
+      - name: 国際コミュニケーション学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.musashino.ac.jp/mgu/
+  extraction_status: success

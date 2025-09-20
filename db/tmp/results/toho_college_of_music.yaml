@@ -1,0 +1,22 @@
+university:
+  name: 東邦音楽大学
+
+campuses:
+  - name: 川越キャンパス
+    address: 〒350-0015 埼玉県川越市今泉84
+  - name: 文京キャンパス
+    address: 〒112-0012 東京都文京区大塚4-46-9
+
+faculties:
+  - name: 音楽学部
+    campus_names:
+      - 川越キャンパス
+      - 文京キャンパス
+    departments:
+      - name: 音楽学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.toho-music.ac.jp/
+  extraction_status: success

@@ -1,0 +1,23 @@
+university:
+  name: 九州看護福祉大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒865-0062 熊本県玉名市富尾888番地
+
+faculties:
+  - name: 看護福祉学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 看護学科
+      - name: 社会福祉学科
+      - name: リハビリテーション学科
+      - name: 鍼灸スポーツ学科
+      - name: 口腔保健学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kyushu-ns.ac.jp/
+  extraction_status: success

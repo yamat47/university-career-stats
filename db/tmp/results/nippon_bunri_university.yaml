@@ -1,0 +1,32 @@
+university:
+  name: 日本文理大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒870-0397 大分県大分市一木1727
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 建築学科
+      - name: 情報メディア学科
+      - name: 機械電気工学科
+      - name: 航空宇宙工学科
+  - name: 経営経済学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 経営経済学科
+  - name: 保健医療学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 保健医療学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.nbu.ac.jp/
+  extraction_status: success

@@ -1,0 +1,21 @@
+university:
+  name: 鎮西学院大学
+
+campuses:
+  - name: 鎮西学院大学キャンパス
+    address: 〒854-0082 長崎県諫早市西栄田町1212番地1
+
+faculties:
+  - name: 総合社会学部
+    campus_names:
+      - 鎮西学院大学キャンパス
+    departments:
+      - name: 多文化コミュニケーション学科
+      - name: 経済政策学科
+      - name: 社会福祉学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.wesleyan.ac.jp/
+  extraction_status: success

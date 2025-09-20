@@ -1,0 +1,39 @@
+university:
+  name: 尚絅大学
+
+campuses:
+  - name: 九品寺キャンパス
+    address: 〒862-8678 熊本市中央区九品寺2丁目6-78
+  - name: 武蔵ヶ丘キャンパス
+    address: 〒861-8538 熊本県菊池郡菊陽町武蔵ヶ丘北2丁目8-1
+
+faculties:
+  - name: 現代文化学部
+    campus_names:
+      - 九品寺キャンパス
+    departments:
+      - name: 文化コミュニケーション学科
+  - name: 生活科学部
+    campus_names:
+      - 九品寺キャンパス
+    departments:
+      - name: 栄養科学科
+  - name: こども教育学部
+    campus_names:
+      - 武蔵ヶ丘キャンパス
+    departments:
+      - name: こども教育学科
+  - name: 短期大学部
+    campus_names:
+      - 九品寺キャンパス
+      - 武蔵ヶ丘キャンパス
+    departments:
+      - name: 総合生活学科
+      - name: 食物栄養学科
+      - name: 幼児教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.shokei-gakuen.ac.jp/univ/
+  extraction_status: success

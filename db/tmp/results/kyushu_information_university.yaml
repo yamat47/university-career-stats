@@ -1,0 +1,24 @@
+university:
+  name: 九州情報大学
+
+campuses:
+  - name: 太宰府キャンパス
+    address: 福岡県太宰府市宰府6-3-1
+  - name: 博多駅前サテライトキャンパス
+    address: 福岡市博多区博多駅前2-15-7
+  - name: 博多駅東サテライトキャンパス
+    address: 福岡市博多区博多駅東1-19-18
+
+faculties:
+  - name: 経営情報学部
+    campus_names:
+      - 太宰府キャンパス
+    departments:
+      - name: 経営情報学科
+      - name: 情報ネットワーク学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kiis.ac.jp/
+  extraction_status: success

@@ -1,0 +1,31 @@
+university:
+  name: 第一工科大学
+
+campuses:
+  - name: 霧島キャンパス
+    address: 〒899-4332 鹿児島県霧島市国分中央1-10-2
+  - name: 東京上野キャンパス
+    address: 〒110-0005 東京都台東区上野7-7-4
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - 霧島キャンパス
+      - 東京上野キャンパス
+    departments:
+      - name: 電子システム学科
+      - name: 建築デザイン学科
+      - name: 自然環境工学科
+      - name: 機械システム工学科
+      - name: 情報・AI・データサイエンス学科
+  - name: 航空工学部
+    campus_names:
+      - 霧島キャンパス
+    departments:
+      - name: 航空工学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.daiichi-koudai.ac.jp/
+  extraction_status: success

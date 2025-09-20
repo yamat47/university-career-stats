@@ -1,0 +1,26 @@
+university:
+  name: 浦和大学
+
+campuses:
+  - name: 本キャンパス
+    address: 埼玉県さいたま市緑区大崎3551
+
+faculties:
+  - name: こども学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: こども学科
+      - name: 学校教育学科
+  - name: 社会学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 総合福祉学科
+      - name: 現代社会学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.urawa.ac.jp/
+  extraction_status: success

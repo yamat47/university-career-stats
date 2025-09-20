@@ -1,0 +1,29 @@
+university:
+  name: 人間総合科学大学
+
+campuses:
+  - name: 蓮田キャンパス
+    address: 〒339-8539 埼玉県さいたま市岩槻区馬込1288
+  - name: 岩槻キャンパス
+    address: 〒339-8555 埼玉県さいたま市岩槻区太田字新正寺曲輪354-3
+
+faculties:
+  - name: 人間科学部
+    campus_names:
+      - 蓮田キャンパス
+    departments:
+      - name: 心身健康科学科
+      - name: 健康栄養学科
+      - name: ヘルスフードサイエンス学科
+  - name: 保健医療学部
+    campus_names:
+      - 岩槻キャンパス
+    departments:
+      - name: 看護学科
+      - name: リハビリテーション学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.human.ac.jp/
+  extraction_status: success

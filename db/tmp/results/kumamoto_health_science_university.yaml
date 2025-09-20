@@ -1,0 +1,21 @@
+university:
+  name: 熊本保健科学大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒861-5598 熊本市北区和泉町325
+
+faculties:
+  - name: 保健科学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 医学検査学科
+      - name: 看護学科
+      - name: リハビリテーション学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kumamoto-hsu.ac.jp/
+  extraction_status: success

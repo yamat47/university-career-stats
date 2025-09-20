@@ -1,0 +1,33 @@
+university:
+  name: 活水女子大学
+
+campuses:
+  - name: 東山手キャンパス
+    address: 〒850-8515 長崎県長崎市東山手町1-50
+  - name: 大村キャンパス
+    address: 〒856-0835 長崎県大村市久原2丁目1246-3
+
+faculties:
+  - name: 国際文化学部
+    campus_names:
+      - 東山手キャンパス
+    departments:
+      - name: 国際文化学科
+  - name: 健康生活学部
+    campus_names:
+      - 東山手キャンパス
+    departments:
+      - name: 食生活健康学科
+      - name: 生活デザイン学科
+      - name: 子ども学科
+  - name: 看護学部
+    campus_names:
+      - 大村キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kwassui.ac.jp/university/
+  extraction_status: success

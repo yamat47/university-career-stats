@@ -1,0 +1,39 @@
+university:
+  name: 別府大学
+
+campuses:
+  - name: 石垣キャンパス
+    address: 〒874-8501 大分県別府市北石垣82
+  - name: 亀川キャンパス
+    address: 〒874-0011 大分県別府市内竈1430番地
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 石垣キャンパス
+    departments:
+      - name: 国際言語・文化学科
+      - name: 史学・文化財学科
+      - name: 人間関係学科
+  - name: 国際経営学部
+    campus_names:
+      - 石垣キャンパス
+    departments:
+      - name: 国際経営学科
+  - name: 食物栄養科学部
+    campus_names:
+      - 石垣キャンパス
+    departments:
+      - name: 食物栄養学科
+      - name: 発酵食品学科
+  - name: 看護学部
+    campus_names:
+      - 亀川キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.beppu-u.ac.jp/
+  extraction_status: success

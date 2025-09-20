@@ -1,0 +1,24 @@
+university:
+  name: 日本医療科学大学
+
+campuses:
+  - name: 日本医療科学大学キャンパス
+    address: 〒350-0435 埼玉県入間郡毛呂山町下川原1276
+
+faculties:
+  - name: 保健医療学部
+    campus_names:
+      - 日本医療科学大学キャンパス
+    departments:
+      - name: 診療放射線学科
+      - name: リハビリテーション学科理学療法学専攻
+      - name: リハビリテーション学科作業療法学専攻
+      - name: 看護学科
+      - name: 臨床工学科
+      - name: 臨床検査学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.nims.ac.jp/
+  extraction_status: success

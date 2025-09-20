@@ -1,0 +1,40 @@
+university:
+  name: 沖縄国際大学
+
+campuses:
+  - name: 沖縄国際大学キャンパス
+    address: 〒901-2701 沖縄県宜野湾市宜野湾二丁目6番1号
+
+faculties:
+  - name: 法学部
+    campus_names:
+      - 沖縄国際大学キャンパス
+    departments:
+      - name: 法律学科
+      - name: 地域行政学科
+  - name: 経済学部
+    campus_names:
+      - 沖縄国際大学キャンパス
+    departments:
+      - name: 経済学科
+      - name: 地域環境政策学科
+  - name: 産業情報学部
+    campus_names:
+      - 沖縄国際大学キャンパス
+    departments:
+      - name: 企業システム学科
+      - name: 産業情報学科
+  - name: 総合文化学部
+    campus_names:
+      - 沖縄国際大学キャンパス
+    departments:
+      - name: 日本文化学科
+      - name: 英米言語文化学科
+      - name: 社会文化学科
+      - name: 人間福祉学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.okiu.ac.jp/
+  extraction_status: success

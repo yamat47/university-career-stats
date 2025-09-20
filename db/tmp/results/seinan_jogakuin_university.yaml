@@ -1,0 +1,27 @@
+university:
+  name: 西南女学院大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒803-0835 福岡県北九州市小倉北区井堀1-3-5
+
+faculties:
+  - name: 保健福祉学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 看護学科
+      - name: 福祉学科
+      - name: 栄養学科
+  - name: 人文学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 英語学科
+      - name: 観光文化学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.seinan-jo.ac.jp/
+  extraction_status: success

@@ -1,0 +1,26 @@
+university:
+  name: 長崎総合科学大学
+
+campuses:
+  - name: グリーンヒルキャンパス
+    address: 〒851-0193 長崎県長崎市網場町536
+  - name: シーサイドキャンパス
+    address: 〒851-0193 長崎県長崎市網場町536
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - グリーンヒルキャンパス
+    departments:
+      - name: 工学科
+  - name: 総合情報学部
+    campus_names:
+      - グリーンヒルキャンパス
+    departments:
+      - name: 総合情報学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.nias.ac.jp/
+  extraction_status: success

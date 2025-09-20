@@ -1,0 +1,26 @@
+university:
+  name: 志學館大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒890-8504 鹿児島県鹿児島市紫原1丁目59-1
+
+faculties:
+  - name: 人間関係学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 心理臨床学科
+      - name: 人間文化学科
+  - name: 法学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 法律学科
+      - name: 法ビジネス学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.shigakukan.ac.jp/
+  extraction_status: success

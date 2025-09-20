@@ -1,0 +1,20 @@
+university:
+  name: 沖縄キリスト教学院大学
+
+campuses:
+  - name: 西原キャンパス
+    address: 〒903-0207 沖縄県中頭郡西原町字翁長777番地
+
+faculties:
+  - name: 人文学部
+    campus_names:
+      - 西原キャンパス
+    departments:
+      - name: 英語コミュニケーション学科
+      - name: 観光文化学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.ocjc.ac.jp/
+  extraction_status: success

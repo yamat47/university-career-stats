@@ -1,0 +1,29 @@
+university:
+  name: 平成国際大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒347-8504 埼玉県加須市水深大立野2000
+
+faculties:
+  - name: 法学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 法学科
+  - name: スポーツ健康学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: スポーツ健康学科
+  - name: 情報デザイン学部（仮称）
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 情報デザイン学科（仮称）
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.hiu.ac.jp/
+  extraction_status: success

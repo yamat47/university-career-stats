@@ -1,0 +1,35 @@
+university:
+  name: 九州医療科学大学
+
+campuses:
+  - name: 延岡キャンパス
+    address: 〒882-8508 宮崎県延岡市吉野町1714-1
+
+faculties:
+  - name: 社会福祉学部
+    campus_names:
+      - 延岡キャンパス
+    departments:
+      - name: スポーツ健康福祉学科
+  - name: 臨床心理学部
+    campus_names:
+      - 延岡キャンパス
+    departments:
+      - name: 臨床心理学科
+  - name: 生命医科学部
+    campus_names:
+      - 延岡キャンパス
+    departments:
+      - name: 生命医科学科
+  - name: 薬学部
+    campus_names:
+      - 延岡キャンパス
+    departments:
+      - name: 薬学科
+      - name: 動物生命薬科学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.phoenix.ac.jp/
+  extraction_status: success

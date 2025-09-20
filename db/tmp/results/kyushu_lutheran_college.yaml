@@ -1,0 +1,20 @@
+university:
+  name: 九州ルーテル学院大学
+
+campuses:
+  - name: 九州ルーテル学院大学キャンパス
+    address: 〒860-8520 熊本県熊本市中央区黒髪3-12-16
+
+faculties:
+  - name: 人文学部
+    campus_names:
+      - 九州ルーテル学院大学キャンパス
+    departments:
+      - name: 人文学科
+      - name: 心理臨床学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.klc.ac.jp/
+  extraction_status: success

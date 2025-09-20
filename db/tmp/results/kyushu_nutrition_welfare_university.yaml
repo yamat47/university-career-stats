@@ -1,0 +1,33 @@
+university:
+  name: 九州栄養福祉大学
+
+campuses:
+  - name: 小倉北区キャンパス
+    address: 〒803-8511 福岡県北九州市小倉北区下到津５丁目１-１
+  - name: 小倉南区キャンパス
+    address: 〒800-0298 福岡県北九州市小倉南区葛原高松１丁目５-１
+
+faculties:
+  - name: 食物栄養学部
+    campus_names:
+      - 小倉北区キャンパス
+    departments:
+      - name: 食物栄養学科
+      - name: 食環境データサイエンス学科
+  - name: リハビリテーション学部
+    campus_names:
+      - 小倉南区キャンパス
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+  - name: こども教育学部
+    campus_names:
+      - 小倉北区キャンパス
+    departments:
+      - name: こども教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.knwu.ac.jp/
+  extraction_status: success

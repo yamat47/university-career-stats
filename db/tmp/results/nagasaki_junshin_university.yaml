@@ -1,0 +1,21 @@
+university:
+  name: 長崎純心大学
+
+campuses:
+  - name: 恵の丘キャンパス
+    address: 〒852-8558 長崎県長崎市三ツ山町235番地
+
+faculties:
+  - name: 人文学部
+    campus_names:
+      - 恵の丘キャンパス
+    departments:
+      - name: 言語文化情報学科
+      - name: 福祉・心理学科
+      - name: こども教育保育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.n-junshin.ac.jp/univ/
+  extraction_status: success

@@ -1,0 +1,35 @@
+university:
+  name: 日本工業大学
+
+campuses:
+  - name: 埼玉キャンパス
+    address: 〒345-8501 埼玉県南埼玉郡宮代町学園台4-1
+  - name: 神田キャンパス
+    address: 〒101-0051 東京都千代田区神田神保町2-5
+
+faculties:
+  - name: 基幹工学部
+    campus_names:
+      - 埼玉キャンパス
+    departments:
+      - name: 機械工学科
+      - name: 電気情報工学科
+      - name: 環境生命化学科
+  - name: 先進工学部
+    campus_names:
+      - 埼玉キャンパス
+    departments:
+      - name: ロボティクス学科
+      - name: 情報メディア工学科
+      - name: データサイエンス学科
+  - name: 建築学部
+    campus_names:
+      - 埼玉キャンパス
+    departments:
+      - name: 建築学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.nit.ac.jp/
+  extraction_status: success

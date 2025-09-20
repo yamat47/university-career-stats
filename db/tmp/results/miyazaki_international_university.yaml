@@ -1,0 +1,24 @@
+university:
+  name: 宮崎国際大学
+
+campuses:
+  - name: 清武キャンパス
+    address: 〒889-1605 宮崎県宮崎市清武町加納丙1405番地
+
+faculties:
+  - name: 国際教養学部
+    campus_names:
+      - 清武キャンパス
+    departments:
+      - name: 比較文化学科
+  - name: 教育学部
+    campus_names:
+      - 清武キャンパス
+    departments:
+      - name: 児童教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.mic.ac.jp/
+  extraction_status: success
