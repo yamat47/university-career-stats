@@ -1,0 +1,22 @@
+university:
+  name: 高野山大学
+
+campuses:
+  - name: 高野山キャンパス
+    address: 〒648-0280 和歌山県伊都郡高野町高野山385
+  - name: 河内長野キャンパス
+    address: 〒586-8511 大阪府河内長野市小山田町1685（大阪千代田短期大学内）
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 高野山キャンパス
+    departments:
+      - name: 密教学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.koyasan-u.ac.jp/
+  extraction_status: partial
+  notes: 教育学科は2025年4月8日に学生募集停止が発表されました。現在は文学部密教学科のみが新規学生を受け入れています。

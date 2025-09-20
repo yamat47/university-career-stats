@@ -1,0 +1,15 @@
+university:
+  name: 神戸情報大学院大学
+
+campuses:
+  - name: 神戸キャンパス
+    address: 〒650-0001 神戸市中央区加納町2-2-7
+
+faculties: []
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kic.ac.jp/
+  extraction_status: success
+  notes: この大学は大学院大学のため、学部レベルの教育課程は存在しません

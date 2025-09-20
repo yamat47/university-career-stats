@@ -1,0 +1,29 @@
+university:
+  name: 姫路大学
+
+campuses:
+  - name: 大塩キャンパス
+    address: 〒671-0101 兵庫県姫路市大塩町2042番2
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - 大塩キャンパス
+    departments:
+      - name: 看護学科
+  - name: 教育学部
+    campus_names:
+      - 大塩キャンパス
+    departments:
+      - name: こども未来学科
+  - name: 通信教育課程
+    campus_names:
+      - 大塩キャンパス
+    departments:
+      - name: こども未来学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://koutoku.ac.jp/himeji/
+  extraction_status: success

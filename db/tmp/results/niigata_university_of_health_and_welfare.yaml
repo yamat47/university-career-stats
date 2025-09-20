@@ -1,0 +1,53 @@
+university:
+  name: 新潟医療福祉大学
+
+campuses:
+  - name: 新潟医療福祉大学キャンパス
+    address: 〒950-3198 新潟市北区島見町1398番地
+
+faculties:
+  - name: リハビリテーション学部
+    campus_names:
+      - 新潟医療福祉大学キャンパス
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 言語聴覚学科
+      - name: 義肢装具自立支援学科
+      - name: 鍼灸健康学科
+  - name: 医療技術学部
+    campus_names:
+      - 新潟医療福祉大学キャンパス
+    departments:
+      - name: 臨床技術学科
+      - name: 視機能科学科
+      - name: 救急救命学科
+      - name: 診療放射線学科
+  - name: 健康科学部
+    campus_names:
+      - 新潟医療福祉大学キャンパス
+    departments:
+      - name: 健康栄養学科
+      - name: 健康スポーツ学科
+  - name: 看護学部
+    campus_names:
+      - 新潟医療福祉大学キャンパス
+    departments:
+      - name: 看護学科
+  - name: 心理・福祉学部
+    campus_names:
+      - 新潟医療福祉大学キャンパス
+    departments:
+      - name: 社会福祉学科
+      - name: 心理健康学科
+  - name: 医療経営管理学部
+    campus_names:
+      - 新潟医療福祉大学キャンパス
+    departments:
+      - name: 医療情報管理学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.nuhw.ac.jp/
+  extraction_status: success

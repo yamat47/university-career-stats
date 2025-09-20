@@ -1,0 +1,30 @@
+university:
+  name: 関西福祉大学
+
+campuses:
+  - name: 関西福祉大学キャンパス
+    address: 〒678-0255 兵庫県赤穂市新田380-3
+
+faculties:
+  - name: 社会福祉学部
+    campus_names:
+      - 関西福祉大学キャンパス
+    departments:
+      - name: 社会福祉学科
+  - name: 教育学部
+    campus_names:
+      - 関西福祉大学キャンパス
+    departments:
+      - name: 児童教育学科
+      - name: 保健教育学科
+  - name: 看護学部
+    campus_names:
+      - 関西福祉大学キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kusw.ac.jp/
+  extraction_status: success

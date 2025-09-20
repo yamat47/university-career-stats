@@ -1,0 +1,19 @@
+university:
+  name: 新潟工科大学
+
+campuses:
+  - name: 新潟工科大学キャンパス
+    address: 〒945-1195 新潟県柏崎市藤橋1719
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - 新潟工科大学キャンパス
+    departments:
+      - name: 工学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.niit.ac.jp/
+  extraction_status: success

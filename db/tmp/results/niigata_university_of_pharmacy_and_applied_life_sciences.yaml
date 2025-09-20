@@ -1,0 +1,41 @@
+university:
+  name: 新潟薬科大学
+
+campuses:
+  - name: 新津キャンパス
+    address: 〒956-8603 新潟市秋葉区東島265番地1
+  - name: 新津駅東キャンパス
+    address: 〒956-0864 新潟市秋葉区新津本町1丁目2番37号
+  - name: 西新潟中央病院キャンパス
+    address: 〒950-2074 新潟市西区真砂1丁目14番65号
+
+faculties:
+  - name: 薬学部
+    campus_names:
+      - 新津キャンパス
+    departments:
+      - name: 薬学科
+  - name: 応用生命科学部
+    campus_names:
+      - 新津キャンパス
+      - 新津駅東キャンパス
+    departments:
+      - name: 応用生命科学科
+      - name: 生命産業ビジネス学科
+  - name: 医療技術学部
+    campus_names:
+      - 新津キャンパス
+    departments:
+      - name: 臨床検査学科
+  - name: 看護学部
+    campus_names:
+      - 新津キャンパス
+      - 西新潟中央病院キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.nupals.ac.jp/
+  extraction_status: success

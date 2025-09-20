@@ -1,0 +1,25 @@
+university:
+  name: 奈良学園大学
+
+campuses:
+  - name: 登美ヶ丘キャンパス
+    address: 〒631-0003 奈良県奈良市中登美ヶ丘三丁目15-1
+
+faculties:
+  - name: 人間教育学部
+    campus_names:
+      - 登美ヶ丘キャンパス
+    departments:
+      - name: 人間教育学科
+  - name: 保健医療学部
+    campus_names:
+      - 登美ヶ丘キャンパス
+    departments:
+      - name: 看護学科
+      - name: リハビリテーション学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.naragakuen-u.jp/
+  extraction_status: success

@@ -1,0 +1,27 @@
+university:
+  name: 畿央大学
+
+campuses:
+  - name: 畿央大学キャンパス
+    address: 〒635-0832 奈良県北葛城郡広陵町馬見中4-2-2
+
+faculties:
+  - name: 健康科学部
+    campus_names:
+      - 畿央大学キャンパス
+    departments:
+      - name: 理学療法学科
+      - name: 看護医療学科
+      - name: 健康栄養学科
+      - name: 人間環境デザイン学科
+  - name: 教育学部
+    campus_names:
+      - 畿央大学キャンパス
+    departments:
+      - name: 現代教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kio.ac.jp/
+  extraction_status: success

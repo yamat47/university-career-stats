@@ -1,0 +1,20 @@
+university:
+  name: 新潟経営大学
+
+campuses:
+  - name: 新潟経営大学
+    address: 〒959-1321 新潟県加茂市希望ヶ丘2909-2
+
+faculties:
+  - name: 経営情報学部
+    campus_names:
+      - 新潟経営大学
+    departments:
+      - name: 経営情報学科
+      - name: スポーツマネジメント学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.niigataum.ac.jp/
+  extraction_status: success

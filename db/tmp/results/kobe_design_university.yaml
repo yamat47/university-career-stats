@@ -1,0 +1,22 @@
+university:
+  name: 神戸芸術工科大学
+
+campuses:
+  - name: 神戸芸術工科大学
+    address: 〒651-2196 神戸市西区学園西町8-1-1
+
+faculties:
+  - name: 芸術工学部
+    campus_names:
+      - 神戸芸術工科大学
+    departments:
+      - name: 建築・環境デザイン学科
+      - name: 生産・工芸デザイン学科
+      - name: ビジュアルデザイン学科
+      - name: メディア芸術学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kobe-du.ac.jp/
+  extraction_status: success

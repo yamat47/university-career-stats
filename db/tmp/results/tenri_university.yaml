@@ -1,0 +1,49 @@
+university:
+  name: 天理大学
+
+campuses:
+  - name: 杣之内キャンパス
+    address: 〒632-8510 奈良県天理市杣之内町1050
+  - name: 体育学部キャンパス
+    address: 〒632-0071 奈良県天理市田井庄町80
+  - name: 別所キャンパス
+    address: 〒632-0018 奈良県天理市別所町80-1
+
+faculties:
+  - name: 人文学部
+    campus_names:
+      - 杣之内キャンパス
+    departments:
+      - name: 宗教学科
+      - name: 日本語日本文学科
+      - name: 歴史文化学科
+      - name: 心理学科
+      - name: 社会教育学科
+      - name: 社会福祉学科
+  - name: 国際学部
+    campus_names:
+      - 杣之内キャンパス
+    departments:
+      - name: 韓国学科
+      - name: 中国学科
+      - name: 英米学科
+      - name: 外国語学科
+      - name: 異文化研究学科
+      - name: 留学生日本語学科
+  - name: 体育学部
+    campus_names:
+      - 体育学部キャンパス
+    departments:
+      - name: 体育学科
+  - name: 保健医療学部
+    campus_names:
+      - 別所キャンパス
+    departments:
+      - name: 看護学科
+      - name: 臨床検査学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tenri-u.ac.jp/
+  extraction_status: success
