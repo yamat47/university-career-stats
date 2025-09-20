@@ -1,0 +1,23 @@
+university:
+  name: 日本赤十字広島看護大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒738-0052 広島県廿日市市阿品台東1番2号
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.jrchcn.ac.jp/
+    - https://www.jrchcn.ac.jp/site/nursing/
+    - https://www.jrchcn.ac.jp/site/college/2.html
+    - https://www.jrchcn.ac.jp/site/nursing/14.html
+    - https://www.jrchcn.ac.jp/site/examination/34.html
+  extraction_status: success

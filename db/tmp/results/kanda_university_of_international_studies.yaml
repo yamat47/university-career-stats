@@ -1,0 +1,27 @@
+university:
+  name: 神田外語大学
+
+campuses:
+  - name: 幕張キャンパス
+    address: 〒261-0014 千葉県千葉市美浜区若葉1-4-1
+
+faculties:
+  - name: 外国語学部
+    campus_names:
+      - 幕張キャンパス
+    departments:
+      - name: 英米語学科
+      - name: アジア言語学科
+      - name: イベロアメリカ言語学科
+      - name: 国際コミュニケーション学科
+  - name: グローバル・リベラルアーツ学部
+    campus_names:
+      - 幕張キャンパス
+    departments:
+      - name: グローバル・リベラルアーツ学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kandagaigo.ac.jp/
+  extraction_status: success

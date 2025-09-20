@@ -1,0 +1,30 @@
+university:
+  name: 比治山大学
+
+campuses:
+  - name: 比治山大学キャンパス
+    address: 〒732-8509 広島市東区牛田新町4丁目1-1
+
+faculties:
+  - name: 現代文化学部
+    campus_names:
+      - 比治山大学キャンパス
+    departments:
+      - name: 言語文化学科
+      - name: マスコミュニケーション学科
+      - name: 社会臨床心理学科
+      - name: 子ども発達教育学科
+
+  - name: 健康栄養学部
+    campus_names:
+      - 比治山大学キャンパス
+    departments:
+      - name: 管理栄養学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.hijiyama-u.ac.jp/
+    - https://www.hijiyama-u.ac.jp/department/
+    - https://www.hijiyama-u.ac.jp/access.html
+  extraction_status: success

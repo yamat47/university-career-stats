@@ -1,0 +1,31 @@
+university:
+  name: 広島都市学園大学
+
+campuses:
+  - name: 宇品キャンパス
+    address: 〒734-0014 広島県広島市南区宇品西5丁目13-18
+  - name: 西風新都キャンパス
+    address: 〒731-3166 広島県広島市安佐南区大塚東3丁目2-1
+
+faculties:
+  - name: 健康科学部
+    campus_names:
+      - 宇品キャンパス
+      - 西風新都キャンパス
+    departments:
+      - name: 看護学科
+      - name: リハビリテーション学科
+
+  - name: 子ども教育学部
+    campus_names:
+      - 宇品キャンパス
+    departments:
+      - name: 子ども教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.hcu.ac.jp/
+    - https://www.hcu.ac.jp/subjects/
+    - https://www.hcu.ac.jp/access/
+  extraction_status: success

@@ -1,0 +1,19 @@
+university:
+  name: 大阪常磐会大学（2025年4月に常磐会学園大学より名称変更）
+
+campuses:
+  - name: 本キャンパス
+    address: 〒547-0021 大阪府大阪市平野区喜連東1-4-12
+
+faculties:
+  - name: こども教育学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: こども教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.sftokiwakai.ac.jp/
+  extraction_status: success

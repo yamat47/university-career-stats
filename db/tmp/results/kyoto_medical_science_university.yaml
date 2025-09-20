@@ -1,0 +1,19 @@
+university:
+  name: 京都医療科学大学
+
+campuses:
+  - name: 京都医療科学大学
+    address: 〒622-0041 京都府南丹市園部町小山東町今北1-3
+
+faculties:
+  - name: 医療科学部
+    campus_names:
+      - 京都医療科学大学
+    departments:
+      - name: 放射線技術学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kyoto-msc.jp/
+  extraction_status: success

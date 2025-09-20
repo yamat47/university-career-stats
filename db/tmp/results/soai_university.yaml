@@ -1,0 +1,33 @@
+university:
+  name: 相愛大学
+
+campuses:
+  - name: 南港学舎
+    address: 大阪市住之江区南港中4丁目4-1
+  - name: 本町学舎
+    address: 大阪市中央区本町4丁目1-23
+
+faculties:
+  - name: 音楽学部
+    campus_names:
+      - 南港学舎
+      - 本町学舎
+    departments:
+      - name: 音楽学科
+  - name: 人文学部
+    campus_names:
+      - 南港学舎
+    departments:
+      - name: 人文学科
+  - name: 人間発達学部
+    campus_names:
+      - 南港学舎
+    departments:
+      - name: 子ども教育学科
+      - name: 管理栄養学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.soai.ac.jp/
+  extraction_status: success

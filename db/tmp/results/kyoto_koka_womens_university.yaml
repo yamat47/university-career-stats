@@ -1,0 +1,36 @@
+university:
+  name: 京都光華女子大学
+
+campuses:
+  - name: 右京キャンパス
+    address: 〒615-0882 京都市右京区西京極葛野町38
+
+faculties:
+  - name: 社会学部
+    campus_names:
+      - 右京キャンパス
+    departments:
+      - name: 社会共創学科
+  - name: こども教育学部
+    campus_names:
+      - 右京キャンパス
+    departments:
+      - name: こども教育学科
+  - name: 看護福祉リハビリテーション学部
+    campus_names:
+      - 右京キャンパス
+    departments:
+      - name: 看護学科
+      - name: 福祉リハビリテーション学科
+  - name: 健康科学部
+    campus_names:
+      - 右京キャンパス
+    departments:
+      - name: 健康栄養学科
+      - name: 心理学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.koka.ac.jp/
+  extraction_status: success

@@ -1,0 +1,53 @@
+university:
+  name: 順天堂大学
+
+campuses:
+  - name: 本郷・お茶の水キャンパス
+    address: 〒113-8421 東京都文京区本郷2-1-1
+  - name: さくらキャンパス
+    address: 〒270-1695 千葉県印西市平賀学園台1-1
+  - name: 浦安・日の出キャンパス
+    address: 〒279-0013 千葉県浦安市日の出5-4-1
+  - name: 三島キャンパス
+    address: 〒411-8787 静岡県三島市大宮町3-7-33
+
+faculties:
+  - name: 医学部
+    campus_names:
+      - 本郷・お茶の水キャンパス
+    departments:
+      - name: 医学科
+  - name: スポーツ健康科学部
+    campus_names:
+      - さくらキャンパス
+    departments:
+      - name: スポーツ健康科学科
+      - name: 健康学科
+      - name: スポーツマネジメント学科
+  - name: 医療看護学部
+    campus_names:
+      - 浦安・日の出キャンパス
+    departments:
+      - name: 看護学科
+  - name: 保健看護学部
+    campus_names:
+      - 三島キャンパス
+    departments:
+      - name: 看護学科
+  - name: 国際教養学部
+    campus_names:
+      - 本郷・お茶の水キャンパス
+    departments:
+      - name: 国際教養学科
+  - name: 保健医療学部
+    campus_names:
+      - さくらキャンパス
+    departments:
+      - name: 理学療法学科
+      - name: 診療放射線学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.juntendo.ac.jp/
+  extraction_status: success

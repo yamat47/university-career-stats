@@ -1,0 +1,20 @@
+university:
+  name: 郡山女子大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒963-8503 福島県郡山市開成3-25-2
+
+faculties:
+  - name: 家政学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 生活科学科
+      - name: 食物栄養学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.koriyama-kgc.ac.jp/
+  extraction_status: success

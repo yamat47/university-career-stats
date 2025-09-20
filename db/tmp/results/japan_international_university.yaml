@@ -1,0 +1,22 @@
+university:
+  name: 日本国際学園大学
+
+campuses:
+  - name: つくばキャンパス
+    address: 〒305-0031 茨城県つくば市吾妻3-1
+  - name: 仙台キャンパス
+    address: 〒980-0022 宮城県仙台市青葉区五橋2丁目1-13
+
+faculties:
+  - name: 経営情報学部
+    campus_names:
+      - つくばキャンパス
+      - 仙台キャンパス
+    departments:
+      - name: ビジネスデザイン学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.japan-iu.ac.jp/
+  extraction_status: success

@@ -1,0 +1,19 @@
+university:
+  name: 育英大学
+
+campuses:
+  - name: 育英大学キャンパス
+    address: 〒370-0011 群馬県高崎市京目町1656-1
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 育英大学キャンパス
+    departments:
+      - name: 教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.ikuei-g.ac.jp/university/
+  extraction_status: success

@@ -1,0 +1,20 @@
+university:
+  name: 九州大学
+
+campuses:
+  - name: 大橋キャンパス
+    address: 〒815-8540 福岡市南区塩原4-9-1
+
+faculties:
+  - name: 芸術工学部
+    campus_names:
+      - 大橋キャンパス
+    departments:
+      - name: 芸術工学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.kyushu-id.ac.jp/
+  extraction_status: success
+  note: 九州芸術工科大学は2003年に九州大学と統合され、現在は九州大学芸術工学部として継承されています。

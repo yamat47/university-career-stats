@@ -1,0 +1,39 @@
+university:
+  name: 秀明大学
+
+campuses:
+  - name: 八千代キャンパス
+    address: 〒276-0003 千葉県八千代市大学町1-1
+
+faculties:
+  - name: 学校教師学部
+    campus_names:
+      - 八千代キャンパス
+    departments:
+      - name: 中等教育教員養成課程
+  - name: 総合経営学部
+    campus_names:
+      - 八千代キャンパス
+    departments:
+      - name: 企業経営学科
+  - name: 英語情報マネジメント学部
+    campus_names:
+      - 八千代キャンパス
+    departments:
+      - name: 英語情報マネジメント学科
+  - name: 観光ビジネス学部
+    campus_names:
+      - 八千代キャンパス
+    departments:
+      - name: 観光ビジネス学科
+  - name: 看護学部
+    campus_names:
+      - 八千代キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.shumei-u.ac.jp/
+  extraction_status: success

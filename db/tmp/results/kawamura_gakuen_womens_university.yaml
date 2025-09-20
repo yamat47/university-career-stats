@@ -1,0 +1,36 @@
+university:
+  name: 川村学園女子大学
+
+campuses:
+  - name: 目白キャンパス
+    address: 〒171-8520 東京都豊島区目白2-22-3
+  - name: 我孫子キャンパス
+    address: 〒270-1138 千葉県我孫子市下ケ戸1133
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 目白キャンパス
+    departments:
+      - name: 国際英語学科
+      - name: 史学科
+      - name: 心理学科
+  - name: 教育学部
+    campus_names:
+      - 我孫子キャンパス
+    departments:
+      - name: 幼児教育学科
+      - name: 児童教育学科
+      - name: 社会教育学科
+  - name: 生活創造学部
+    campus_names:
+      - 我孫子キャンパス
+    departments:
+      - name: 生活文化学科
+      - name: 観光文化学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kgwu.ac.jp/
+  extraction_status: success

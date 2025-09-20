@@ -1,0 +1,32 @@
+university:
+  name: 星槎道都大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒061-1196 北海道北広島市中の沢149
+
+faculties:
+  - name: 美術学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: デザイン学科
+      - name: 建築学科
+
+  - name: 経営学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 経営学科
+
+  - name: 社会福祉学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 社会福祉学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.seisadohto.ac.jp/
+  extraction_status: success

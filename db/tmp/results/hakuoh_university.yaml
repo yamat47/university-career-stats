@@ -1,0 +1,31 @@
+university:
+  name: 白鴎大学
+
+campuses:
+  - name: 本キャンパス
+    address: 栃木県小山市駅東通り2-2-2
+  - name: 大行寺キャンパス
+    address: 栃木県小山市大行寺1117
+
+faculties:
+  - name: 経営学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 経営学科
+  - name: 法学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 法律学科
+  - name: 教育学部
+    campus_names:
+      - 大行寺キャンパス
+    departments:
+      - name: 発達科学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://hakuoh.jp/
+  extraction_status: success

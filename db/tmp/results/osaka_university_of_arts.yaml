@@ -1,0 +1,33 @@
+university:
+  name: 大阪芸術大学
+
+campuses:
+  - name: 芸術の森キャンパス
+    address: 〒585-8555 大阪府南河内郡河南町東山469
+
+faculties:
+  - name: 芸術学部
+    campus_names:
+      - 芸術の森キャンパス
+    departments:
+      - name: アートサイエンス学科
+      - name: 美術学科
+      - name: デザイン学科
+      - name: 工芸学科
+      - name: 写真学科
+      - name: 建築学科
+      - name: 映像学科
+      - name: キャラクター造形学科
+      - name: 文芸学科
+      - name: 放送学科
+      - name: 芸術計画学科
+      - name: 舞台芸術学科
+      - name: 音楽学科
+      - name: 演奏学科
+      - name: 初等芸術教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.osaka-geidai.ac.jp/index.html
+  extraction_status: success

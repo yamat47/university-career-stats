@@ -1,0 +1,55 @@
+university:
+  name: 國學院大學
+
+campuses:
+  - name: 渋谷キャンパス
+    address: 〒150-8440 東京都渋谷区東4-10-28
+  - name: たまプラーザキャンパス
+    address: 〒225-0003 神奈川県横浜市青葉区新石川3-22-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 渋谷キャンパス
+    departments:
+      - name: 日本文学科
+      - name: 中国文学科
+      - name: 外国語文化学科
+      - name: 史学科
+      - name: 哲学科
+  - name: 神道文化学部
+    campus_names:
+      - 渋谷キャンパス
+    departments:
+      - name: 神道文化学科
+  - name: 法学部
+    campus_names:
+      - 渋谷キャンパス
+    departments:
+      - name: 法律学科
+      - name: 政治学科
+  - name: 経済学部
+    campus_names:
+      - 渋谷キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経済ネットワーキング学科
+      - name: 経営学科
+  - name: 人間開発学部
+    campus_names:
+      - たまプラーザキャンパス
+    departments:
+      - name: 初等教育学科
+      - name: 健康体育学科
+      - name: 子ども支援学科
+  - name: 観光まちづくり学部
+    campus_names:
+      - 渋谷キャンパス
+    departments:
+      - name: 観光まちづくり学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kokugakuin.ac.jp/
+  extraction_status: success

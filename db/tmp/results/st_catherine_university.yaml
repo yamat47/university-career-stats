@@ -1,0 +1,28 @@
+university:
+  name: 聖カタリナ大学
+
+campuses:
+  - name: 北条キャンパス
+    address: 〒799-2496 愛媛県松山市北条660
+  - name: 松山市駅キャンパス
+    address: 〒790-0022 愛媛県松山市永代町10番地1
+
+faculties:
+  - name: 健康社会学部
+    campus_names:
+      - 北条キャンパス
+    departments:
+      - name: 現代人間学科
+      - name: 健康スポーツ学科
+
+  - name: 看護学部
+    campus_names:
+      - 松山市駅キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.catherine.ac.jp
+  extraction_status: success

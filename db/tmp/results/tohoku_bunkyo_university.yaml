@@ -1,0 +1,20 @@
+university:
+  name: 東北文教大学
+
+campuses:
+  - name: メインキャンパス
+    address: 〒990-2316 山形県山形市片谷地515
+
+faculties:
+  - name: 人間科学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 子ども教育学科
+      - name: 人間関係学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.t-bunkyo.ac.jp/
+  extraction_status: success

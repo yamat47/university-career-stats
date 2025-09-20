@@ -1,0 +1,19 @@
+university:
+  name: 高知リハビリテーション専門職大学
+
+campuses:
+  - name: メインキャンパス
+    address: 高知県土佐市高岡町乙1139-3
+
+faculties:
+  - name: リハビリテーション学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: リハビリテーション学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://kpur.ac.jp/
+  extraction_status: success

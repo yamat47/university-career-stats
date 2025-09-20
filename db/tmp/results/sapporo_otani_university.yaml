@@ -1,0 +1,25 @@
+university:
+  name: 札幌大谷大学
+
+campuses:
+  - name: 札幌大谷大学キャンパス
+    address: 〒065-8567 札幌市東区北16条東9丁目1番1号
+
+faculties:
+  - name: 芸術学部
+    campus_names:
+      - 札幌大谷大学キャンパス
+    departments:
+      - name: 音楽学科
+      - name: 美術学科
+  - name: 社会学部
+    campus_names:
+      - 札幌大谷大学キャンパス
+    departments:
+      - name: 地域社会学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.sapporo-otani.ac.jp/
+  extraction_status: success

@@ -1,0 +1,21 @@
+university:
+  name: 東北公益文科大学
+
+campuses:
+  - name: 酒田キャンパス
+    address: 〒998-8580 山形県酒田市飯森山三丁目5番地の1
+  - name: 鶴岡キャンパス
+    address: 〒997-0035 山形県鶴岡市馬場町14番1号
+
+faculties:
+  - name: 公益学部
+    campus_names:
+      - 酒田キャンパス
+    departments:
+      - name: 公益学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.koeki-u.ac.jp/
+  extraction_status: success

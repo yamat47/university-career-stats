@@ -1,0 +1,29 @@
+university:
+  name: 敬愛大学
+
+campuses:
+  - name: 稲毛キャンパス
+    address: 〒263-8588 千葉県千葉市稲毛区穴川1-5-21
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - 稲毛キャンパス
+    departments:
+      - name: 経済学科
+  - name: 国際学部
+    campus_names:
+      - 稲毛キャンパス
+    departments:
+      - name: 国際学科
+  - name: 教育学部
+    campus_names:
+      - 稲毛キャンパス
+    departments:
+      - name: こども教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.u-keiai.ac.jp/
+  extraction_status: success

@@ -1,0 +1,72 @@
+university:
+  name: 京都橘大学
+
+campuses:
+  - name: 京都橘大学キャンパス
+    address: 〒607-8175 京都市山科区大宅山田町34
+
+faculties:
+  - name: デジタルメディア学部
+    campus_names:
+      - 京都橘大学キャンパス
+    departments:
+      - name: デジタルメディア学科
+  - name: 工学部
+    campus_names:
+      - 京都橘大学キャンパス
+    departments:
+      - name: ロボティクス学科
+      - name: 情報工学科
+      - name: 建築デザイン学科
+  - name: 文学部
+    campus_names:
+      - 京都橘大学キャンパス
+    departments:
+      - name: 日本語日本文学科
+      - name: 歴史学科
+      - name: 歴史遺産学科
+  - name: 国際英語学部
+    campus_names:
+      - 京都橘大学キャンパス
+    departments:
+      - name: 国際英語学科
+  - name: 発達教育学部
+    campus_names:
+      - 京都橘大学キャンパス
+    departments:
+      - name: 児童教育学科
+  - name: 総合心理学部
+    campus_names:
+      - 京都橘大学キャンパス
+    departments:
+      - name: 総合心理学科
+  - name: 経済学部
+    campus_names:
+      - 京都橘大学キャンパス
+    departments:
+      - name: 経済学科
+  - name: 経営学部
+    campus_names:
+      - 京都橘大学キャンパス
+    departments:
+      - name: 経営学科
+  - name: 看護学部
+    campus_names:
+      - 京都橘大学キャンパス
+    departments:
+      - name: 看護学科
+  - name: 健康科学部
+    campus_names:
+      - 京都橘大学キャンパス
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 救急救命学科
+      - name: 臨床検査学科
+      - name: 臨床工学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tachibana-u.ac.jp/
+  extraction_status: success

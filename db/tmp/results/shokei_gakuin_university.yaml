@@ -1,0 +1,31 @@
+university:
+  name: 尚絅学院大学
+
+campuses:
+  - name: 尚絅学院大学キャンパス
+    address: 〒981-1295 宮城県名取市ゆりが丘4-10-1
+
+faculties:
+  - name: 人文社会学群
+    campus_names:
+      - 尚絅学院大学キャンパス
+    departments:
+      - name: 人文社会学類
+  - name: 心理・教育学群
+    campus_names:
+      - 尚絅学院大学キャンパス
+    departments:
+      - name: 心理学類
+      - name: 子ども学類
+      - name: 学校教育学類
+  - name: 健康栄養学群
+    campus_names:
+      - 尚絅学院大学キャンパス
+    departments:
+      - name: 健康栄養学類
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.shokei.jp/
+  extraction_status: success

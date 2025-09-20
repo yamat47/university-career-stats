@@ -1,0 +1,33 @@
+university:
+  name: 京都外国語大学
+
+campuses:
+  - name: 京都外国語大学・京都外国語短期大学キャンパス
+    address: 〒615-8558 京都市右京区西院笠目町6
+
+faculties:
+  - name: 外国語学部
+    campus_names:
+      - 京都外国語大学・京都外国語短期大学キャンパス
+    departments:
+      - name: 英米語学科
+      - name: スペイン語学科
+      - name: フランス語学科
+      - name: ドイツ語学科
+      - name: ブラジルポルトガル語学科
+      - name: 中国語学科
+      - name: 日本語学科
+      - name: イタリア語学科
+      - name: ロシア語学科
+  - name: 国際貢献学部
+    campus_names:
+      - 京都外国語大学・京都外国語短期大学キャンパス
+    departments:
+      - name: グローバルスタディーズ学科
+      - name: グローバル観光学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kufs.ac.jp/
+  extraction_status: success

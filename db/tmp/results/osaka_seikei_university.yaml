@@ -1,0 +1,57 @@
+university:
+  name: 大阪成蹊大学
+
+campuses:
+  - name: 相川キャンパス
+    address: 〒533-0007 大阪市東淀川区相川3丁目10-62
+  - name: 駅前キャンパス
+    address: 〒533-0007 大阪市東淀川区相川1丁目3-7
+
+faculties:
+  - name: データサイエンス学部
+    campus_names:
+      - 相川キャンパス
+    departments:
+      - name: データサイエンス学科
+
+  - name: 看護学部
+    campus_names:
+      - 相川キャンパス
+      - 駅前キャンパス
+    departments:
+      - name: 看護学科
+
+  - name: 経営学部
+    campus_names:
+      - 相川キャンパス
+      - 駅前キャンパス
+    departments:
+      - name: 経営学科
+      - name: スポーツマネジメント学科
+
+  - name: 国際観光学部
+    campus_names:
+      - 相川キャンパス
+      - 駅前キャンパス
+    departments:
+      - name: 国際観光学科
+
+  - name: 教育学部
+    campus_names:
+      - 相川キャンパス
+      - 駅前キャンパス
+    departments:
+      - name: 教育学科
+
+  - name: 芸術学部
+    campus_names:
+      - 相川キャンパス
+      - 駅前キャンパス
+    departments:
+      - name: 造形芸術学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://univ.osaka-seikei.jp/
+  extraction_status: success

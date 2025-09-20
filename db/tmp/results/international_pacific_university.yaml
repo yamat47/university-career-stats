@@ -1,0 +1,46 @@
+university:
+  name: 環太平洋大学
+
+campuses:
+  - name: 第1キャンパス
+    address: 岡山県岡山市東区瀬戸町観音寺721番地
+  - name: 第2キャンパス
+    address: 岡山県岡山市東区矢津
+  - name: 岡山駅前グローバルキャンパス
+    address: 岡山県岡山市北区下石井2丁目2番1号
+  - name: 東京キャンパス
+    address: 千葉県市川市二俣625-1
+
+faculties:
+  - name: 体育学部
+    campus_names:
+      - 第1キャンパス
+      - 第2キャンパス
+    departments:
+      - name: 体育学科
+      - name: 健康科学科
+      - name: 競技スポーツ科学科
+  - name: 次世代教育学部
+    campus_names:
+      - 第1キャンパス
+      - 第2キャンパス
+    departments:
+      - name: こども発達学科
+      - name: 教育学科
+  - name: 経済経営学部
+    campus_names:
+      - 第1キャンパス
+      - 第2キャンパス
+    departments:
+      - name: 現代経営学科
+  - name: 国際経済経営学部
+    campus_names:
+      - 東京キャンパス
+    departments:
+      - name: 国際経済経営学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.ipu-japan.ac.jp/
+  extraction_status: success

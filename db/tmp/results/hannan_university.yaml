@@ -1,0 +1,40 @@
+university:
+  name: 阪南大学
+
+campuses:
+  - name: 本キャンパス
+    address: 大阪府松原市天美東5-4-33
+  - name: あべのハルカスキャンパス
+    address: 大阪府大阪市阿倍野区阿倍野筋1丁目1-43 あべのハルカス23階
+
+faculties:
+  - name: 国際学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 国際コミュニケーション学科
+      - name: 国際観光学科
+
+  - name: 経済学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 経済学科
+
+  - name: 経営学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 経営学科
+
+  - name: 総合情報学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 総合情報学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.hannan-u.ac.jp/index.html
+  extraction_status: success

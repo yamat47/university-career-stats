@@ -1,0 +1,32 @@
+university:
+  name: 群馬医療福祉大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒371-0823 群馬県前橋市川曲町566-1
+
+faculties:
+  - name: 医療技術学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 言語聴覚学科
+      - name: 臨床工学科
+  - name: 看護学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 看護学科
+  - name: 社会福祉学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 社会福祉学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.shoken-gakuen.ac.jp/
+  extraction_status: success

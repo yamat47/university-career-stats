@@ -1,0 +1,51 @@
+university:
+  name: 川崎医療福祉大学
+
+campuses:
+  - name: 川崎医療福祉大学
+    address: 〒701-0193 岡山県倉敷市松島288
+
+faculties:
+  - name: 医療福祉学部
+    campus_names:
+      - 川崎医療福祉大学
+    departments:
+      - name: 医療福祉学科
+      - name: 臨床心理学科
+      - name: 医療保育学科
+  - name: 保健看護学部
+    campus_names:
+      - 川崎医療福祉大学
+    departments:
+      - name: 保健看護学科
+  - name: リハビリテーション学部
+    campus_names:
+      - 川崎医療福祉大学
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 言語聴覚療法学科
+      - name: 視能療法学科
+  - name: 医療技術学部
+    campus_names:
+      - 川崎医療福祉大学
+    departments:
+      - name: 臨床検査学科
+      - name: 診療放射線技術学科
+      - name: 臨床工学科
+      - name: 臨床栄養学科
+      - name: 健康体育学科
+  - name: 医療福祉マネジメント学部
+    campus_names:
+      - 川崎医療福祉大学
+    departments:
+      - name: 医療福祉経営学科
+      - name: 医療データサイエンス学科
+      - name: 医療コミュニケーション学科
+      - name: 医療福祉デザイン学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://w.kawasaki-m.ac.jp/
+  extraction_status: success

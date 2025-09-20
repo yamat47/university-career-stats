@@ -1,0 +1,34 @@
+university:
+  name: 関西医科大学
+
+campuses:
+  - name: 枚方キャンパス
+    address: 〒573-1010 大阪府枚方市新町2丁目5番1号
+  - name: 牧野キャンパス
+    address: 〒573-1136 大阪府枚方市宇山東町18番89号
+
+faculties:
+  - name: 医学部
+    campus_names:
+      - 枚方キャンパス
+    departments:
+      - name: 医学科
+
+  - name: 看護学部
+    campus_names:
+      - 枚方キャンパス
+    departments:
+      - name: 看護学科
+
+  - name: リハビリテーション学部
+    campus_names:
+      - 牧野キャンパス
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kmu.ac.jp/
+  extraction_status: success

@@ -1,0 +1,94 @@
+university:
+  name: 国際医療福祉大学
+
+campuses:
+  - name: 大田原キャンパス
+    address: 〒324-8501 栃木県大田原市北金丸2600-1
+  - name: 成田キャンパス
+    address: 〒286-8686 千葉県成田市公津の杜4-3
+  - name: 東京赤坂キャンパス
+    address: 〒107-8402 東京都港区赤坂4-1-26
+  - name: 小田原キャンパス
+    address: 〒250-8588 神奈川県小田原市城山1-2-25
+  - name: 大川キャンパス
+    address: 〒831-8501 福岡県大川市榎津137-1
+
+faculties:
+  - name: 保健医療学部
+    campus_names:
+      - 大田原キャンパス
+    departments:
+      - name: 看護学科
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 言語聴覚学科
+      - name: 視機能療法学科
+      - name: 医学検査学科
+      - name: 放射線・情報科学科
+  - name: 医療福祉学部
+    campus_names:
+      - 大田原キャンパス
+    departments:
+      - name: 医療福祉・マネジメント学科
+  - name: 薬学部
+    campus_names:
+      - 大田原キャンパス
+    departments:
+      - name: 薬学科
+  - name: 医学部
+    campus_names:
+      - 成田キャンパス
+    departments:
+      - name: 医学科
+  - name: 成田看護学部
+    campus_names:
+      - 成田キャンパス
+    departments:
+      - name: 看護学科
+  - name: 成田保健医療学部
+    campus_names:
+      - 成田キャンパス
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 言語聴覚学科
+      - name: 医学検査学科
+      - name: 放射線・情報科学科
+  - name: 成田薬学部
+    campus_names:
+      - 成田キャンパス
+    departments:
+      - name: 薬学科
+  - name: 赤坂心理・医療福祉マネジメント学部
+    campus_names:
+      - 東京赤坂キャンパス
+    departments:
+      - name: 心理学科
+      - name: 医療マネジメント学科
+  - name: 小田原保健医療学部
+    campus_names:
+      - 小田原キャンパス
+    departments:
+      - name: 看護学科
+      - name: 理学療法学科
+      - name: 作業療法学科
+  - name: 福岡保健医療学部
+    campus_names:
+      - 大川キャンパス
+    departments:
+      - name: 看護学科
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 言語聴覚学科
+      - name: 医学検査学科
+  - name: 福岡薬学部
+    campus_names:
+      - 大川キャンパス
+    departments:
+      - name: 薬学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.iuhw.ac.jp/
+  extraction_status: success

@@ -1,0 +1,24 @@
+university:
+  name: 大阪体育大学
+
+campuses:
+  - name: 大阪体育大学
+    address: 〒590-0496 大阪府泉南郡熊取町朝代台1番1号
+
+faculties:
+  - name: スポーツ科学部
+    campus_names:
+      - 大阪体育大学
+    departments:
+      - name: スポーツ科学科
+  - name: 教育学部
+    campus_names:
+      - 大阪体育大学
+    departments:
+      - name: 教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.ouhs.jp/
+  extraction_status: success

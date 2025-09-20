@@ -1,0 +1,46 @@
+university:
+  name: 大阪人間科学大学
+
+campuses:
+  - name: 正雀学舎
+    address: 大阪府摂津市正雀1-4-1
+  - name: 庄屋学舎
+    address: 大阪府摂津市庄屋1-12-13
+  - name: C号館
+    address: 大阪府摂津市正雀1-3-30
+
+faculties:
+  - name: 人間科学部
+    campus_names:
+      - 正雀学舎
+      - 庄屋学舎
+      - C号館
+    departments:
+      - name: 社会創造学科
+      - name: 社会福祉学科
+      - name: 医療福祉学科
+      - name: 子ども教育学科
+
+  - name: 心理学部
+    campus_names:
+      - 正雀学舎
+      - 庄屋学舎
+      - C号館
+    departments:
+      - name: 心理学科
+
+  - name: 保健医療学部
+    campus_names:
+      - 正雀学舎
+      - 庄屋学舎
+      - C号館
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 言語聴覚学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.ohs.ac.jp/
+  extraction_status: success

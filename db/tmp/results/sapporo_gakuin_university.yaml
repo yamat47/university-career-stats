@@ -1,0 +1,42 @@
+university:
+  name: 札幌学院大学
+
+campuses:
+  - name: 江別キャンパス
+    address: 〒069-8555 北海道江別市文京台11番地
+  - name: 新札幌キャンパス
+    address: 〒004-8666 北海道札幌市厚別区厚別中央1条5丁目1-1
+
+faculties:
+  - name: 心理学部
+    campus_names:
+      - 新札幌キャンパス
+    departments:
+      - name: 臨床心理学科
+
+  - name: 人文学部
+    campus_names:
+      - 江別キャンパス
+    departments:
+      - name: 人間科学科
+      - name: 英語英米文学科
+      - name: こども発達学科
+
+  - name: 法学部
+    campus_names:
+      - 江別キャンパス
+    departments:
+      - name: 法学科
+
+  - name: 経済経営学部
+    campus_names:
+      - 新札幌キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経営学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.sgu.ac.jp/
+  extraction_status: success

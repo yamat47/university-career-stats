@@ -1,0 +1,22 @@
+university:
+  name: 育英館大学
+
+campuses:
+  - name: 稚内本校
+    address: 〒097-0013 北海道稚内市若葉台1丁目2290-28
+  - name: 京都キャンパス
+    address: 〒612-0822 京都府京都市伏見区深草鞍ケ谷45-5
+
+faculties:
+  - name: 情報メディア学部
+    campus_names:
+      - 稚内本校
+      - 京都キャンパス
+    departments:
+      - name: 情報メディア学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.ikueikan.ac.jp/
+  extraction_status: success

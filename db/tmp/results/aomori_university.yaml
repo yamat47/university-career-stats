@@ -1,0 +1,41 @@
+university:
+  name: 青森大学
+
+campuses:
+  - name: 青森キャンパス
+    address: 〒030-0943 青森県青森市幸畑2-3-1
+  - name: むつキャンパス
+    address: 青森県むつ市金谷1-10-1 下北文化会館2F
+  - name: 東京キャンパス
+    address: 東京都江戸川区清新町2-10-1
+
+faculties:
+  - name: 総合経営学部
+    campus_names:
+      - 青森キャンパス
+      - むつキャンパス
+    departments:
+      - name: 経営学科
+  - name: 社会学部
+    campus_names:
+      - 青森キャンパス
+      - むつキャンパス
+    departments:
+      - name: 社会学科
+  - name: ソフトウェア情報学部
+    campus_names:
+      - 青森キャンパス
+      - むつキャンパス
+    departments:
+      - name: ソフトウェア情報学科
+  - name: 薬学部
+    campus_names:
+      - 青森キャンパス
+    departments:
+      - name: 薬学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.aomori-u.ac.jp/
+  extraction_status: success

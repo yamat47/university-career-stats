@@ -1,0 +1,20 @@
+university:
+  name: 天使大学
+
+campuses:
+  - name: 天使大学キャンパス
+    address: 〒065-0013 北海道札幌市東区北13条東3丁目1-30
+
+faculties:
+  - name: 看護栄養学部
+    campus_names:
+      - 天使大学キャンパス
+    departments:
+      - name: 看護学科
+      - name: 栄養学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tenshi.ac.jp/
+  extraction_status: success

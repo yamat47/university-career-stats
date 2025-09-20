@@ -1,0 +1,19 @@
+university:
+  name: 岩手保健医療大学
+
+campuses:
+  - name: 岩手保健医療大学キャンパス
+    address: 〒020-0045 岩手県盛岡市盛岡駅西通一丁目6番30号
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - 岩手保健医療大学キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.iwate-uhms.ac.jp/
+  extraction_status: success

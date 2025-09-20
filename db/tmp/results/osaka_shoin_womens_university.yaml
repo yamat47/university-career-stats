@@ -1,0 +1,34 @@
+university:
+  name: 大阪樟蔭女子大学
+
+campuses:
+  - name: 小阪キャンパス
+    address: 〒577-8550 東大阪市菱屋西4-2-26
+
+faculties:
+  - name: 学芸学部
+    campus_names:
+      - 小阪キャンパス
+    departments:
+      - name: リベラルアーツ学科
+      - name: 国文学科
+      - name: 国際英語学科
+      - name: 心理学科
+      - name: ライフプランニング学科
+      - name: 化粧ファッション学科
+  - name: 児童教育学部
+    campus_names:
+      - 小阪キャンパス
+    departments:
+      - name: 児童教育学科
+  - name: 健康栄養学部
+    campus_names:
+      - 小阪キャンパス
+    departments:
+      - name: 健康栄養学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.osaka-shoin.ac.jp/univ/
+  extraction_status: success

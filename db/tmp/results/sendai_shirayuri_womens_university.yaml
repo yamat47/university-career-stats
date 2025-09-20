@@ -1,0 +1,22 @@
+university:
+  name: 仙台白百合女子大学
+
+campuses:
+  - name: 仙台白百合女子大学キャンパス
+    address: 〒981-3107 宮城県仙台市泉区本田町6-1
+
+faculties:
+  - name: 人間学部
+    campus_names:
+      - 仙台白百合女子大学キャンパス
+    departments:
+      - name: 子ども教育学科
+      - name: 心理福祉学科
+      - name: 健康栄養学科
+      - name: グローバル・スタディーズ学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://sendai-shirayuri.ac.jp/
+  extraction_status: success

@@ -1,0 +1,19 @@
+university:
+  name: 千葉経済大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒263-0021 千葉県千葉市稲毛区轟町3-59-5
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 経済学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.cku.ac.jp/
+  extraction_status: success

@@ -1,0 +1,20 @@
+university:
+  name: びわこ学院大学
+
+campuses:
+  - name: メインキャンパス
+    address: 〒527-8533 滋賀県東近江市布施町29
+
+faculties:
+  - name: 教育福祉学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 子ども学科
+      - name: スポーツ教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.biwakogakuin.ac.jp/
+  extraction_status: success

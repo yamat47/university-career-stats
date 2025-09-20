@@ -1,0 +1,19 @@
+university:
+  name: 亀田医療大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒296-0001 千葉県鴨川市横渚462
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kameda-c.ac.jp/
+  extraction_status: success

@@ -1,0 +1,54 @@
+university:
+  name: 北海道医療大学
+
+campuses:
+  - name: 当別キャンパス
+    address: 〒061-0293 北海道石狩郡当別町金沢1757
+  - name: 札幌あいの里キャンパス
+    address: 〒002-8072 北海道札幌市北区あいの里2条5丁目
+
+faculties:
+  - name: 薬学部
+    campus_names:
+      - 当別キャンパス
+    departments:
+      - name: 薬学科
+
+  - name: 歯学部
+    campus_names:
+      - 当別キャンパス
+    departments:
+      - name: 歯学科
+
+  - name: 看護福祉学部
+    campus_names:
+      - 当別キャンパス
+    departments:
+      - name: 看護学科
+      - name: 福祉マネジメント学科
+
+  - name: 心理科学部
+    campus_names:
+      - 当別キャンパス
+    departments:
+      - name: 臨床心理学科
+
+  - name: リハビリテーション科学部
+    campus_names:
+      - 当別キャンパス
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 言語聴覚療法学科
+
+  - name: 医療技術学部
+    campus_names:
+      - 札幌あいの里キャンパス
+    departments:
+      - name: 臨床検査学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.hoku-iryo-u.ac.jp/
+  extraction_status: success

@@ -1,0 +1,15 @@
+university:
+  name: 奈良先端科学技術大学院大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒630-0192 奈良県生駒市高山町8916番地の5（けいはんな学研都市）
+
+faculties: []
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.naist.jp/
+  extraction_status: success
+  note: この大学は大学院大学のため、学部・学科は存在しません。

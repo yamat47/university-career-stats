@@ -1,0 +1,30 @@
+university:
+  name: 明治国際医療大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒629-0392 京都府南丹市日吉町保野田ヒノ谷6-1
+
+faculties:
+  - name: 鍼灸学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 鍼灸学科
+  - name: 保健医療学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 柔道整復学科
+      - name: 救急救命学科
+  - name: 看護学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.meiji-u.ac.jp/
+  extraction_status: success

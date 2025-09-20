@@ -1,0 +1,19 @@
+university:
+  name: 北洋大学
+
+campuses:
+  - name: 北洋大学キャンパス
+    address: 〒059-1266 北海道苫小牧市錦西町3丁目2番1号
+
+faculties:
+  - name: 国際文化学部
+    campus_names:
+      - 北洋大学キャンパス
+    departments:
+      - name: キャリア創造学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://hokuyo.ac.jp/
+  extraction_status: success

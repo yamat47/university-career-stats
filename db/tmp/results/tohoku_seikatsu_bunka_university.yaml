@@ -1,0 +1,24 @@
+university:
+  name: 東北生活文化大学
+
+campuses:
+  - name: 虹の丘キャンパス
+    address: 宮城県仙台市泉区虹の丘一丁目18番地の2
+
+faculties:
+  - name: 家政学部
+    campus_names:
+      - 虹の丘キャンパス
+    departments:
+      - name: 家政学科
+  - name: 美術学部
+    campus_names:
+      - 虹の丘キャンパス
+    departments:
+      - name: 美術表現学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.mishima.ac.jp/tsb/
+  extraction_status: success

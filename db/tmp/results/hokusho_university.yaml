@@ -1,0 +1,30 @@
+university:
+  name: 北翔大学
+
+campuses:
+  - name: 江別キャンパス（本部）
+    address: 〒069-8511 北海道江別市文京台23番地
+  - name: 札幌円山キャンパス（北方圏学術情報センター）
+    address: 〒064-0801 札幌市中央区南1条西22丁目1番1号
+
+faculties:
+  - name: 生涯スポーツ学部
+    campus_names:
+      - 江別キャンパス（本部）
+    departments:
+      - name: スポーツ教育学科
+      - name: 健康福祉学科
+
+  - name: 教育文化学部
+    campus_names:
+      - 江別キャンパス（本部）
+    departments:
+      - name: 教育学科
+      - name: 芸術学科
+      - name: 心理カウンセリング学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.hokusho-u.ac.jp/
+  extraction_status: success

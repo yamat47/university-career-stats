@@ -1,0 +1,21 @@
+university:
+  name: 美作大学
+
+campuses:
+  - name: 津山キャンパス
+    address: 岡山県津山市北園町50
+
+faculties:
+  - name: 生活科学部
+    campus_names:
+      - 津山キャンパス
+    departments:
+      - name: 食物学科
+      - name: 児童学科
+      - name: 社会福祉学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://mimasaka.jp/
+  extraction_status: success

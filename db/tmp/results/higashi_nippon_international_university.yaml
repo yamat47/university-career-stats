@@ -1,0 +1,26 @@
+university:
+  name: 東日本国際大学
+
+campuses:
+  - name: いわきキャンパス（本部）
+    address: 〒970-8023 福島県いわき市平鎌田字寿金沢37
+  - name: 早稲田キャンパス
+    address: 〒169-0051 東京都新宿区西早稲田2-4-26 昌平黌ビル
+
+faculties:
+  - name: 経済経営学部
+    campus_names:
+      - いわきキャンパス（本部）
+    departments:
+      - name: 経済経営学科
+  - name: 健康福祉学部
+    campus_names:
+      - いわきキャンパス（本部）
+    departments:
+      - name: 社会福祉学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.shk-ac.jp/
+  extraction_status: success

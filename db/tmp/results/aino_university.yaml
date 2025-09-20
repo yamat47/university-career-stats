@@ -1,0 +1,28 @@
+university:
+  name: 藍野大学
+
+campuses:
+  - name: 藍野大学
+    address: 〒567-0012 大阪府茨木市東太田4-5-4
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - 藍野大学
+    departments:
+      - name: 看護学科
+
+  - name: 医療保健学部
+    campus_names:
+      - 藍野大学
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 臨床工学科
+      - name: 健康科学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://univ.aino.ac.jp/
+  extraction_status: success

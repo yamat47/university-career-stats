@@ -1,0 +1,28 @@
+university:
+  name: 花園大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒604-8456 京都府京都市中京区西ノ京壺ノ内町8-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 仏教学科
+      - name: 日本史学科
+      - name: 日本文学科
+  - name: 社会福祉学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 社会福祉学科
+      - name: 臨床心理学科
+      - name: 児童福祉学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.hanazono.ac.jp/
+  extraction_status: success

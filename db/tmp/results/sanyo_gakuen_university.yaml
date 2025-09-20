@@ -1,0 +1,30 @@
+university:
+  name: 山陽学園大学
+
+campuses:
+  - name: 山陽学園大学キャンパス
+    address: 〒703-8501 岡山県岡山市中区平井1丁目14-1
+
+faculties:
+  - name: 総合人間学部
+    campus_names:
+      - 山陽学園大学キャンパス
+    departments:
+      - name: 言語文化学科
+      - name: ビジネス心理学科
+  - name: 地域マネジメント学部
+    campus_names:
+      - 山陽学園大学キャンパス
+    departments:
+      - name: 地域マネジメント学科
+  - name: 看護学部
+    campus_names:
+      - 山陽学園大学キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.sguc.ac.jp/
+  extraction_status: success

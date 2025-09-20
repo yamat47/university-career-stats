@@ -1,0 +1,20 @@
+university:
+  name: 関東学園大学
+
+campuses:
+  - name: 太田キャンパス
+    address: 〒373-8515 群馬県太田市藤阿久町200番地
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - 太田キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経営学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kanto-gakuen.ac.jp/univer2/
+  extraction_status: success

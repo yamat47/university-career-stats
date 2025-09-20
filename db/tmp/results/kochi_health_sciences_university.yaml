@@ -1,0 +1,19 @@
+university:
+  name: 高知健康科学大学
+
+campuses:
+  - name: 高知健康科学大学キャンパス
+    address: 〒781-5103 高知県高知市大津乙2500-2
+
+faculties:
+  - name: 健康科学部
+    campus_names:
+      - 高知健康科学大学キャンパス
+    departments:
+      - name: リハビリテーション学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://ko-ken-k3.ac.jp/
+  extraction_status: success

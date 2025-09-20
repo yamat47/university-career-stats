@@ -1,0 +1,39 @@
+university:
+  name: 和洋女子大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒272-8533 千葉県市川市国府台2-3-1
+
+faculties:
+  - name: 人文学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 日本文学文化学科
+      - name: 心理学科
+      - name: こども発達学科
+  - name: 国際学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 英語コミュニケーション学科
+      - name: 国際学科
+  - name: 家政学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 服飾造形学科
+      - name: 健康栄養学科
+      - name: 家政福祉学科
+  - name: 看護学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.wayo.ac.jp/
+  extraction_status: success

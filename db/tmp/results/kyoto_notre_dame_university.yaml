@@ -1,0 +1,35 @@
+university:
+  name: 京都ノートルダム女子大学
+
+campuses:
+  - name: 京都ノートルダム女子大学キャンパス
+    address: 〒606-0847 京都市左京区下鴨南野々神町1番地
+
+faculties:
+  - name: 女性キャリアデザイン学環
+    campus_names:
+      - 京都ノートルダム女子大学キャンパス
+    departments: []
+  - name: 社会情報学環
+    campus_names:
+      - 京都ノートルダム女子大学キャンパス
+    departments: []
+  - name: 国際言語文化学部
+    campus_names:
+      - 京都ノートルダム女子大学キャンパス
+    departments:
+      - name: 英語英文学科
+      - name: 国際日本文化学科
+  - name: 現代人間学部
+    campus_names:
+      - 京都ノートルダム女子大学キャンパス
+    departments:
+      - name: 心理学科
+      - name: こども教育学科
+      - name: 生活環境学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.notredame.ac.jp/
+  extraction_status: success

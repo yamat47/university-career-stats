@@ -1,0 +1,19 @@
+university:
+  name: 鳥取看護大学
+
+campuses:
+  - name: 鳥取看護大学キャンパス
+    address: 〒682-8555 鳥取県倉吉市福庭854
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - 鳥取看護大学キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tcn.ac.jp/
+  extraction_status: success

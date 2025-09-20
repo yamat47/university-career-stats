@@ -1,0 +1,24 @@
+university:
+  name: 共愛学園前橋国際大学
+
+campuses:
+  - name: 共愛学園前橋国際大学キャンパス
+    address: 〒379-2192 群馬県前橋市小屋原町1154-4
+
+faculties:
+  - name: 国際社会学部
+    campus_names:
+      - 共愛学園前橋国際大学キャンパス
+    departments:
+      - name: 国際社会学科
+  - name: デジタル共創学部
+    campus_names:
+      - 共愛学園前橋国際大学キャンパス
+    departments:
+      - name: デジタル共創学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kyoai.ac.jp/
+  extraction_status: success

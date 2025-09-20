@@ -1,0 +1,45 @@
+university:
+  name: 流通経済大学
+
+campuses:
+  - name: 新松戸キャンパス
+    address: 〒270-8555 千葉県松戸市新松戸3-2-1
+  - name: 龍ケ崎キャンパス
+    address: 〒301-8555 茨城県龍ケ崎市120
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - 新松戸キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経営学科
+  - name: 共創社会学部
+    campus_names:
+      - 新松戸キャンパス
+    departments:
+      - name: 地域人間科学科
+      - name: 国際文化ツーリズム学科
+  - name: 流通情報学部
+    campus_names:
+      - 龍ケ崎キャンパス
+    departments:
+      - name: 流通情報学科
+  - name: 法学部
+    campus_names:
+      - 龍ケ崎キャンパス
+    departments:
+      - name: 法律学科
+      - name: 自治行政学科
+  - name: スポーツ健康科学部
+    campus_names:
+      - 龍ケ崎キャンパス
+    departments:
+      - name: スポーツ健康科学科
+      - name: スポーツコミュニケーション学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.rku.ac.jp/
+  extraction_status: success

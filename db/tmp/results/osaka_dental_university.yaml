@@ -1,0 +1,37 @@
+university:
+  name: 大阪歯科大学
+
+campuses:
+  - name: 楠葉キャンパス
+    address: 大阪府枚方市楠葉花園町8番1号
+  - name: 楠葉西学舎
+    address: 大阪府枚方市楠葉花園町11番8号
+  - name: 牧野キャンパス
+    address: 大阪府枚方市牧野本町1丁目4番4号
+  - name: 天満橋キャンパス
+    address: 大阪市中央区大手前1丁目5番17号
+
+faculties:
+  - name: 歯学部
+    campus_names:
+      - 楠葉キャンパス
+      - 天満橋キャンパス
+    departments:
+      - name: 歯学科
+  - name: 医療保健学部
+    campus_names:
+      - 牧野キャンパス
+    departments:
+      - name: 口腔保健学科
+      - name: 口腔工学科
+  - name: 看護学部
+    campus_names:
+      - 楠葉西学舎
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.osaka-dent.ac.jp/
+  extraction_status: success

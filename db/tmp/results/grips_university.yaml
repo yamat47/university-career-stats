@@ -1,0 +1,15 @@
+university:
+  name: 政策研究大学院大学
+
+campuses:
+  - name: 六本木キャンパス
+    address: 〒106-8677 東京都港区六本木7-22-1
+
+faculties: []
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.grips.ac.jp/
+  extraction_status: success
+  note: 政策研究大学院大学は大学院大学であり、学部は設置されていません。

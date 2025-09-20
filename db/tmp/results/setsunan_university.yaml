@@ -1,0 +1,69 @@
+university:
+  name: 摂南大学
+
+campuses:
+  - name: 寝屋川キャンパス
+    address: 〒572-8508 大阪府寝屋川市池田中町17-8
+  - name: 枚方キャンパス
+    address: 〒573-0101 大阪府枚方市長尾峠町45-1
+
+faculties:
+  - name: 法学部
+    campus_names:
+      - 寝屋川キャンパス
+    departments:
+      - name: 法律学科
+  - name: 国際学部
+    campus_names:
+      - 寝屋川キャンパス
+    departments:
+      - name: 国際学科
+  - name: 経済学部
+    campus_names:
+      - 寝屋川キャンパス
+    departments:
+      - name: 経済学科
+  - name: 経営学部
+    campus_names:
+      - 寝屋川キャンパス
+    departments:
+      - name: 経営学科
+  - name: 現代社会学部
+    campus_names:
+      - 寝屋川キャンパス
+    departments:
+      - name: 現代社会学科
+  - name: 理工学部
+    campus_names:
+      - 寝屋川キャンパス
+    departments:
+      - name: 生命科学科
+      - name: 住環境デザイン学科
+      - name: 建築学科
+      - name: 都市環境工学科
+      - name: 機械工学科
+      - name: 電気電子情報工学科
+  - name: 薬学部
+    campus_names:
+      - 枚方キャンパス
+    departments:
+      - name: 薬学科
+  - name: 看護学部
+    campus_names:
+      - 枚方キャンパス
+    departments:
+      - name: 看護学科
+  - name: 農学部
+    campus_names:
+      - 枚方キャンパス
+    departments:
+      - name: 農業生産学科
+      - name: 応用生物科学科
+      - name: 食品栄養学科
+      - name: 食農ビジネス学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.setsunan.ac.jp/
+  extraction_status: success

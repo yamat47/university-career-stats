@@ -1,0 +1,24 @@
+university:
+  name: 聖泉大学
+
+campuses:
+  - name: 聖泉大学
+    address: 〒521-1123 滋賀県彦根市肥田町720番地
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - 聖泉大学
+    departments:
+      - name: 看護学科
+  - name: 人間学部
+    campus_names:
+      - 聖泉大学
+    departments:
+      - name: 人間心理学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.seisen.ac.jp/
+  extraction_status: success

@@ -1,0 +1,44 @@
+university:
+  name: 関西福祉科学大学
+
+campuses:
+  - name: メインキャンパス
+    address: 〒582-0026 大阪府柏原市旭ケ丘3丁目11-1
+
+faculties:
+  - name: 社会福祉学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 福祉創造学科
+
+  - name: 心理科学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 心理科学科
+
+  - name: 健康福祉学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 健康科学科
+      - name: 福祉栄養学科
+
+  - name: 保健医療学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: リハビリテーション学科
+
+  - name: 教育学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.fuksi-kagk-u.ac.jp/
+  extraction_status: success

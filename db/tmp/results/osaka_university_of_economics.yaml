@@ -1,0 +1,43 @@
+university:
+  name: 大阪経済大学
+
+campuses:
+  - name: メインキャンパス
+    address: 〒533-8533 大阪市東淀川区大隅2-2-8
+  - name: 北浜キャンパス
+    address: 大阪市中央区北浜1-5-68 大阪証券取引所ビル3階
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 経済学科
+  - name: 経営学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 経営学科（第1部）
+      - name: ビジネス法学科（第1部）
+      - name: 経営学科（第2部）
+  - name: 情報社会学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 情報社会学科
+  - name: 人間科学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 人間科学科
+  - name: 国際共創学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 国際共創学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.osaka-ue.ac.jp/
+  extraction_status: success

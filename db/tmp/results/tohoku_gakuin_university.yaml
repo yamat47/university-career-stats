@@ -1,0 +1,67 @@
+university:
+  name: 東北学院大学
+
+campuses:
+  - name: 土樋キャンパス
+    address: 〒980-8511 宮城県仙台市青葉区土樋一丁目3-1
+  - name: 五橋キャンパス
+    address: 〒984-8588 宮城県仙台市若林区清水小路3-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 土樋キャンパス
+    departments:
+      - name: 英文学科
+      - name: 総合人文学科
+      - name: 歴史学科
+      - name: 教育学科
+  - name: 経済学部
+    campus_names:
+      - 土樋キャンパス
+    departments:
+      - name: 経済学科
+  - name: 経営学部
+    campus_names:
+      - 土樋キャンパス
+    departments:
+      - name: 経営学科
+  - name: 法学部
+    campus_names:
+      - 土樋キャンパス
+    departments:
+      - name: 法律学科
+  - name: 国際学部
+    campus_names:
+      - 土樋キャンパス
+    departments:
+      - name: 国際教養学科
+  - name: 工学部
+    campus_names:
+      - 五橋キャンパス
+    departments:
+      - name: 機械知能工学科
+      - name: 電気電子工学科
+      - name: 環境建設工学科
+  - name: 情報学部
+    campus_names:
+      - 五橋キャンパス
+    departments:
+      - name: データサイエンス学科
+  - name: 地域総合学部
+    campus_names:
+      - 五橋キャンパス
+    departments:
+      - name: 地域コミュニティ学科
+      - name: 政策デザイン学科
+  - name: 人間科学部
+    campus_names:
+      - 五橋キャンパス
+    departments:
+      - name: 心理行動科学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tohoku-gakuin.ac.jp/
+  extraction_status: success

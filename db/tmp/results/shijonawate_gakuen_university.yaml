@@ -1,0 +1,28 @@
+university:
+  name: 四條畷学園大学
+
+campuses:
+  - name: 北条キャンパス
+    address: 〒574-0011 大阪府大東市北条5丁目11番10号
+  - name: 学園町キャンパス
+    address: 〒574-0001 大阪府大東市学園町6番45号
+
+faculties:
+  - name: リハビリテーション学部
+    campus_names:
+      - 北条キャンパス
+    departments:
+      - name: 理学療法学専攻
+      - name: 作業療法学専攻
+
+  - name: 看護学部
+    campus_names:
+      - 学園町キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://un.shijonawate-gakuen.ac.jp/
+  extraction_status: success

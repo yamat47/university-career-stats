@@ -1,0 +1,42 @@
+university:
+  name: 医療創生大学
+
+campuses:
+  - name: いわきキャンパス
+    address: 〒970-8551 福島県いわき市中央台飯野5-5-1
+  - name: 柏キャンパス
+    address: 〒277-0803 千葉県柏市小青田1-3-4
+
+faculties:
+  - name: 薬学部
+    campus_names:
+      - いわきキャンパス
+    departments:
+      - name: 薬学科
+  - name: 看護学部
+    campus_names:
+      - いわきキャンパス
+    departments:
+      - name: 看護学科
+  - name: 健康医療科学部
+    campus_names:
+      - いわきキャンパス
+    departments:
+      - name: 作業療法学科
+      - name: 理学療法学科
+  - name: 心理学部
+    campus_names:
+      - いわきキャンパス
+    departments:
+      - name: 臨床心理学科
+  - name: 国際看護学部
+    campus_names:
+      - 柏キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.isu.ac.jp/
+  extraction_status: success

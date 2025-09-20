@@ -1,0 +1,19 @@
+university:
+  name: 京都看護大学
+
+campuses:
+  - name: メインキャンパス
+    address: 〒604-8845 京都市中京区壬生東高田町1-21
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kyotokango.ac.jp/index.php
+  extraction_status: success

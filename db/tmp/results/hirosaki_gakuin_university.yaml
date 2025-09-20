@@ -1,0 +1,30 @@
+university:
+  name: 弘前学院大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒036-8577 青森県弘前市大字稔町13-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 英語・英米文学科
+      - name: 日本語・日本文学科
+  - name: 社会福祉学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 社会福祉学科
+  - name: 看護学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.hirogaku.ac.jp/
+  extraction_status: success

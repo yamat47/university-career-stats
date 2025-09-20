@@ -1,0 +1,35 @@
+university:
+  name: 北星学園大学
+
+campuses:
+  - name: 北星学園大学
+    address: 〒004-8631 北海道札幌市厚別区大谷地西2-3-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 北星学園大学
+    departments:
+      - name: 英文学科
+      - name: 心理・応用コミュニケーション学科
+
+  - name: 経済学部
+    campus_names:
+      - 北星学園大学
+    departments:
+      - name: 経済学科
+      - name: 経営情報学科
+      - name: 経済法学科
+
+  - name: 社会福祉学部
+    campus_names:
+      - 北星学園大学
+    departments:
+      - name: 社会福祉学科
+      - name: 心理学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.hokusei.ac.jp/
+  extraction_status: success

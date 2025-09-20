@@ -1,0 +1,51 @@
+university:
+  name: 同志社女子大学
+
+campuses:
+  - name: 京田辺キャンパス
+    address: 〒610-0395 京都府京田辺市興戸
+  - name: 今出川キャンパス
+    address: 〒602-0893 京都市上京区今出川通寺町西入
+
+faculties:
+  - name: 学芸学部
+    campus_names:
+      - 京田辺キャンパス
+    departments:
+      - name: 音楽学科
+      - name: メディア創造学科
+      - name: 国際教養学科
+  - name: 現代社会学部
+    campus_names:
+      - 京田辺キャンパス
+    departments:
+      - name: 社会システム学科
+      - name: 現代こども学科
+  - name: 薬学部
+    campus_names:
+      - 京田辺キャンパス
+    departments:
+      - name: 医療薬学科
+  - name: 看護学部
+    campus_names:
+      - 京田辺キャンパス
+    departments:
+      - name: 看護学科
+  - name: 表象文化学部
+    campus_names:
+      - 今出川キャンパス
+    departments:
+      - name: 英語英文学科
+      - name: 日本語日本文学科
+  - name: 生活科学部
+    campus_names:
+      - 今出川キャンパス
+    departments:
+      - name: 人間生活学科
+      - name: 食物栄養科学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.dwc.doshisha.ac.jp/
+  extraction_status: success

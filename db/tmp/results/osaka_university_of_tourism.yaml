@@ -1,0 +1,19 @@
+university:
+  name: 大阪観光大学
+
+campuses:
+  - name: 大阪観光大学キャンパス
+    address: 〒590-0493 大阪府泉南郡熊取町大久保南5-3-1
+
+faculties:
+  - name: 観光学部
+    campus_names:
+      - 大阪観光大学キャンパス
+    departments:
+      - name: 観光学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tourism.ac.jp/index.html
+  extraction_status: success

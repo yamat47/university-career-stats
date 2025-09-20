@@ -1,0 +1,19 @@
+university:
+  name: 岡山学院大学
+
+campuses:
+  - name: 本学キャンパス
+    address: 〒710-8511 岡山県倉敷市有城787
+
+faculties:
+  - name: デジタル生活学部
+    campus_names:
+      - 本学キャンパス
+    departments:
+      - name: フードマネジメント学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.owc.ac.jp/
+  extraction_status: success

@@ -1,0 +1,30 @@
+university:
+  name: 京都文教大学
+
+campuses:
+  - name: メインキャンパス
+    address: 〒611-0041 京都府宇治市槇島町千足80
+
+faculties:
+  - name: 総合社会学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 総合社会学科
+      - name: 実践社会学科
+  - name: 臨床心理学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 臨床心理学科
+  - name: こども教育学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: こども教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kbu.ac.jp/kbu/
+  extraction_status: success

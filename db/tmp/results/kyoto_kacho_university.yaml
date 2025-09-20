@@ -1,0 +1,26 @@
+university:
+  name: 京都華頂大学
+
+campuses:
+  - name: 京都華頂大学キャンパス
+    address: 〒605-0062 京都市東山区林下町3-456
+
+faculties:
+  - name: 現代生活学部
+    campus_names:
+      - 京都華頂大学キャンパス
+    departments:
+      - name: 生活情報学科
+      - name: こども生活学科
+      - name: 食物栄養学科
+  - name: 日本文化学部
+    campus_names:
+      - 京都華頂大学キャンパス
+    departments:
+      - name: 日本文化学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kyotokacho-u.ac.jp/
+  extraction_status: success

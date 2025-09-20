@@ -1,0 +1,45 @@
+university:
+  name: 杏林大学
+
+campuses:
+  - name: 井の頭キャンパス
+    address: 〒181-8612 東京都三鷹市下連雀5-4-1
+  - name: 三鷹キャンパス
+    address: 〒181-8611 東京都三鷹市新川6-20-2
+
+faculties:
+  - name: 医学部
+    campus_names:
+      - 三鷹キャンパス
+    departments:
+      - name: 医学科
+  - name: 保健学部
+    campus_names:
+      - 三鷹キャンパス
+    departments:
+      - name: 臨床検査技術学科
+      - name: 健康福祉学科
+      - name: 理学療法学科
+      - name: 作業療法学科
+      - name: 診療放射線技術学科
+      - name: 臨床工学科
+      - name: 救急救命学科
+  - name: 総合政策学部
+    campus_names:
+      - 井の頭キャンパス
+    departments:
+      - name: 総合政策学科
+      - name: 企業経営学科
+  - name: 外国語学部
+    campus_names:
+      - 井の頭キャンパス
+    departments:
+      - name: 英語学科
+      - name: 中国語学科
+      - name: 観光交流文化学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kyorin-u.ac.jp/
+  extraction_status: success

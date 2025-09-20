@@ -1,0 +1,19 @@
+university:
+  name: 大阪女学院大学
+
+campuses:
+  - name: 大阪女学院大学キャンパス
+    address: 〒540-0004 大阪市中央区玉造2-26-54
+
+faculties:
+  - name: 国際・英語学部
+    campus_names:
+      - 大阪女学院大学キャンパス
+    departments:
+      - name: 国際・英語学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.wilmina.ac.jp/oj/
+  extraction_status: success

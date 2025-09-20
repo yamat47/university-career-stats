@@ -1,0 +1,58 @@
+university:
+  name: 大阪産業大学
+
+campuses:
+  - name: 中央キャンパス
+    address: 〒574-8530 大阪府大東市中垣内3-1-1
+  - name: 東キャンパス
+    address: 〒574-8530 大阪府大東市中垣内3-1-1
+  - name: 南キャンパス
+    address: 〒574-8530 大阪府大東市中垣内3-1-1
+  - name: 生駒キャンパス
+    address: 〒574-8530 大阪府大東市中垣内3-1-1
+  - name: 梅田サテライトキャンパス
+    address: 〒574-8530 大阪府大東市中垣内3-1-1
+
+faculties:
+  - name: 国際学部
+    campus_names:
+      - 中央キャンパス
+    departments:
+      - name: 国際学科
+  - name: スポーツ健康学部
+    campus_names:
+      - 中央キャンパス
+    departments:
+      - name: スポーツ健康学科
+  - name: 経営学部
+    campus_names:
+      - 中央キャンパス
+    departments:
+      - name: 経営学科
+      - name: 商学科
+  - name: 経済学部
+    campus_names:
+      - 中央キャンパス
+    departments:
+      - name: 経済学科
+  - name: 情報デザイン学部
+    campus_names:
+      - 中央キャンパス
+    departments:
+      - name: 情報システム学科
+  - name: 建築・環境デザイン学部
+    campus_names:
+      - 中央キャンパス
+    departments:
+      - name: 建築・環境デザイン学科
+  - name: システム工学部
+    campus_names:
+      - 中央キャンパス
+    departments:
+      - name: システム工学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.osaka-sandai.ac.jp/
+  extraction_status: success

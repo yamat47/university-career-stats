@@ -1,0 +1,28 @@
+university:
+  name: 東北医科薬科大学
+
+campuses:
+  - name: 小松島キャンパス
+    address: 宮城県仙台市青葉区小松島4丁目4番1号
+  - name: 福室キャンパス
+    address: 宮城県仙台市宮城野区福室1丁目15番1号
+
+faculties:
+  - name: 薬学部
+    campus_names:
+      - 小松島キャンパス
+    departments:
+      - name: 薬学科
+      - name: 生命薬科学科
+  - name: 医学部
+    campus_names:
+      - 小松島キャンパス
+      - 福室キャンパス
+    departments:
+      - name: 医学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tohoku-mpu.ac.jp/
+  extraction_status: success

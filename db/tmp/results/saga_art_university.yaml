@@ -1,0 +1,23 @@
+university:
+  name: 嵯峨美術大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒616-8362 京都市右京区嵯峨五島町1番地
+  - name: 罧原キャンパス
+    address: 〒616-8334 京都市右京区嵯峨罧原町8番地
+
+faculties:
+  - name: 芸術学部
+    campus_names:
+      - 本部キャンパス
+      - 罧原キャンパス
+    departments:
+      - name: 造形学科
+      - name: デザイン学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kyoto-saga.ac.jp/
+  extraction_status: partial

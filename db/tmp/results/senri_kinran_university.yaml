@@ -1,0 +1,31 @@
+university:
+  name: 千里金蘭大学
+
+campuses:
+  - name: メインキャンパス
+    address: 〒565-0873 大阪府吹田市藤白台5-25-1
+
+faculties:
+  - name: 栄養学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 栄養学科
+
+  - name: 教育学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 児童教育学科
+
+  - name: 看護学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kinran.ac.jp/
+  extraction_status: success

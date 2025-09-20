@@ -1,0 +1,53 @@
+university:
+  name: 北海学園大学
+
+campuses:
+  - name: 豊平キャンパス
+    address: 〒062-8605 札幌市豊平区旭町4丁目1番40号
+  - name: 山鼻キャンパス
+    address: 〒064-0926 札幌市中央区南26条西11丁目1番1号
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - 豊平キャンパス
+    departments:
+      - name: 経済学科
+      - name: 地域経済学科
+
+  - name: 経営学部
+    campus_names:
+      - 豊平キャンパス
+    departments:
+      - name: 経営学科
+      - name: 経営情報学科
+
+  - name: 法学部
+    campus_names:
+      - 豊平キャンパス
+    departments:
+      - name: 法律学科
+      - name: 政治学科
+
+  - name: 人文学部
+    campus_names:
+      - 豊平キャンパス
+    departments:
+      - name: 日本文化学科
+      - name: 英米文化学科
+
+  - name: 工学部
+    campus_names:
+      - 豊平キャンパス
+      - 山鼻キャンパス
+    departments:
+      - name: 社会環境工学科
+      - name: 建築学科
+      - name: 電子情報工学科
+      - name: 生命工学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.hgu.jp/
+  extraction_status: success

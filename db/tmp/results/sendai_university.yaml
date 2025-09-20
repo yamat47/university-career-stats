@@ -1,0 +1,28 @@
+university:
+  name: 仙台大学
+
+campuses:
+  - name: 船岡キャンパス（メインキャンパス）
+    address: 〒989-1693 宮城県柴田郡柴田町船岡南二丁目2番18号
+  - name: 川平キャンパス（仙台サテライトベース）
+    address: 〒981-8570 宮城県仙台市青葉区川平２丁目２６−１
+  - name: あすと長町サテライトオフィス
+    address: 〒982-0007 宮城県仙台市太白区あすと長町１丁目４－１０
+
+faculties:
+  - name: 体育学部
+    campus_names:
+      - 船岡キャンパス（メインキャンパス）
+    departments:
+      - name: 体育学科
+      - name: 健康福祉学科
+      - name: スポーツ栄養学科
+      - name: スポーツ情報マスメディア学科
+      - name: 現代武道学科
+      - name: 子ども運動教育学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.sendaidaigaku.jp/
+  extraction_status: success

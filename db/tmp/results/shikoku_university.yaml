@@ -1,0 +1,42 @@
+university:
+  name: 四国大学
+
+campuses:
+  - name: メインキャンパス
+    address: 〒771-1192 徳島県徳島市応神町古川字戎子野123-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 日本文学科
+      - name: 書道文化学科
+      - name: 国際文化学科
+
+  - name: 経営情報学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 経営情報学科
+      - name: メディア情報学科
+
+  - name: 生活科学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 人間生活科学科
+      - name: 健康栄養学科
+      - name: 児童学科
+
+  - name: 看護学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.shikoku-u.ac.jp/
+  extraction_status: success

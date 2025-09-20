@@ -1,0 +1,61 @@
+university:
+  name: 駒澤大学
+
+campuses:
+  - name: 駒沢キャンパス
+    address: 〒154-8525 東京都世田谷区駒沢1-23-1
+  - name: 深沢キャンパス
+    address: 〒158-0081 東京都世田谷区深沢6-8-18
+
+faculties:
+  - name: 仏教学部
+    campus_names:
+      - 駒沢キャンパス
+    departments:
+      - name: 禅学科
+      - name: 仏教学科
+  - name: 文学部
+    campus_names:
+      - 駒沢キャンパス
+    departments:
+      - name: 国文学科
+      - name: 英米文学科
+      - name: 地理学科
+      - name: 歴史学科
+      - name: 社会学科
+      - name: 心理学科
+  - name: 経済学部
+    campus_names:
+      - 駒沢キャンパス
+    departments:
+      - name: 経済学科
+      - name: 商学科
+      - name: 現代応用経済学科
+  - name: 法学部
+    campus_names:
+      - 駒沢キャンパス
+    departments:
+      - name: 法律学科
+      - name: 政治学科
+  - name: 経営学部
+    campus_names:
+      - 駒沢キャンパス
+    departments:
+      - name: 経営学科
+      - name: 市場戦略学科
+  - name: 医療健康科学部
+    campus_names:
+      - 深沢キャンパス
+    departments:
+      - name: 診療放射線技術科学科
+  - name: グローバル・メディア・スタディーズ学部
+    campus_names:
+      - 駒沢キャンパス
+    departments:
+      - name: グローバル・メディア学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.komazawa-u.ac.jp/
+  extraction_status: success

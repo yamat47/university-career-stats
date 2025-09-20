@@ -1,0 +1,45 @@
+university:
+  name: 関西外国語大学
+
+campuses:
+  - name: 中宮キャンパス
+    address: 〒573-1001 大阪府枚方市中宮東之町16-1
+  - name: 御殿山キャンパス・グローバルタウン
+    address: 大阪府枚方市御殿山南町6-1
+  - name: 学研都市キャンパス
+    address: 大阪府枚方市穂谷1-10-1
+
+faculties:
+  - name: 外国語学部
+    campus_names:
+      - 中宮キャンパス
+    departments:
+      - name: 英米語学科
+      - name: 英語・デジタルコミュニケーション学科
+      - name: 国際日本学科
+      - name: スペイン語学科
+
+  - name: 英語国際学部
+    campus_names:
+      - 御殿山キャンパス・グローバルタウン
+    departments:
+      - name: 英語国際学科
+      - name: アジア共創学科
+
+  - name: 英語キャリア学部
+    campus_names:
+      - 中宮キャンパス
+    departments:
+      - name: 英語キャリア学科
+
+  - name: 国際共生学部
+    campus_names:
+      - 中宮キャンパス
+    departments:
+      - name: 国際共生学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kansaigaidai.ac.jp/
+  extraction_status: success

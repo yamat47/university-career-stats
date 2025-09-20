@@ -1,0 +1,29 @@
+university:
+  name: 九州大学（芸術工学部）
+
+campuses:
+  - name: 大橋キャンパス
+    address: 〒815-8540 福岡市南区塩原4-9-1
+  - name: 伊都キャンパス
+    address: （1年次の基幹教育科目で使用）
+
+faculties:
+  - name: 芸術工学部
+    campus_names:
+      - 大橋キャンパス
+      - 伊都キャンパス
+    departments:
+      - name: 芸術工学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.design.kyushu-u.ac.jp/
+    - https://www.design.kyushu-u.ac.jp/ja/about/access/
+    - https://admissioncenter.kyushu-u.ac.jp/navi/opencampus/introduction/geikou/
+    - https://www.idc.design.kyushu-u.ac.jp/
+  extraction_status: success
+  notes:
+    - 元九州芸術工科大学は2003年に九州大学と統合
+    - 2020年改組により芸術工学科の1学科制（5コース）に変更
+    - 1年次は伊都キャンパス、2年次以降は大橋キャンパスで学習

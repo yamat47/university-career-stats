@@ -1,0 +1,29 @@
+university:
+  name: 福島学院大学
+
+campuses:
+  - name: 宮代キャンパス
+    address: 〒960-0181 福島市宮代乳児池1-1
+  - name: 福島駅前キャンパス
+    address: 〒960-8505 福島市本町2-10
+
+faculties:
+  - name: 福祉学部
+    campus_names:
+      - 宮代キャンパス
+      - 福島駅前キャンパス
+    departments:
+      - name: 福祉心理学科
+      - name: こども学科
+  - name: マネジメント学部
+    campus_names:
+      - 宮代キャンパス
+      - 福島駅前キャンパス
+    departments:
+      - name: 地域マネジメント学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.fukushima-college.ac.jp/
+  extraction_status: success

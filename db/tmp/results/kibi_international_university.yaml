@@ -1,0 +1,53 @@
+university:
+  name: 吉備国際大学
+
+campuses:
+  - name: 高梁キャンパス
+    address: 〒716-8508 岡山県高梁市伊賀町8
+  - name: 岡山キャンパス
+    address: 〒700-0931 岡山県岡山市北区奥田西町5-5
+  - name: 南あわじ志知キャンパス
+    address: 〒656-0484 兵庫県南あわじ市志知佐礼尾370-1
+  - name: 岡山駅前キャンパス
+    address: 〒700-0022 岡山県岡山市北区岩田町2-5
+
+faculties:
+  - name: 社会科学部
+    campus_names:
+      - 高梁キャンパス
+    departments:
+      - name: 経営社会学科
+      - name: スポーツ社会学科
+  - name: 看護学部
+    campus_names:
+      - 高梁キャンパス
+    departments:
+      - name: 看護学科
+  - name: 人間科学部
+    campus_names:
+      - 高梁キャンパス
+    departments:
+      - name: 人間科学科
+  - name: アニメーション学部
+    campus_names:
+      - 高梁キャンパス
+    departments:
+      - name: アニメーション学科
+  - name: 農学部
+    campus_names:
+      - 南あわじ志知キャンパス
+    departments:
+      - name: 地域創成農学科
+      - name: 海洋水産生物学科
+      - name: アクアグリーンフィールド学科
+  - name: 外国語学部
+    campus_names:
+      - 岡山キャンパス
+    departments:
+      - name: 外国学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://kiui.jp/pc/
+  extraction_status: success
