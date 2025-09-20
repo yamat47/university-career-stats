@@ -1,0 +1,37 @@
+university:
+  name: 東京成徳大学
+
+campuses:
+  - name: 十条台キャンパス
+    address: 〒114-0033 東京都北区十条台1-7-13
+  - name: 八千代体育館・グラウンド
+    address: 〒276-0013 千葉県八千代市保品2014
+
+faculties:
+  - name: 国際学部
+    campus_names:
+      - 十条台キャンパス
+    departments:
+      - name: 国際学科
+  - name: 応用心理学部
+    campus_names:
+      - 十条台キャンパス
+    departments:
+      - name: 臨床心理学科
+      - name: 健康・スポーツ心理学科
+  - name: 子ども学部
+    campus_names:
+      - 十条台キャンパス
+    departments:
+      - name: 子ども学科
+  - name: 経営学部
+    campus_names:
+      - 十条台キャンパス
+    departments:
+      - name: 経営学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tsu.ac.jp/
+  extraction_status: partial

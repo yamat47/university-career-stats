@@ -1,0 +1,37 @@
+university:
+  name: 相模女子大学
+
+campuses:
+  - name: 相模原キャンパス
+    address: 〒252-0383 神奈川県相模原市南区文京2丁目1番1号
+
+faculties:
+  - name: 学芸学部
+    campus_names:
+      - 相模原キャンパス
+    departments:
+      - name: 日本語日本文学科
+      - name: 英語文化コミュニケーション学科
+      - name: 国際コミュニケーション学科
+      - name: 子ども教育学科
+      - name: メディア情報学科
+      - name: 生活デザイン学科
+  - name: 人間社会学部
+    campus_names:
+      - 相模原キャンパス
+    departments:
+      - name: 社会マネジメント学科
+      - name: 人間心理学科
+      - name: 地域クリエーション学科
+  - name: 栄養科学部
+    campus_names:
+      - 相模原キャンパス
+    departments:
+      - name: 健康栄養学科
+      - name: 管理栄養学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.sagami-wu.ac.jp/
+  extraction_status: success

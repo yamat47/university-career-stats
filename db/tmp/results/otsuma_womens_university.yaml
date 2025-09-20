@@ -1,0 +1,59 @@
+university:
+  name: 大妻女子大学
+
+campuses:
+  - name: 千代田キャンパス
+    address: 〒102-8357 東京都千代田区三番町12
+  - name: 多摩キャンパス
+    address: 〒206-8540 東京都多摩市唐木田2-7-1
+
+faculties:
+  - name: 家政学部
+    campus_names:
+      - 千代田キャンパス
+    departments:
+      - name: 被服学科
+      - name: 食物学科
+      - name: 児童学科
+      - name: ライフデザイン学科
+
+  - name: 文学部
+    campus_names:
+      - 千代田キャンパス
+    departments:
+      - name: 日本文学科
+      - name: 英語英文学科
+      - name: コミュニケーション文化学科
+
+  - name: 社会情報学部
+    campus_names:
+      - 千代田キャンパス
+    departments:
+      - name: 社会情報学科
+
+  - name: 人間共生学部
+    campus_names:
+      - 多摩キャンパス
+    departments:
+      - name: 心理学科
+      - name: 福祉学科
+      - name: 共生デザイン学科
+      - name: 社会学科
+
+  - name: 比較文化学部
+    campus_names:
+      - 千代田キャンパス
+    departments:
+      - name: 比較文化学科
+
+  - name: データサイエンス学部
+    campus_names:
+      - 千代田キャンパス
+    departments:
+      - name: データサイエンス学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.otsuma.ac.jp/
+  extraction_status: success

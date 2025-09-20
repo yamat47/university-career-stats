@@ -1,0 +1,22 @@
+university:
+  name: 日本映画大学
+
+campuses:
+  - name: 新百合ヶ丘キャンパス
+    address: 〒215-0004 神奈川県川崎市麻生区万福寺1-16-30
+  - name: 白山キャンパス
+    address: 〒215-0014 神奈川県川崎市麻生区白山2-1-1
+
+faculties:
+  - name: 映画学部
+    campus_names:
+      - 新百合ヶ丘キャンパス
+      - 白山キャンパス
+    departments:
+      - name: 映画学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.eiga.ac.jp/
+  extraction_status: success

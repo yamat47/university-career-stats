@@ -1,0 +1,32 @@
+university:
+  name: 田園調布学園大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒215-8542 神奈川県川崎市麻生区東百合丘3-4-1
+
+faculties:
+  - name: 人間福祉学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 社会福祉学科
+      - name: 共生社会学科
+
+  - name: 子ども教育学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 子ども教育学科
+
+  - name: 人間科学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: 心理学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.dcu.ac.jp/
+  extraction_status: success

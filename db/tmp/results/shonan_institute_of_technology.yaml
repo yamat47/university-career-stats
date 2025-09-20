@@ -1,0 +1,29 @@
+university:
+  name: 湘南工科大学
+
+campuses:
+  - name: 藤沢キャンパス
+    address: 〒251-8511 神奈川県藤沢市辻堂西海岸1-1-25
+
+faculties:
+  - name: 情報学部
+    campus_names:
+      - 藤沢キャンパス
+    departments:
+      - name: 情報学科
+  - name: 工学部
+    campus_names:
+      - 藤沢キャンパス
+    departments:
+      - name: 機械工学科
+      - name: 電気電子工学科
+      - name: 情報工学科
+      - name: コンピュータ応用学科
+      - name: 総合デザイン学科
+      - name: 人間環境学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.shonan-it.ac.jp/
+  extraction_status: success

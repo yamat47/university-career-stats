@@ -1,0 +1,28 @@
+university:
+  name: 東洋英和女学院大学
+
+campuses:
+  - name: 横浜キャンパス
+    address: 〒226-0015 神奈川県横浜市緑区三保町32
+  - name: 六本木キャンパス
+    address: 〒106-8507 東京都港区六本木5-14-40
+
+faculties:
+  - name: 人間科学部
+    campus_names:
+      - 横浜キャンパス
+    departments:
+      - name: 人間科学科
+      - name: 保育子ども学科
+  - name: 国際社会学部
+    campus_names:
+      - 横浜キャンパス
+    departments:
+      - name: 国際社会学科
+      - name: 国際コミュニケーション学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.toyoeiwa.ac.jp/daigaku/
+  extraction_status: success

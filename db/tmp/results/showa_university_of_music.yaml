@@ -1,0 +1,23 @@
+university:
+  name: 昭和音楽大学
+
+campuses:
+  - name: 南校舎
+    address: 〒215-8558 神奈川県川崎市麻生区上麻生1-11-1
+  - name: 北校舎
+    address: 〒215-0004 神奈川県川崎市麻生区万福寺1-16-6
+
+faculties:
+  - name: 音楽学部
+    campus_names:
+      - 南校舎
+      - 北校舎
+    departments:
+      - name: 音楽芸術表現学科
+      - name: 音楽芸術運営学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tosei-showa-music.ac.jp/
+  extraction_status: success

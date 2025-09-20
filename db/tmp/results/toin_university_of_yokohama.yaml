@@ -1,0 +1,38 @@
+university:
+  name: 桐蔭横浜大学
+
+campuses:
+  - name: 桐蔭横浜大学キャンパス
+    address: 〒225-8503 神奈川県横浜市青葉区鉄町1614番地
+
+faculties:
+  - name: 法学部
+    campus_names:
+      - 桐蔭横浜大学キャンパス
+    departments:
+      - name: 法律学科
+
+  - name: 医用工学部
+    campus_names:
+      - 桐蔭横浜大学キャンパス
+    departments:
+      - name: 生命医工学科
+      - name: 臨床工学科
+
+  - name: スポーツ科学部
+    campus_names:
+      - 桐蔭横浜大学キャンパス
+    departments:
+      - name: スポーツ教育学科
+      - name: スポーツ健康科学科
+
+  - name: 現代教養学環
+    campus_names:
+      - 桐蔭横浜大学キャンパス
+    departments: []
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://toin.ac.jp/univ/
+  extraction_status: success
