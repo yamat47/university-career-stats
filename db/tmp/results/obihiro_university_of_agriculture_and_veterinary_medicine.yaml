@@ -1,0 +1,20 @@
+university:
+  name: 帯広畜産大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒080-8555 帯広市稲田町西2線11番地
+
+faculties:
+  - name: 畜産学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 共同獣医学課程
+      - name: 畜産科学課程
+
+metadata:
+  extraction_date: 2025-01-20
+  sources:
+    - http://www.obihiro.ac.jp/
+  extraction_status: success

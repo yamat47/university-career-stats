@@ -1,0 +1,27 @@
+university:
+  name: 東京外国語大学
+
+campuses:
+  - name: 府中キャンパス
+    address: 〒183-8534 東京都府中市朝日町3-11-1
+
+faculties:
+  - name: 言語文化学部
+    campus_names:
+      - 府中キャンパス
+    departments: []
+  - name: 国際社会学部
+    campus_names:
+      - 府中キャンパス
+    departments: []
+  - name: 国際日本学部
+    campus_names:
+      - 府中キャンパス
+    departments: []
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.tufs.ac.jp/
+  extraction_status: success
+  notes: 東京外国語大学は学科制を採用していない

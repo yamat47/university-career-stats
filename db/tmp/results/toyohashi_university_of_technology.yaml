@@ -1,0 +1,23 @@
+university:
+  name: 豊橋技術科学大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒441-8580 愛知県豊橋市天伯町雲雀ヶ丘1-1
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 機械工学課程
+      - name: 電気・電子情報工学課程
+      - name: 情報・知能工学課程
+      - name: 応用化学・生命工学課程
+      - name: 建築・都市システム学課程
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.tut.ac.jp/
+  extraction_status: success

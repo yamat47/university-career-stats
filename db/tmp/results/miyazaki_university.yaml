@@ -1,0 +1,47 @@
+university:
+  name: 宮崎大学
+
+campuses:
+  - name: 木花キャンパス
+    address: 〒889-2192 宮崎市学園木花台西1丁目1番地
+  - name: 清武キャンパス
+    address: 〒889-1692 宮崎市清武町木原5200番地
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 木花キャンパス
+    departments:
+      - name: 学校教育課程
+
+  - name: 医学部
+    campus_names:
+      - 清武キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+
+  - name: 工学部
+    campus_names:
+      - 木花キャンパス
+    departments:
+      - name: 工学科
+
+  - name: 農学部
+    campus_names:
+      - 木花キャンパス
+    departments:
+      - name: 農学科
+      - name: 獣医学科
+
+  - name: 地域資源創成学部
+    campus_names:
+      - 木花キャンパス
+    departments:
+      - name: 地域資源創成学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.miyazaki-u.ac.jp/
+  extraction_status: success

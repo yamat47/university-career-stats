@@ -1,0 +1,43 @@
+university:
+  name: 山梨大学
+
+campuses:
+  - name: 甲府キャンパス
+    address: 〒400-8510 山梨県甲府市武田4-4-37
+  - name: 医学部キャンパス
+    address: 〒409-3898 山梨県中央市下河東1110
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 甲府キャンパス
+    departments:
+      - name: 学校教育課程
+
+  - name: 医学部
+    campus_names:
+      - 医学部キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+
+  - name: 工学部
+    campus_names:
+      - 甲府キャンパス
+    departments:
+      - name: 機械工学科
+
+  - name: 生命環境学部
+    campus_names:
+      - 甲府キャンパス
+    departments:
+      - name: 生命工学科
+      - name: 地域食物科学科
+      - name: 環境科学科
+      - name: 地域社会システム学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.yamanashi.ac.jp/
+  extraction_status: success

@@ -1,0 +1,71 @@
+university:
+  name: 愛媛大学
+
+campuses:
+  - name: 城北キャンパス
+    address: 〒790-8577 愛媛県松山市文京町3番
+  - name: 重信キャンパス
+    address: 〒791-0295 愛媛県東温市志津川
+  - name: 樽味キャンパス
+    address: 〒790-8566 愛媛県松山市樽味3-5-7
+
+faculties:
+  - name: 法文学部
+    campus_names:
+      - 城北キャンパス
+    departments:
+      - name: 法政策研究プログラム
+      - name: グローバル研究プログラム
+      - name: 人文学プログラム
+
+  - name: 教育学部
+    campus_names:
+      - 城北キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+
+  - name: 社会共創学部
+    campus_names:
+      - 城北キャンパス
+    departments:
+      - name: 産業マネジメント学科
+      - name: 産業イノベーション学科
+      - name: 環境デザイン学科
+      - name: 地域資源マネジメント学科
+
+  - name: 理学部
+    campus_names:
+      - 城北キャンパス
+    departments:
+      - name: 理学科
+
+  - name: 医学部
+    campus_names:
+      - 重信キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+
+  - name: 工学部
+    campus_names:
+      - 城北キャンパス
+    departments:
+      - name: 機械工学科
+      - name: 電気電子工学科
+      - name: 情報工学科
+      - name: 機能材料工学科
+      - name: 環境建設工学科
+
+  - name: 農学部
+    campus_names:
+      - 樽味キャンパス
+    departments:
+      - name: 食料生産学科
+      - name: 生命機能学科
+      - name: 生物環境学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.ehime-u.ac.jp/
+  extraction_status: success

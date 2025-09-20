@@ -1,0 +1,57 @@
+university:
+  name: 茨城大学
+
+campuses:
+  - name: 水戸キャンパス
+    address: 〒310-8512 茨城県水戸市文京2-1-1
+  - name: 日立キャンパス
+    address: 〒316-8511 茨城県日立市中成沢町4-12-1
+  - name: 阿見キャンパス
+    address: 〒300-0393 茨城県稲敷郡阿見町中央3-21-1
+  - name: 東海サテライトキャンパス
+    address: 〒319-1106 茨城県那珂郡東海村白方162-1
+
+faculties:
+  - name: 人文社会科学部
+    campus_names:
+      - 水戸キャンパス
+    departments:
+      - name: 現代社会学科
+      - name: 法律経済学科
+      - name: 人間文化学科
+  - name: 教育学部
+    campus_names:
+      - 水戸キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+      - name: 養護教諭養成課程
+  - name: 理学部
+    campus_names:
+      - 水戸キャンパス
+    departments:
+      - name: 理学科
+  - name: 工学部
+    campus_names:
+      - 日立キャンパス
+    departments:
+      - name: 機械システム工学科
+      - name: 電気電子システム工学科
+      - name: 物質科学工学科
+      - name: 情報工学科
+      - name: 都市システム工学科
+  - name: 農学部
+    campus_names:
+      - 阿見キャンパス
+    departments:
+      - name: 食生命科学科
+      - name: 地域総合農学科
+  - name: 地域未来共創学環
+    campus_names:
+      - 水戸キャンパス
+    departments: []
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.ibaraki.ac.jp/
+  extraction_status: success

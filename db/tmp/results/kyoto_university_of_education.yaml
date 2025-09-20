@@ -1,0 +1,19 @@
+university:
+  name: 京都教育大学
+
+campuses:
+  - name: 藤森キャンパス
+    address: 〒612-8522 京都市伏見区深草藤森町1番地
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 藤森キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.kyokyo-u.ac.jp/
+  extraction_status: success

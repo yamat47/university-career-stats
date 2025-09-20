@@ -1,0 +1,108 @@
+{
+  "university": {
+    "name_ja": "東京芸術大学",
+    "name_en": "Tokyo University of the Arts",
+    "url": "https://www.geidai.ac.jp/",
+    "extraction_date": "2025-09-20",
+    "extraction_status": "success"
+  },
+  "faculties": [
+    {
+      "name_ja": "美術学部",
+      "url": "https://www.geidai.ac.jp/department/fine_arts",
+      "campus": "上野キャンパス",
+      "departments": [
+        {
+          "name_ja": "絵画科"
+        },
+        {
+          "name_ja": "彫刻科"
+        },
+        {
+          "name_ja": "工芸科"
+        },
+        {
+          "name_ja": "デザイン科"
+        },
+        {
+          "name_ja": "建築科"
+        },
+        {
+          "name_ja": "先端芸術表現科"
+        },
+        {
+          "name_ja": "芸術学科"
+        }
+      ]
+    },
+    {
+      "name_ja": "音楽学部",
+      "url": "https://www.geidai.ac.jp/department/music",
+      "campus": "上野キャンパス",
+      "departments": [
+        {
+          "name_ja": "作曲科"
+        },
+        {
+          "name_ja": "声楽科"
+        },
+        {
+          "name_ja": "器楽科"
+        },
+        {
+          "name_ja": "指揮科"
+        },
+        {
+          "name_ja": "邦楽科"
+        },
+        {
+          "name_ja": "楽理科"
+        },
+        {
+          "name_ja": "音楽環境創造科",
+          "notes": "千住キャンパスで主に教育活動を実施"
+        }
+      ]
+    }
+  ],
+  "campuses": [
+    {
+      "name": "上野キャンパス",
+      "address": "〒110-8714 東京都台東区上野公園12-8",
+      "faculties": ["美術学部", "音楽学部"]
+    },
+    {
+      "name": "取手キャンパス",
+      "address": "〒302-0001 茨城県取手市小文間5000番地",
+      "notes": "美術学部の工房・専門教育施設"
+    },
+    {
+      "name": "千住キャンパス",
+      "address": "〒120-0034 東京都足立区千住1-25-1",
+      "notes": "音楽学部音楽環境創造科、大学院国際芸術創造研究科"
+    },
+    {
+      "name": "横浜キャンパス",
+      "address": "〒231-0005 神奈川県横浜市中区本町4-44",
+      "notes": "大学院映像研究科（馬車道、万国橋、元町中華街の3校地）"
+    }
+  ],
+  "metadata": {
+    "sources": [
+      "https://www.geidai.ac.jp/",
+      "https://www.geidai.ac.jp/department",
+      "https://www.geidai.ac.jp/department/fine_arts",
+      "https://www.geidai.ac.jp/department/music",
+      "https://www.geidai.ac.jp/access/ueno",
+      "https://www.geidai.ac.jp/access/toride",
+      "https://www.geidai.ac.jp/access/senju",
+      "https://www.geidai.ac.jp/access/yokohama"
+    ],
+    "notes": [
+      "美術学部は上野キャンパスが主体で、取手キャンパスに工房等の施設がある",
+      "音楽学部音楽環境創造科は千住キャンパスで主に教育活動を実施",
+      "横浜キャンパスは大学院映像研究科のみで学部は設置されていない"
+    ],
+    "confidence_level": "high"
+  }
+}

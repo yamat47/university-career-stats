@@ -1,0 +1,91 @@
+university:
+  name: 山口大学
+
+campuses:
+  - name: 吉田キャンパス
+    address: 山口県山口市吉田1677-1
+  - name: 小串キャンパス
+    address: 山口県宇部市南小串1丁目1-1
+  - name: 常盤キャンパス
+    address: 山口県宇部市常盤台2丁目16-1
+
+faculties:
+  - name: 人文学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 人文学科
+
+  - name: 教育学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+
+  - name: 経済学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経営学科
+      - name: 観光政策学科
+
+  - name: 理学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 数理科学科
+      - name: 物理・情報科学科
+      - name: 化学科
+      - name: 生物学科
+      - name: 地球圏システム科学科
+
+  - name: 医学部
+    campus_names:
+      - 小串キャンパス
+    departments:
+      - name: 医学科
+      - name: 保健学科
+
+  - name: 工学部
+    campus_names:
+      - 常盤キャンパス
+    departments:
+      - name: 機械工学科
+      - name: 社会建設工学科
+      - name: 応用化学科
+      - name: 電気電子工学科
+      - name: 知能情報工学科
+      - name: 感性デザイン工学科
+      - name: 循環環境工学科
+
+  - name: 農学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 生物資源環境科学科
+      - name: 生物機能科学科
+
+  - name: 共同獣医学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 獣医学科
+
+  - name: 国際総合科学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 国際総合科学科
+
+  - name: ひと・まち未来共創学環
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: ひと・まち未来共創学環
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.yamaguchi-u.ac.jp/
+  extraction_status: success

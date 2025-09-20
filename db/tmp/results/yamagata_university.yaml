@@ -1,0 +1,56 @@
+university:
+  name: 山形大学
+
+campuses:
+  - name: 小白川キャンパス
+    address: 〒990-8560　山形市小白川町一丁目4-12
+  - name: 飯田キャンパス
+    address: 〒990-9585　山形市飯田西二丁目2-2
+  - name: 米沢キャンパス
+    address: 〒992-8510　米沢市城南四丁目3-16
+  - name: 鶴岡キャンパス
+    address: 〒997-8555　鶴岡市若葉町1-23
+
+faculties:
+  - name: 人文社会科学部
+    campus_names:
+      - 小白川キャンパス
+    departments:
+      - name: 人文社会科学科
+  - name: 地域教育文化学部
+    campus_names:
+      - 小白川キャンパス
+    departments:
+      - name: 地域教育文化学科
+  - name: 理学部
+    campus_names:
+      - 小白川キャンパス
+    departments:
+      - name: 理学科
+  - name: 医学部
+    campus_names:
+      - 飯田キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+  - name: 工学部
+    campus_names:
+      - 米沢キャンパス
+    departments:
+      - name: 高分子・有機材料工学科
+      - name: 化学・バイオ工学科
+      - name: 情報・エレクトロニクス学科
+      - name: 機械システム工学科
+      - name: 建築・デザイン学科
+      - name: システム創成工学科
+  - name: 農学部
+    campus_names:
+      - 鶴岡キャンパス
+    departments:
+      - name: 食料生命環境学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.yamagata-u.ac.jp/index-j.html
+  extraction_status: success

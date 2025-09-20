@@ -1,0 +1,81 @@
+university:
+  name: 千葉大学
+
+campuses:
+  - name: 西千葉キャンパス
+    address: 〒263-8522 千葉県千葉市稲毛区弥生町1-33
+  - name: 亥鼻キャンパス
+    address: 〒260-8670 千葉県千葉市中央区亥鼻1-8-1
+  - name: 松戸キャンパス
+    address: 〒271-8510 千葉県松戸市松戸648
+
+faculties:
+  - name: 国際教養学部
+    campus_names:
+      - 西千葉キャンパス
+    departments:
+      - name: 国際教養学科
+  - name: 文学部
+    campus_names:
+      - 西千葉キャンパス
+    departments:
+      - name: 人文学科
+  - name: 法政経学部
+    campus_names:
+      - 西千葉キャンパス
+    departments:
+      - name: 法政経学科
+  - name: 教育学部
+    campus_names:
+      - 西千葉キャンパス
+    departments:
+      - name: 学校教員養成課程
+  - name: 理学部
+    campus_names:
+      - 西千葉キャンパス
+    departments:
+      - name: 数学・情報数理学科
+      - name: 物理学科
+      - name: 化学科
+      - name: 生物学科
+      - name: 地球科学科
+  - name: 工学部
+    campus_names:
+      - 西千葉キャンパス
+    departments:
+      - name: 総合工学科
+  - name: 情報・データサイエンス学部
+    campus_names:
+      - 西千葉キャンパス
+    departments:
+      - name: 情報・データサイエンス学科
+  - name: 園芸学部
+    campus_names:
+      - 松戸キャンパス
+    departments:
+      - name: 園芸学科
+      - name: 応用生命化学科
+      - name: 緑地環境学科
+      - name: 食料資源経済学科
+  - name: 医学部
+    campus_names:
+      - 亥鼻キャンパス
+    departments:
+      - name: 医学科
+  - name: 薬学部
+    campus_names:
+      - 亥鼻キャンパス
+    departments:
+      - name: 薬学科
+      - name: 薬科学科
+  - name: 看護学部
+    campus_names:
+      - 亥鼻キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.chiba-u.ac.jp/
+  extraction_status: success

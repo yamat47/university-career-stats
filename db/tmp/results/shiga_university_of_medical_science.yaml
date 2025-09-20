@@ -1,0 +1,20 @@
+university:
+  name: 滋賀医科大学
+
+campuses:
+  - name: 滋賀医科大学キャンパス
+    address: 〒520-2192 滋賀県大津市瀬田月輪町
+
+faculties:
+  - name: 医学部
+    campus_names:
+      - 滋賀医科大学キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.shiga-med.ac.jp/
+  extraction_status: success

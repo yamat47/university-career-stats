@@ -1,0 +1,19 @@
+university:
+  name: 上越教育大学
+
+campuses:
+  - name: 山屋敷キャンパス
+    address: 〒943-8512 新潟県上越市山屋敷町1番地
+
+faculties:
+  - name: 学校教育学部
+    campus_names:
+      - 山屋敷キャンパス
+    departments:
+      - name: 初等教育教員養成課程
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.juen.ac.jp/
+  extraction_status: success

@@ -1,0 +1,38 @@
+university:
+  name: 九州工業大学
+
+campuses:
+  - name: 戸畑キャンパス
+    address: 福岡県北九州市戸畑区仙水町1-1
+  - name: 飯塚キャンパス
+    address: 福岡県飯塚市川津680-4
+  - name: 若松キャンパス
+    address: 福岡県北九州市若松区ひびきの2-4
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - 戸畑キャンパス
+    departments:
+      - name: 建設社会工学科
+      - name: 機械知能工学科
+      - name: 宇宙システム工学科
+      - name: 電気電子工学科
+      - name: 応用化学科
+      - name: マテリアル工学科
+
+  - name: 情報工学部
+    campus_names:
+      - 飯塚キャンパス
+    departments:
+      - name: 知能情報工学科
+      - name: 情報・通信工学科
+      - name: 知的システム工学科
+      - name: 物理情報工学科
+      - name: 生命化学情報工学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.kyutech.ac.jp/
+  extraction_status: success

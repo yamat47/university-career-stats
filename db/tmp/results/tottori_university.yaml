@@ -1,0 +1,45 @@
+university:
+  name: 鳥取大学
+
+campuses:
+  - name: 鳥取キャンパス
+    address: 〒680-8550 鳥取県鳥取市湖山町南4丁目101番地
+  - name: 米子キャンパス
+    address: 〒683-8503 鳥取県米子市西町86番地
+
+faculties:
+  - name: 地域学部
+    campus_names:
+      - 鳥取キャンパス
+    departments:
+      - name: 地域学科
+
+  - name: 医学部
+    campus_names:
+      - 米子キャンパス
+    departments:
+      - name: 医学科
+      - name: 生命科学科
+      - name: 保健学科
+
+  - name: 工学部
+    campus_names:
+      - 鳥取キャンパス
+    departments:
+      - name: 機械物理系学科
+      - name: 電気情報系学科
+      - name: 化学バイオ系学科
+      - name: 社会システム土木系学科
+
+  - name: 農学部
+    campus_names:
+      - 鳥取キャンパス
+    departments:
+      - name: 生命環境農学科
+      - name: 共同獣医学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.tottori-u.ac.jp/
+  extraction_status: success

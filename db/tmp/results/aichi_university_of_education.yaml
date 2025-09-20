@@ -1,0 +1,20 @@
+university:
+  name: 愛知教育大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒448-8542 愛知県刈谷市井ケ谷町広沢1
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 学校教員養成課程
+      - name: 教育支援専門職養成課程
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.aichi-edu.ac.jp/
+  extraction_status: success

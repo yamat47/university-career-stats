@@ -1,0 +1,56 @@
+university:
+  name: 徳島大学
+
+campuses:
+  - name: 新蔵地区
+    address: 〒770-8501 徳島市新蔵町2丁目24番地
+  - name: 常三島地区
+    address: 〒770-8502 徳島市南常三島町1丁目1番地
+  - name: 蔵本地区
+    address: 〒770-8503 徳島市蔵本町3丁目18番地の15
+
+faculties:
+  - name: 総合科学部
+    campus_names:
+      - 常三島地区
+    departments:
+      - name: 社会総合科学科
+
+  - name: 医学部
+    campus_names:
+      - 蔵本地区
+    departments:
+      - name: 医学科
+      - name: 医科栄養学科
+      - name: 保健学科
+
+  - name: 歯学部
+    campus_names:
+      - 蔵本地区
+    departments:
+      - name: 歯学科
+      - name: 口腔保健学科
+
+  - name: 薬学部
+    campus_names:
+      - 蔵本地区
+    departments:
+      - name: 薬学科
+
+  - name: 理工学部
+    campus_names:
+      - 常三島地区
+    departments:
+      - name: 理工学科
+
+  - name: 生物資源産業学部
+    campus_names:
+      - 常三島地区
+    departments:
+      - name: 生物資源産業学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.tokushima-u.ac.jp/
+  extraction_status: success

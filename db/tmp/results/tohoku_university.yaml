@@ -1,0 +1,99 @@
+university:
+  name: 東北大学
+
+campuses:
+  - name: 川内北キャンパス
+    address: 〒980-8576 仙台市青葉区川内41
+  - name: 川内南キャンパス
+    address: 〒980-8576 仙台市青葉区川内27-1
+  - name: 青葉山北キャンパス
+    address: 〒980-8578 仙台市青葉区荒巻字青葉6-3
+  - name: 青葉山東キャンパス
+    address: 〒980-8579 仙台市青葉区荒巻字青葉6-6
+  - name: 青葉山新キャンパス
+    address: 〒980-8572 仙台市青葉区荒巻字青葉468-1
+  - name: 星陵キャンパス
+    address: 〒980-8575 仙台市青葉区星陵町2-1
+  - name: 片平キャンパス
+    address: 〒980-8577 仙台市青葉区片平二丁目1-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 川内南キャンパス
+    departments:
+      - name: 人文社会学科
+
+  - name: 教育学部
+    campus_names:
+      - 川内南キャンパス
+    departments:
+      - name: 教育科学科
+
+  - name: 法学部
+    campus_names:
+      - 川内南キャンパス
+    departments:
+      - name: 法学科
+
+  - name: 経済学部
+    campus_names:
+      - 川内南キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経営学科
+
+  - name: 理学部
+    campus_names:
+      - 青葉山北キャンパス
+    departments:
+      - name: 数学科
+      - name: 物理学科
+      - name: 宇宙地球物理学科
+      - name: 化学科
+      - name: 地圏環境科学科
+      - name: 地球惑星物質科学科
+      - name: 生物学科
+
+  - name: 医学部
+    campus_names:
+      - 星陵キャンパス
+    departments:
+      - name: 医学科
+      - name: 保健学科
+
+  - name: 歯学部
+    campus_names:
+      - 星陵キャンパス
+    departments:
+      - name: 歯学科
+
+  - name: 薬学部
+    campus_names:
+      - 青葉山北キャンパス
+    departments:
+      - name: 薬学科
+      - name: 創薬科学科
+
+  - name: 工学部
+    campus_names:
+      - 青葉山東キャンパス
+    departments:
+      - name: 機械知能・航空工学科
+      - name: 電気情報物理工学科
+      - name: 化学・バイオ工学科
+      - name: 材料科学総合学科
+      - name: 建築・社会環境工学科
+
+  - name: 農学部
+    campus_names:
+      - 青葉山新キャンパス
+    departments:
+      - name: 生物生産科学科
+      - name: 応用生物化学科
+
+metadata:
+  extraction_date: 2025-01-20
+  sources:
+    - http://www.tohoku.ac.jp/japanese/
+  extraction_status: success

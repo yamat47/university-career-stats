@@ -1,0 +1,20 @@
+university:
+  name: 旭川医科大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒078-8510 北海道旭川市緑が丘東2条1丁目1番1号
+
+faculties:
+  - name: 医学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-01-20
+  sources:
+    - http://www.asahikawa-med.ac.jp/
+  extraction_status: success

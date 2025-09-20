@@ -1,0 +1,29 @@
+university:
+  name: 筑波技術大学
+
+campuses:
+  - name: 天久保キャンパス
+    address: 〒305-8520 茨城県つくば市天久保4-3-15
+  - name: 春日キャンパス
+    address: 〒305-8521 茨城県つくば市春日4-12-7
+
+faculties:
+  - name: 産業技術学部
+    campus_names:
+      - 天久保キャンパス
+    departments:
+      - name: 産業情報学科
+      - name: 総合デザイン学科
+  - name: 保健科学部
+    campus_names:
+      - 春日キャンパス
+    departments:
+      - name: 保健学科
+      - name: 情報システム学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.tsukuba-tech.ac.jp/
+  extraction_status: success
+  notes: 聴覚障害者・視覚障害者のための国立大学

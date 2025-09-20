@@ -1,0 +1,78 @@
+university:
+  name: 熊本大学
+
+campuses:
+  - name: 黒髪北地区
+    address: 〒860-8555 熊本市中央区黒髪2丁目40番1号
+  - name: 黒髪南地区
+    address: 〒860-8555 熊本市中央区黒髪2丁目39番1号
+  - name: 本荘北地区
+    address: 〒860-8556 熊本市中央区本荘1丁目1番地1号
+  - name: 本荘南地区
+    address: 〒862-0976 熊本市中央区九品寺4丁目24番1号
+  - name: 大江地区
+    address: 〒862-0973 熊本市中央区大江本町5番1号
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 黒髪北地区
+    departments:
+      - name: 総合人間学科
+      - name: 歴史学科
+      - name: 文学科
+      - name: コミュニケーション情報学科
+
+  - name: 教育学部
+    campus_names:
+      - 黒髪北地区
+    departments:
+      - name: 学校教育教員養成課程
+
+  - name: 法学部
+    campus_names:
+      - 黒髪北地区
+    departments:
+      - name: 法学科
+
+  - name: 理学部
+    campus_names:
+      - 黒髪南地区
+    departments:
+      - name: 理学科
+
+  - name: 医学部
+    campus_names:
+      - 本荘北地区
+      - 本荘南地区
+    departments:
+      - name: 医学科
+      - name: 保健学科
+
+  - name: 薬学部
+    campus_names:
+      - 大江地区
+    departments:
+      - name: 薬学科
+      - name: 創薬・生命薬科学科
+
+  - name: 工学部
+    campus_names:
+      - 黒髪南地区
+    departments:
+      - name: 土木建築学科
+      - name: 機械数理工学科
+      - name: 情報電気工学科
+      - name: 材料・応用化学科
+      - name: 半導体デバイス工学課程
+
+  - name: 情報融合学環
+    campus_names:
+      - 黒髪南地区
+    departments: []
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - http://www.kumamoto-u.ac.jp/
+  extraction_status: success
