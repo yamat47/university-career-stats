@@ -1,0 +1,19 @@
+university:
+  name: 身延山大学
+
+campuses:
+  - name: 身延キャンパス
+    address: 〒409-2597 山梨県南巨摩郡身延町身延3567
+
+faculties:
+  - name: 仏教学部
+    campus_names:
+      - 身延キャンパス
+    departments:
+      - name: 仏教学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.min.ac.jp/
+  extraction_status: success

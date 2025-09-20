@@ -1,0 +1,25 @@
+university:
+  name: 久留米工業大学
+
+campuses:
+  - name: 向野キャンパス
+    address: 830-0052 福岡県久留米市上津町2228-66
+  - name: 中尾山キャンパス
+    address: 詳細住所不明
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - 向野キャンパス
+    departments:
+      - name: 機械システム工学科
+      - name: 交通機械工学科
+      - name: 建築・設備工学科
+      - name: 情報ネットワーク工学科
+      - name: 教育創造工学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kurume-it.ac.jp/
+  extraction_status: partial

@@ -1,0 +1,35 @@
+university:
+  name: 日本経済大学
+
+campuses:
+  - name: 福岡キャンパス
+    address: 〒818-0197 福岡県太宰府市五条3-11-25
+  - name: 神戸三宮キャンパス
+    address: 〒651-0094 兵庫県神戸市中央区琴ノ緒町4-4-7
+  - name: 東京渋谷キャンパス
+    address: 〒150-0031 東京都渋谷区桜丘町24-5（メイン）、〒150-0031 東京都渋谷区桜丘町1-3（STATIO）
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - 福岡キャンパス
+      - 神戸三宮キャンパス
+    departments:
+      - name: 経済学科
+      - name: 商学科
+      - name: 健康スポーツ経営学科
+  - name: 経営学部
+    campus_names:
+      - 福岡キャンパス
+      - 東京渋谷キャンパス
+    departments:
+      - name: グローバルビジネス学科
+      - name: 芸創プロデュース学科
+      - name: 経営学科
+      - name: デジタルビジネス・マネジメント学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.jue.ac.jp/
+  extraction_status: success

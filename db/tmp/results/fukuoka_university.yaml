@@ -1,0 +1,85 @@
+university:
+  name: 福岡大学
+
+campuses:
+  - name: 福岡大学キャンパス
+    address: 〒814-0180 福岡市城南区七隈八丁目19-1
+
+faculties:
+  - name: 人文学部
+    campus_names:
+      - 福岡大学キャンパス
+    departments:
+      - name: 文化学科
+      - name: 歴史学科
+      - name: 日本語日本文学科
+      - name: 教育・臨床心理学科
+      - name: 英語学科
+      - name: ドイツ語学科
+      - name: フランス語学科
+      - name: 東アジア地域言語学科
+  - name: 法学部
+    campus_names:
+      - 福岡大学キャンパス
+    departments:
+      - name: 法律学科
+      - name: 経営法学科
+  - name: 経済学部
+    campus_names:
+      - 福岡大学キャンパス
+    departments:
+      - name: 経済学科
+      - name: 産業経済学科
+  - name: 商学部
+    campus_names:
+      - 福岡大学キャンパス
+    departments:
+      - name: 商学科
+      - name: 経営学科
+      - name: 貿易学科
+  - name: 商学部第二部
+    campus_names:
+      - 福岡大学キャンパス
+    departments:
+      - name: 商学科
+  - name: 理学部
+    campus_names:
+      - 福岡大学キャンパス
+    departments:
+      - name: 応用数学科
+      - name: 物理科学科
+      - name: 化学科
+      - name: 地球圏科学科
+  - name: 工学部
+    campus_names:
+      - 福岡大学キャンパス
+    departments:
+      - name: 機械工学科
+      - name: 電気工学科
+      - name: 電子情報工学科
+      - name: 化学システム工学科
+      - name: 社会デザイン工学科
+      - name: 建築学科
+  - name: 医学部
+    campus_names:
+      - 福岡大学キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+  - name: 薬学部
+    campus_names:
+      - 福岡大学キャンパス
+    departments:
+      - name: 薬学科
+  - name: スポーツ科学部
+    campus_names:
+      - 福岡大学キャンパス
+    departments:
+      - name: スポーツ科学科
+      - name: 健康運動科学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.fukuoka-u.ac.jp/
+  extraction_status: success

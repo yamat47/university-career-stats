@@ -1,0 +1,40 @@
+university:
+  name: 福岡工業大学
+
+campuses:
+  - name: 福岡工業大学キャンパス
+    address: 〒811-0295 福岡県福岡市東区和白東3-30-1
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - 福岡工業大学キャンパス
+    departments:
+      - name: 電子情報工学科
+      - name: 生命環境化学科
+      - name: 知能機械工学科
+      - name: 電気工学科
+  - name: 情報工学部
+    campus_names:
+      - 福岡工業大学キャンパス
+    departments:
+      - name: 情報工学科
+      - name: 情報通信工学科
+      - name: 情報システム工学科
+      - name: 情報マネジメント学科
+  - name: 社会環境学部
+    campus_names:
+      - 福岡工業大学キャンパス
+    departments:
+      - name: 社会環境学科
+  - name: 短期大学部
+    campus_names:
+      - 福岡工業大学キャンパス
+    departments:
+      - name: 情報メディア学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.fit.ac.jp/
+  extraction_status: success

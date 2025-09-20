@@ -1,0 +1,25 @@
+university:
+  name: 産業医科大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒807-8555 北九州市八幡西区医生ケ丘1番1号
+
+faculties:
+  - name: 医学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 医学科
+  - name: 産業保健学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 看護学科
+      - name: 産業衛生科学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.uoeh-u.ac.jp/index.html
+  extraction_status: success

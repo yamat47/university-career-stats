@@ -1,0 +1,27 @@
+university:
+  name: 九州国際大学
+
+campuses:
+  - name: 平野キャンパス
+    address: 〒805-8512 福岡県北九州市八幡東区平野1-6-1
+  - name: 若松グラウンド
+    address: 〒808-0122 福岡県北九州市若松区大字蜑住1866番
+
+faculties:
+  - name: 法学部
+    campus_names:
+      - 平野キャンパス
+    departments:
+      - name: 法律学科
+  - name: 現代ビジネス学部
+    campus_names:
+      - 平野キャンパス
+    departments:
+      - name: 地域経済学科
+      - name: 国際社会学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kiu.ac.jp/
+  extraction_status: success

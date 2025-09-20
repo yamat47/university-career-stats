@@ -1,0 +1,37 @@
+university:
+  name: 松本大学
+
+campuses:
+  - name: 松本大学キャンパス
+    address: 〒390-1295 長野県松本市新村2095-1
+
+faculties:
+  - name: 総合経営学部
+    campus_names:
+      - 松本大学キャンパス
+    departments:
+      - name: 総合経営学科
+      - name: 観光ホスピタリティ学科
+  - name: 人間健康学部
+    campus_names:
+      - 松本大学キャンパス
+    departments:
+      - name: 健康栄養学科
+      - name: スポーツ健康学科
+  - name: 教育学部
+    campus_names:
+      - 松本大学キャンパス
+    departments:
+      - name: 学校教育学科
+  - name: 松商短期大学部
+    campus_names:
+      - 松本大学キャンパス
+    departments:
+      - name: 商学科
+      - name: 経営情報学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.matsumoto-u.ac.jp/
+  extraction_status: success

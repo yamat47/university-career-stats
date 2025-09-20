@@ -1,0 +1,29 @@
+university:
+  name: 神戸医療未来大学
+
+campuses:
+  - name: 姫路キャンパス
+    address: 〒679-2217 兵庫県神崎郡福崎町高岡1966-5
+  - name: 大阪天王寺キャンパス
+    address: 〒543-0042 大阪府大阪市天王寺区烏ケ辻2丁目1-4
+  - name: 神戸三宮サテライトキャンパス
+    address: 〒651-0094 兵庫県神戸市中央区琴ノ緒町4丁目4-7
+
+faculties:
+  - name: 健康スポーツ学部
+    campus_names:
+      - 姫路キャンパス
+    departments:
+      - name: 健康スポーツコミュニケーション学科
+  - name: 人間社会学部
+    campus_names:
+      - 姫路キャンパス
+    departments:
+      - name: 未来社会学科
+      - name: 経営データビジネス学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kinwu.ac.jp/
+  extraction_status: success

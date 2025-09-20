@@ -1,0 +1,39 @@
+university:
+  name: 山梨学院大学
+
+campuses:
+  - name: 山梨学院大学キャンパス
+    address: 山梨県甲府市酒折2-4-5
+
+faculties:
+  - name: 法学部
+    campus_names:
+      - 山梨学院大学キャンパス
+    departments:
+      - name: 法学科
+  - name: 経営学部
+    campus_names:
+      - 山梨学院大学キャンパス
+    departments:
+      - name: 経営学科
+  - name: 健康栄養学部
+    campus_names:
+      - 山梨学院大学キャンパス
+    departments:
+      - name: 管理栄養学科
+  - name: 国際リベラルアーツ学部
+    campus_names:
+      - 山梨学院大学キャンパス
+    departments:
+      - name: 国際リベラルアーツ学科
+  - name: スポーツ科学部
+    campus_names:
+      - 山梨学院大学キャンパス
+    departments:
+      - name: スポーツ科学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.ygu.ac.jp/
+  extraction_status: success

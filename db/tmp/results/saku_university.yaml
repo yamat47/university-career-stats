@@ -1,0 +1,24 @@
+university:
+  name: 佐久大学
+
+campuses:
+  - name: 佐久大学
+    address: 〒385-0022 長野県佐久市岩村田2384
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - 佐久大学
+    departments:
+      - name: 看護学科
+  - name: 人間福祉学部
+    campus_names:
+      - 佐久大学
+    departments:
+      - name: 人間福祉学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.saku.ac.jp/
+  extraction_status: success

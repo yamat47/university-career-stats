@@ -1,0 +1,22 @@
+university:
+  name: 新潟食料農業大学
+
+campuses:
+  - name: 胎内キャンパス
+    address: 〒959-2702 新潟県胎内市平根台2416
+  - name: 新潟キャンパス
+    address: 〒950-3197 新潟県新潟市北区島見町940
+
+faculties:
+  - name: 食料産業学部
+    campus_names:
+      - 胎内キャンパス
+      - 新潟キャンパス
+    departments:
+      - name: 食料産業学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://nafu.ac.jp/
+  extraction_status: success

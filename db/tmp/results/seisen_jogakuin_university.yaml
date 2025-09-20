@@ -1,0 +1,38 @@
+university:
+  name: 清泉大学
+
+campuses:
+  - name: 上野キャンパス
+    address: 〒381-0085 長野県長野市上野2-120-8
+  - name: 長野駅東口キャンパス
+    address: 〒380-0921 長野県長野市栗田2277
+
+faculties:
+  - name: 人間学部
+    campus_names:
+      - 上野キャンパス
+    departments:
+      - name: 心理コミュニケーション学科
+  - name: 人文社会科学部
+    campus_names:
+      - 上野キャンパス
+    departments:
+      - name: 情報コミュニケーション学科
+      - name: 文化芸術学科
+  - name: 看護学部
+    campus_names:
+      - 長野駅東口キャンパス
+    departments:
+      - name: 看護学科
+  - name: 短期大学部
+    campus_names:
+      - 上野キャンパス
+    departments:
+      - name: こども学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.seisen-jc.ac.jp/
+  extraction_status: success
+  notes: 2025年4月1日より清泉女学院大学から清泉大学に校名変更

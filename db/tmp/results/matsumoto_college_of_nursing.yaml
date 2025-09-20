@@ -1,0 +1,19 @@
+university:
+  name: 松本看護大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒399-0033 長野県松本市笹賀3118
+
+faculties:
+  - name: 看護学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.matsutan.jp/nursing
+  extraction_status: success

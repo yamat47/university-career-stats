@@ -1,0 +1,31 @@
+university:
+  name: 筑紫女学園大学
+
+campuses:
+  - name: 筑紫女学園大学キャンパス
+    address: 〒818-0192 福岡県太宰府市石坂2丁目12-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 筑紫女学園大学キャンパス
+    departments:
+      - name: 日本語・日本文学科
+      - name: 英語学科
+      - name: アジア文化学科
+  - name: 人間科学部
+    campus_names:
+      - 筑紫女学園大学キャンパス
+    departments:
+      - name: 人間科学科
+  - name: 現代社会学部
+    campus_names:
+      - 筑紫女学園大学キャンパス
+    departments:
+      - name: 現代社会学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.chikushi-u.ac.jp/
+  extraction_status: success

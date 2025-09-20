@@ -1,0 +1,26 @@
+university:
+  name: 事業創造大学院大学
+
+campuses:
+  - name: メインキャンパス
+    address: 〒950-0916 新潟県新潟市中央区米山3-1-46
+  - name: 東京サテライト
+    address: 〒100-0005 東京都千代田区丸の内1-7-12 サピアタワー10F
+
+faculties:
+  - name: 情報デザイン学部（仮称・2025年4月開設予定）
+    campus_names:
+      - オンライン完結型通信教育課程
+    departments:
+      - name: 情報デザイン学科（仮称）
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.jigyo.ac.jp/
+  extraction_status: success
+  notes:
+    - 現在は大学院大学で学部は存在しない
+    - 2025年4月に情報デザイン学部の新設予定（設置認可申請中）
+    - 2026年4月に大学名を「開志創造大学」に変更予定
+    - 情報デザイン学部はオンライン完結型の通信教育課程

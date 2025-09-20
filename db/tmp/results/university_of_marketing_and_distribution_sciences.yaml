@@ -1,0 +1,33 @@
+university:
+  name: 流通科学大学
+
+campuses:
+  - name: 流通科学大学キャンパス
+    address: 〒651-2188 神戸市西区学園西町3丁目1番
+
+faculties:
+  - name: 商学部
+    campus_names:
+      - 流通科学大学キャンパス
+    departments:
+      - name: マーケティング学科
+      - name: 経営学科
+  - name: 経済学部
+    campus_names:
+      - 流通科学大学キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経済情報学科
+  - name: 人間社会学部
+    campus_names:
+      - 流通科学大学キャンパス
+    departments:
+      - name: 心理社会学科
+      - name: 観光学科
+      - name: 人間健康学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.umds.ac.jp/
+  extraction_status: success

@@ -1,0 +1,19 @@
+university:
+  name: 山梨英和大学
+
+campuses:
+  - name: 山梨英和大学
+    address: 〒400-8555 山梨県甲府市横根町888
+
+faculties:
+  - name: 人間文化学部
+    campus_names:
+      - 山梨英和大学
+    departments:
+      - name: 人間文化学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.yamanashi-eiwa.ac.jp/
+  extraction_status: success

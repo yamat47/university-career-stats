@@ -1,0 +1,71 @@
+university:
+  name: 九州産業大学
+
+campuses:
+  - name: 九州産業大学キャンパス
+    address: 〒813-8503 福岡県福岡市東区松香台2-3-1
+
+faculties:
+  - name: 国際文化学部
+    campus_names:
+      - 九州産業大学キャンパス
+    departments:
+      - name: 国際文化学科
+      - name: 日本文化学科
+  - name: 人間科学部
+    campus_names:
+      - 九州産業大学キャンパス
+    departments:
+      - name: 臨床心理学科
+      - name: 子ども教育学科
+      - name: スポーツ健康科学科
+  - name: 経済学部
+    campus_names:
+      - 九州産業大学キャンパス
+    departments:
+      - name: 経済学科
+  - name: 商学部
+    campus_names:
+      - 九州産業大学キャンパス
+    departments:
+      - name: 経営・流通学科
+  - name: 地域共創学部
+    campus_names:
+      - 九州産業大学キャンパス
+    departments:
+      - name: 観光学科
+      - name: 地域づくり学科
+  - name: 理工学部
+    campus_names:
+      - 九州産業大学キャンパス
+    departments:
+      - name: 情報科学科
+      - name: 機械工学科
+      - name: 電気工学科
+  - name: 生命科学部
+    campus_names:
+      - 九州産業大学キャンパス
+    departments:
+      - name: 生命科学科
+  - name: 建築都市工学部
+    campus_names:
+      - 九州産業大学キャンパス
+    departments:
+      - name: 建築学科
+      - name: 住居・インテリア学科
+      - name: 都市デザイン工学科
+  - name: 芸術学部
+    campus_names:
+      - 九州産業大学キャンパス
+    departments:
+      - name: 芸術表現学科
+      - name: 写真・映像メディア学科
+      - name: ビジュアルデザイン学科
+      - name: 生活環境デザイン学科
+      - name: ソーシャルデザイン学科
+
+metadata:
+  extraction_date: 2025-09-20
+  sources:
+    - https://www.kyusan-u.ac.jp/
+  extraction_status: success
