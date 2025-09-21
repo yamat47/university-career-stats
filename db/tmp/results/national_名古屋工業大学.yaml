@@ -3,9 +3,7 @@ university:
 
 campuses:
   - name: 御器所キャンパス
-    address: 〒466-8555 愛知県名古屋市昭和区御器所町
-  - name: 先進セラミックス研究センター
-    address: 岐阜県多治見市
+    address: 〒466-8555 名古屋市昭和区御器所町
 
 faculties:
   - name: 工学部
@@ -17,9 +15,14 @@ faculties:
       - name: 電気・機械工学科
       - name: 情報工学科
       - name: 社会工学科
+      - name: 創造工学教育課程
+      - name: 基幹工学教育課程
 
 metadata:
   extraction_date: 2025-09-22
   sources:
-    - http://www.nitech.ac.jp/
+    - https://www.nitech.ac.jp/
+    - https://www.nitech.ac.jp/edu/faculty-grad.html
+    - https://www.nitech.ac.jp/access/index.html
+    - https://www.nitech.ac.jp/edu/faculty/
   extraction_status: success

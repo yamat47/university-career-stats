@@ -2,41 +2,39 @@ university:
   name: 三重大学
 
 campuses:
-  - name: 津キャンパス（上浜キャンパス）
+  - name: 上浜キャンパス
     address: 〒514-8507 三重県津市栗真町屋町1577
-  - name: 津キャンパス（江戸橋キャンパス）
-    address: 〒514-8507 三重県津市江戸橋2丁目174
 
 faculties:
   - name: 人文学部
     campus_names:
-      - 津キャンパス（上浜キャンパス）
+      - 上浜キャンパス
     departments:
       - name: 文化学科
       - name: 法律経済学科
 
   - name: 教育学部
     campus_names:
-      - 津キャンパス（上浜キャンパス）
+      - 上浜キャンパス
     departments:
       - name: 学校教育教員養成課程
 
   - name: 医学部
     campus_names:
-      - 津キャンパス（江戸橋キャンパス）
+      - 上浜キャンパス
     departments:
       - name: 医学科
       - name: 看護学科
 
   - name: 工学部
     campus_names:
-      - 津キャンパス（上浜キャンパス）
+      - 上浜キャンパス
     departments:
       - name: 総合工学科
 
   - name: 生物資源学部
     campus_names:
-      - 津キャンパス（上浜キャンパス）
+      - 上浜キャンパス
     departments:
       - name: 生物資源学科
 
@@ -44,4 +42,10 @@ metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.mie-u.ac.jp/
+    - https://www.mie-u.ac.jp/academics/
+    - https://www.human.mie-u.ac.jp/gakubu/gakka/
+    - https://www.edu.mie-u.ac.jp/outline/fc-introduction/index.html
+    - https://www.eng.mie-u.ac.jp/
+    - https://www.bio.mie-u.ac.jp/
+    - https://www.mie-u.ac.jp/about/overview/access/campus-map.html
   extraction_status: success

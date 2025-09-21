@@ -3,7 +3,7 @@ university:
 
 campuses:
   - name: 彦根キャンパス
-    address: 〒522-8522 滋賀県彦根市馬場1丁目1-1
+    address: 〒522-8522 滋賀県彦根市馬場1丁目1番1号
   - name: 大津キャンパス
     address: 〒520-0862 滋賀県大津市平津2丁目5番1号
 
@@ -30,4 +30,11 @@ metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.shiga-u.ac.jp/
+    - https://www.shiga-u.ac.jp/faculty/
+    - https://www.shiga-u.ac.jp/access/
+    - https://www.ds.shiga-u.ac.jp/
+    - https://www.econ.shiga-u.ac.jp/
+    - https://www.edu.shiga-u.ac.jp/faculty/composition/
+    - https://www.shiga-u.ac.jp/access/access-ootsu/
+    - https://www.shiga-u.ac.jp/information/campus-access/campusmap/
   extraction_status: success

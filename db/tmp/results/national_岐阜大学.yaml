@@ -3,7 +3,7 @@ university:
 
 campuses:
   - name: 柳戸キャンパス
-    address: 〒501-1193 岐阜県岐阜市柳戸1番1
+    address: 〒501-1193 岐阜市柳戸1-1
 
 faculties:
   - name: 教育学部
@@ -39,8 +39,9 @@ faculties:
     campus_names:
       - 柳戸キャンパス
     departments:
-      - name: 応用生命科学課程
-      - name: 生産環境科学課程
+      - name: 応用生命化学科
+      - name: 食農生命科学科
+      - name: 生物圏環境学科
       - name: 共同獣医学科
 
   - name: 社会システム経営学環
@@ -52,4 +53,7 @@ metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.gifu-u.ac.jp/index.html
+    - https://www.gifu-u.ac.jp/about/overview/courses_f.html
+    - https://www.gifu-u.ac.jp/access/
+    - https://www.med.gifu-u.ac.jp/
   extraction_status: success

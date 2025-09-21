@@ -2,13 +2,13 @@ university:
   name: 浜松医科大学
 
 campuses:
-  - name: 浜松医科大学キャンパス
+  - name: 半田山キャンパス
     address: 〒431-3192 静岡県浜松市中央区半田山一丁目20番1号
 
 faculties:
   - name: 医学部
     campus_names:
-      - 浜松医科大学キャンパス
+      - 半田山キャンパス
     departments:
       - name: 医学科
       - name: 看護学科
@@ -17,4 +17,6 @@ metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.hama-med.ac.jp/
+    - https://www.hama-med.ac.jp/about-us/campusmap.html
+    - https://www.hama-med.ac.jp/access/
   extraction_status: success

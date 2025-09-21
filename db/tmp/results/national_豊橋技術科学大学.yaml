@@ -19,5 +19,6 @@ faculties:
 metadata:
   extraction_date: 2025-09-22
   sources:
-    - http://www.tut.ac.jp/
+    - https://www.tut.ac.jp/about/disclosure/setti.html
+    - https://www.tut.ac.jp/about/overview/
   extraction_status: success

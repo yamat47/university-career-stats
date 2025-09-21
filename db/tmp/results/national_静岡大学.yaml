@@ -3,9 +3,9 @@ university:
 
 campuses:
   - name: 静岡キャンパス
-    address: 静岡県静岡市駿河区大谷836
+    address: 〒422-8529 静岡県静岡市駿河区大谷836
   - name: 浜松キャンパス
-    address: 静岡県浜松市中央区城北3-5-1
+    address: 〒432-8561 静岡県浜松市中央区城北3-5-1
 
 faculties:
   - name: 人文社会科学部
@@ -68,4 +68,7 @@ metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.shizuoka.ac.jp/
+    - https://www.shizuoka.ac.jp/subject/
+    - https://www.hss.shizuoka.ac.jp/department/
+    - https://www.eng.shizuoka.ac.jp/department/
   extraction_status: success
