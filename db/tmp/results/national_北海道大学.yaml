@@ -1,0 +1,107 @@
+university:
+  name: 北海道大学
+
+campuses:
+  - name: 札幌キャンパス
+    address: 〒060-0808 北海道札幌市北区北8条西5丁目
+  - name: 函館キャンパス
+    address: 〒041-8611 北海道函館市港町3-1-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 人文科学科
+
+  - name: 教育学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 教育学科
+
+  - name: 法学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 法学課程
+
+  - name: 経済学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経営学科
+
+  - name: 理学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 数学科
+      - name: 物理学科
+      - name: 化学科
+      - name: 生物科学科
+      - name: 地球惑星科学科
+
+  - name: 医学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 医学科
+      - name: 保健学科
+
+  - name: 歯学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 歯学科
+
+  - name: 薬学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 薬科学科
+      - name: 薬学科
+
+  - name: 工学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 応用理工系学科
+      - name: 情報エレクトロニクス学科
+      - name: 機械知能工学科
+      - name: 環境社会工学科
+
+  - name: 農学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 生物資源科学科
+      - name: 応用生命科学科
+      - name: 生物機能化学科
+      - name: 森林科学科
+      - name: 畜産科学科
+      - name: 生物環境工学科
+      - name: 農業経済学科
+
+  - name: 獣医学部
+    campus_names:
+      - 札幌キャンパス
+    departments:
+      - name: 共同獣医学科
+
+  - name: 水産学部
+    campus_names:
+      - 札幌キャンパス
+      - 函館キャンパス
+    departments:
+      - name: 海洋生物科学科
+      - name: 海洋資源科学科
+      - name: 増殖生命科学科
+      - name: 資源機能化学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.hokudai.ac.jp/
+  extraction_status: success

@@ -1,0 +1,59 @@
+university:
+  name: 北海道教育大学
+
+campuses:
+  - name: 札幌校
+    address: 〒002-8502 北海道札幌市北区あいの里5条3丁目1番5号
+  - name: 旭川校
+    address: 〒070-8621 北海道旭川市北門町9丁目
+  - name: 釧路校
+    address: 〒085-8580 北海道釧路市城山1丁目15番55号
+  - name: 函館校
+    address: 〒040-8567 北海道函館市八幡町1番2号
+  - name: 岩見沢校
+    address: 〒068-8642 北海道岩見沢市緑が丘2丁目34番1号
+
+faculties:
+  - name: 教員養成課程
+    campus_names:
+      - 札幌校
+      - 旭川校
+      - 釧路校
+    departments:
+      - name: 学校教育専攻
+      - name: 特別支援教育専攻
+      - name: 言語・社会教育専攻
+      - name: 理数教育専攻
+      - name: 生活創造教育専攻
+      - name: 芸術体育教育専攻
+      - name: 養護教育専攻
+      - name: 教育発達専攻
+      - name: 国語教育専攻
+      - name: 英語教育専攻
+      - name: 社会科教育専攻
+      - name: 数学教育専攻
+      - name: 理科教育専攻
+      - name: 生活・技術教育専攻
+      - name: 地域学校教育実践専攻
+
+  - name: 国際地域学科
+    campus_names:
+      - 函館校
+    departments:
+      - name: 地域協働専攻
+      - name: 国際協働専攻
+      - name: 地域政策専攻
+      - name: 地域環境科学専攻
+
+  - name: 芸術・スポーツ文化学科
+    campus_names:
+      - 岩見沢校
+    departments:
+      - name: 芸術・スポーツビジネス専攻
+      - name: 芸術・スポーツ文化専攻
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.hokkyodai.ac.jp/
+  extraction_status: success

@@ -1,0 +1,22 @@
+university:
+  name: 小樽商科大学
+
+campuses:
+  - name: 小樽商科大学キャンパス
+    address: 〒047-8501 北海道小樽市緑3丁目5番21号
+
+faculties:
+  - name: 商学部
+    campus_names:
+      - 小樽商科大学キャンパス
+    departments:
+      - name: 経済学科
+      - name: 商学科
+      - name: 企業法学科
+      - name: 社会情報学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.otaru-uc.ac.jp/
+  extraction_status: success

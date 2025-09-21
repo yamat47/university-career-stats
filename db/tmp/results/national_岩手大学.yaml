@@ -1,0 +1,47 @@
+university:
+  name: 岩手大学
+
+campuses:
+  - name: 上田キャンパス
+    address: 〒020-8550 岩手県盛岡市上田三丁目18番8号
+
+faculties:
+  - name: 人文社会科学部
+    campus_names:
+      - 上田キャンパス
+    departments:
+      - name: 人間文化課程
+      - name: 地域政策課程
+
+  - name: 教育学部
+    campus_names:
+      - 上田キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+
+  - name: 理工学部
+    campus_names:
+      - 上田キャンパス
+    departments:
+      - name: 理工学科
+
+  - name: 農学部
+    campus_names:
+      - 上田キャンパス
+    departments:
+      - name: 食料農学科
+      - name: 生命科学科
+      - name: 地域環境科学科
+      - name: 動物科学・水産科学科
+
+  - name: 獣医学部
+    campus_names:
+      - 上田キャンパス
+    departments:
+      - name: 共同獣医学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.iwate-u.ac.jp/
+  extraction_status: success

@@ -1,14 +1,3 @@
-大学名,URL,カテゴリー,元ファイル
-北海道大学,http://www.hokudai.ac.jp/,国立大学,national_universities.csv
-北海道教育大学,http://www.hokkyodai.ac.jp/,国立大学,national_universities.csv
-室蘭工業大学,http://www.muroran-it.ac.jp/index-j.html,国立大学,national_universities.csv
-小樽商科大学,http://www.otaru-uc.ac.jp/,国立大学,national_universities.csv
-帯広畜産大学,http://www.obihiro.ac.jp/,国立大学,national_universities.csv
-旭川医科大学,http://www.asahikawa-med.ac.jp/,国立大学,national_universities.csv
-北見工業大学,http://www.kitami-it.ac.jp/,国立大学,national_universities.csv
-弘前大学,http://www.hirosaki-u.ac.jp/,国立大学,national_universities.csv
-岩手大学,http://www.iwate-u.ac.jp/,国立大学,national_universities.csv
-東北大学,http://www.tohoku.ac.jp/japanese/,国立大学,national_universities.csv
 宮城教育大学,http://www.miyakyo-u.ac.jp/,国立大学,national_universities.csv
 秋田大学,http://www.akita-u.ac.jp/,国立大学,national_universities.csv
 山形大学,http://www.yamagata-u.ac.jp/index-j.html,国立大学,national_universities.csv
@@ -853,4 +842,3 @@ SBI大学院大学,https://www.sbi-u.ac.jp/,私立大学,private_universities_to
 皇學館大学,https://www.kogakkan-u.ac.jp/
 鈴鹿医療科学大学,https://www.suzuka-u.ac.jp/
 鈴鹿大学,https://www.suzuka.ac.jp/
-四日市看護医療大学,https://www.y-nm.ac.jp/
