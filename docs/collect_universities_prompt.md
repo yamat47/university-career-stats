@@ -6,9 +6,9 @@
 ## ファイル構成
 ```
 db/tmp/
-├── all_universities.csv (全大学リスト - 855大学)
-├── processed_universities.csv (処理済み大学リスト - 90大学)
-├── remaining_universities.csv (未処理大学リスト - 760大学)
+├── all_universities.csv (全大学リスト)
+├── processed_universities.csv (処理済み大学リスト)
+├── remaining_universities.csv (未処理大学リスト)
 └── results/ (YAMLファイル保存先)
 ```
 
@@ -33,7 +33,6 @@ ls db/tmp/results/*.yaml | wc -l
 
 - 行番号を指定する場合: `offset: [開始行], limit: [行数]`
 - 大学名を指定する場合: 直接大学名とURLを指定
-- **推奨**: 未処理大学リストから10-20校ずつ処理
 
 ### 2. エージェント実行（並列処理可能）
 選択した各大学に対して、university-info-collector エージェントを並列で実行します。
@@ -58,7 +57,7 @@ ls db/tmp/results/*.yaml | wc -l
 
 ### 3. YAML保存（並列処理可能）
 収集した各大学の情報を以下の形式でYAMLファイルに保存：
-- ファイル名: `db/tmp/results/[大学名（ローマ字またはアンダースコア区切り）].yaml`
+- ファイル名: `db/tmp/results/[national|private|public|etc.]_[大学名（日本語表記）].yaml`
 - 形式:
 ```yaml
 university:
@@ -84,30 +83,9 @@ metadata:
 
 ## 並列実行の例
 
-### 例1: 3大学を並列処理
-```
 1. CSVから3大学を選択（例: 行15-17）
 2. 3つのエージェントを同時に起動
 3. 各エージェントの結果を受け取り次第、YAMLファイルを並列で作成
-```
-
-### 例2: 複数大学の一括処理
-```
-実行対象:
-- 筑波大学（15行目）
-- 東京大学（20行目）  
-- 京都大学（35行目）
-
-並列実行:
-- 3つのuniversity-info-collectorエージェントを同時起動
-- 完了した順にYAMLファイルを生成
-```
-
-## ファイル命名規則
-- 北海道大学 → `hokkaido_university.yaml`
-- 東北大学 → `tohoku_university.yaml`
-- 東京工業大学 → `tokyo_institute_of_technology.yaml`
-- 大阪大学 → `osaka_university.yaml`
 
 ## エラーハンドリング
 - エージェントが部分的な情報しか取得できなかった場合: `extraction_status: partial`として保存
