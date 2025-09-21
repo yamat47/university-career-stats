@@ -1,0 +1,26 @@
+university:
+  name: 東京女子大学
+
+campuses:
+  - name: メインキャンパス
+    address: 〒167-8585 東京都杉並区善福寺2-6-1
+
+faculties:
+  - name: 現代教養学部
+    campus_names:
+      - メインキャンパス
+    departments:
+      - name: 人文学科
+      - name: 国際社会学科
+      - name: 経済経営学科
+      - name: 心理学科
+      - name: 社会コミュニケーション学科
+      - name: 情報数理科学科
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://www.twcu.ac.jp/main/academics/sas/index.html
+    - https://www.twcu.ac.jp/main/topics/2023/0929_01.html
+    - https://www.twcu.ac.jp/main/access/index.html
+  extraction_status: success

@@ -1,0 +1,49 @@
+university:
+  name: 成城大学
+
+campuses:
+  - name: 成城キャンパス
+    address: 〒157-8511 東京都世田谷区成城6-1-20
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - 成城キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経営学科
+
+  - name: 文芸学部
+    campus_names:
+      - 成城キャンパス
+    departments:
+      - name: 国文学科
+      - name: 英文学科
+      - name: 芸術学科
+      - name: 文化史学科
+      - name: マスコミュニケーション学科
+      - name: ヨーロッパ文化学科
+
+  - name: 法学部
+    campus_names:
+      - 成城キャンパス
+    departments:
+      - name: 法律学科
+
+  - name: 社会イノベーション学部
+    campus_names:
+      - 成城キャンパス
+    departments:
+      - name: 政策イノベーション学科
+      - name: 心理社会学科
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://www.seijo.ac.jp/
+    - https://www.seijo.ac.jp/education/
+    - https://www.seijo.ac.jp/about/
+    - https://www.seijo.ac.jp/access/
+    - https://www.seijo.ac.jp/about/map/
+    - https://www.seijo.ac.jp/education/fis/
+  extraction_status: success

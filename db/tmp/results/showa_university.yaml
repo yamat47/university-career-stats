@@ -1,0 +1,48 @@
+university:
+  name: 昭和大学
+
+campuses:
+  - name: 旗の台キャンパス
+    address: 東京都品川区旗の台1-5-8
+  - name: 洗足キャンパス
+    address: 東京都大田区北千束2-1-1
+  - name: 横浜キャンパス
+    address: 神奈川県横浜市緑区十日市場町1865
+  - name: 富士吉田キャンパス
+    address: 山梨県富士吉田市上吉田4562
+
+faculties:
+  - name: 医学部
+    campus_names:
+      - 旗の台キャンパス
+    departments:
+      - name: 医学科
+
+  - name: 歯学部
+    campus_names:
+      - 旗の台キャンパス
+      - 洗足キャンパス
+    departments:
+      - name: 歯学科
+
+  - name: 薬学部
+    campus_names:
+      - 旗の台キャンパス
+    departments:
+      - name: 薬学科
+
+  - name: 保健医療学部
+    campus_names:
+      - 横浜キャンパス
+    departments:
+      - name: 看護学科
+      - name: リハビリテーション学科
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://www.showa-u.ac.jp/
+    - https://www.showa-u.ac.jp/about_us/campus/
+    - https://www.showa-u.ac.jp/education/nr/
+    - https://adm.showa-u.ac.jp/
+  extraction_status: success

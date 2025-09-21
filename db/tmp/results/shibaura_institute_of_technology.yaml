@@ -1,0 +1,56 @@
+university:
+  name: 芝浦工業大学
+
+campuses:
+  - name: 豊洲キャンパス
+    address: 〒135-8548 東京都江東区豊洲3-7-5
+  - name: 大宮キャンパス
+    address: 〒337-8570 埼玉県さいたま市見沼区深作307
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - 大宮キャンパス
+      - 豊洲キャンパス
+    departments:
+      - name: 機械工学課程
+      - name: 物質化学課程
+      - name: 電気電子工学課程
+      - name: 情報・通信工学課程
+      - name: 土木工学課程
+      - name: 先進国際課程
+
+  - name: システム理工学部
+    campus_names:
+      - 大宮キャンパス
+    departments:
+      - name: 電子情報システム学科
+      - name: 機械制御システム学科
+      - name: 環境システム学科
+      - name: 生命科学科
+      - name: 数理科学科
+
+  - name: デザイン工学部
+    campus_names:
+      - 大宮キャンパス
+      - 豊洲キャンパス
+    departments:
+      - name: デザイン工学科
+
+  - name: 建築学部
+    campus_names:
+      - 豊洲キャンパス
+    departments:
+      - name: 建築学科
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://www.shibaura-it.ac.jp/
+    - https://www.shibaura-it.ac.jp/faculty/
+    - https://www.shibaura-it.ac.jp/access/
+    - https://www.shibaura-it.ac.jp/faculty/engineering/
+    - https://www.shibaura-it.ac.jp/faculty/systems/
+    - https://www.shibaura-it.ac.jp/faculty/design/
+    - https://www.shibaura-it.ac.jp/faculty/architecture/
+  extraction_status: success

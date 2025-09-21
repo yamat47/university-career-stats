@@ -1,0 +1,57 @@
+university:
+  name: 工学院大学
+
+campuses:
+  - name: 新宿キャンパス
+    address: 〒163-8677 東京都新宿区西新宿1-24-2
+  - name: 八王子キャンパス
+    address: 〒192-0015 東京都八王子市中野町2665-1
+
+faculties:
+  - name: 先進工学部
+    campus_names:
+      - 八王子キャンパス
+      - 新宿キャンパス
+    departments:
+      - name: 生命化学科
+      - name: 応用化学科
+      - name: 環境化学科
+      - name: 応用物理学科
+      - name: 機械理工学科
+
+  - name: 工学部
+    campus_names:
+      - 八王子キャンパス
+      - 新宿キャンパス
+    departments:
+      - name: 機械工学科
+      - name: 機械システム工学科
+      - name: 電気電子工学科
+
+  - name: 建築学部
+    campus_names:
+      - 八王子キャンパス
+      - 新宿キャンパス
+    departments:
+      - name: まちづくり学科
+      - name: 建築学科
+      - name: 建築デザイン学科
+
+  - name: 情報学部
+    campus_names:
+      - 八王子キャンパス
+      - 新宿キャンパス
+    departments:
+      - name: 情報通信工学科
+      - name: コンピュータ科学科
+      - name: 情報デザイン学科
+      - name: 情報科学科
+
+metadata:
+  extraction_date: 2025-01-21
+  sources:
+    - https://www.kogakuin.ac.jp/
+    - https://www.kogakuin.ac.jp/admissions/department/index.html
+    - https://www.kogakuin.ac.jp/campus/shinjuku.html
+    - https://www.kogakuin.ac.jp/campus/hachioji.html
+  extraction_status: success

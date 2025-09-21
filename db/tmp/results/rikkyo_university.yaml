@@ -1,0 +1,100 @@
+university:
+  name: 立教大学
+
+campuses:
+  - name: 池袋キャンパス
+    address: 〒171-8501 東京都豊島区西池袋3-34-1
+  - name: 新座キャンパス
+    address: 〒352-8558 埼玉県新座市北野1-2-26
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: キリスト教学科
+      - name: 文学科
+      - name: 史学科
+      - name: 教育学科
+
+  - name: 異文化コミュニケーション学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: 異文化コミュニケーション学科
+
+  - name: 経済学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経済政策学科
+      - name: 会計ファイナンス学科
+
+  - name: 経営学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: 経営学科
+      - name: 国際経営学科
+
+  - name: 理学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: 数学科
+      - name: 物理学科
+      - name: 化学科
+      - name: 生命理学科
+
+  - name: 社会学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: 社会学科
+      - name: 現代文化学科
+      - name: メディア社会学科
+
+  - name: 法学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: 法学科
+      - name: 国際ビジネス法学科
+      - name: 政治学科
+
+  - name: 観光学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: 観光学科
+      - name: 交流文化学科
+
+  - name: 現代心理学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: 心理学科
+      - name: 映像身体学科
+
+  - name: スポーツウエルネス学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: スポーツウエルネス学科
+
+  - name: コミュニティ福祉学部
+    campus_names:
+      - 新座キャンパス
+    departments:
+      - name: コミュニティ政策学科
+      - name: 福祉学科
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://www.rikkyo.ac.jp/
+    - http://www.rikkyo.ac.jp/undergraduate/
+    - http://www.rikkyo.ac.jp/access/ikebukuro/
+    - http://www.rikkyo.ac.jp/access/niiza/
+  extraction_status: success

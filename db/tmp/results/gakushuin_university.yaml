@@ -4,8 +4,6 @@ university:
 campuses:
   - name: 目白キャンパス
     address: 〒171-8588 東京都豊島区目白1-5-1
-  - name: 戸山キャンパス
-    address: 〒162-8601 東京都新宿区戸山3-20-1
 
 faculties:
   - name: 法学部
@@ -19,7 +17,6 @@ faculties:
       - 目白キャンパス
     departments:
       - name: 経済学科
-      - name: 経営学科
 
   - name: 文学部
     campus_names:
@@ -27,20 +24,15 @@ faculties:
     departments:
       - name: 哲学科
       - name: 史学科
-      - name: 日本語日本文学科
-      - name: 英語英米文化学科
-      - name: ドイツ語圏文化学科
-      - name: フランス語圏文化学科
       - name: 心理学科
       - name: 教育学科
+      - name: フランス語圏文化学科
+      - name: ドイツ語圏文化学科
 
   - name: 理学部
     campus_names:
       - 目白キャンパス
     departments:
-      - name: 物理学科
-      - name: 化学科
-      - name: 数学科
       - name: 生命科学科
 
   - name: 国際社会科学部
@@ -49,16 +41,10 @@ faculties:
     departments:
       - name: 国際社会科学科
 
-  - name: 国際文化交流学部
-    campus_names:
-      - 戸山キャンパス
-    departments:
-      - name: 日本学科
-      - name: 国際コミュニケーション学科
-      - name: 英語コミュニケーション学科
-
 metadata:
-  extraction_date: 2025-09-20
+  extraction_date: 2025-09-21
   sources:
     - https://www.univ.gakushuin.ac.jp/
+    - https://www.univ.gakushuin.ac.jp/academics/
+    - https://www.univ.gakushuin.ac.jp/access/
   extraction_status: success

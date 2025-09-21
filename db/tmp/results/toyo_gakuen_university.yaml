@@ -1,0 +1,35 @@
+university:
+  name: 東洋学園大学
+
+campuses:
+  - name: 本郷キャンパス
+    address: 〒113-0033 東京都文京区本郷1-26-3
+
+faculties:
+  - name: 現代経営学部
+    campus_names:
+      - 本郷キャンパス
+    departments:
+      - name: 現代経営学科
+
+  - name: 人間科学部
+    campus_names:
+      - 本郷キャンパス
+    departments:
+      - name: 人間科学科
+
+  - name: グローバル・コミュニケーション学部
+    campus_names:
+      - 本郷キャンパス
+    departments:
+      - name: グローバル・コミュニケーション学科
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://www.tyg.jp/
+    - https://www.tyg.jp/faculty/management/index.html
+    - https://www.tyg.jp/faculty/humanscience/index.html
+    - https://www.tyg.jp/faculty/global_communications/index.html
+    - https://www.tyg.jp/access/
+  extraction_status: success

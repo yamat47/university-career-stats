@@ -1,0 +1,99 @@
+university:
+  name: 上智大学
+
+campuses:
+  - name: 四谷キャンパス
+    address: 〒102-8554 東京都千代田区紀尾井町7-1
+  - name: 目白聖母キャンパス
+    address: 〒161-8550 東京都新宿区下落合4-16-11
+  - name: 石神井キャンパス
+    address: 〒177-0044 東京都練馬区上石神井4-32-11
+  - name: 秦野キャンパス
+    address: 〒257-0005 神奈川県秦野市上大槻山王台999
+  - name: 大阪サテライトキャンパス
+    address: 〒531-0072 大阪府大阪市北区豊崎3-12-8
+
+faculties:
+  - name: 神学部
+    campus_names:
+      - 四谷キャンパス
+    departments:
+      - name: 神学科
+
+  - name: 文学部
+    campus_names:
+      - 四谷キャンパス
+    departments:
+      - name: 哲学科
+      - name: 史学科
+      - name: 国文学科
+      - name: 英文学科
+      - name: ドイツ文学科
+      - name: フランス文学科
+      - name: 新聞学科
+
+  - name: 総合人間科学部
+    campus_names:
+      - 四谷キャンパス
+      - 目白聖母キャンパス
+    departments:
+      - name: 教育学科
+      - name: 心理学科
+      - name: 社会学科
+      - name: 社会福祉学科
+      - name: 看護学科
+
+  - name: 法学部
+    campus_names:
+      - 四谷キャンパス
+    departments:
+      - name: 法律学科
+      - name: 国際関係法学科
+      - name: 地球環境法学科
+
+  - name: 経済学部
+    campus_names:
+      - 四谷キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経営学科
+
+  - name: 外国語学部
+    campus_names:
+      - 四谷キャンパス
+    departments:
+      - name: 英語学科
+      - name: ドイツ語学科
+      - name: フランス語学科
+      - name: イスパニア語学科
+      - name: ロシア語学科
+      - name: ポルトガル語学科
+
+  - name: 総合グローバル学部
+    campus_names:
+      - 四谷キャンパス
+    departments:
+      - name: 総合グローバル学科
+
+  - name: 国際教養学部
+    campus_names:
+      - 四谷キャンパス
+    departments:
+      - name: 国際教養学科
+
+  - name: 理工学部
+    campus_names:
+      - 四谷キャンパス
+    departments:
+      - name: 物質生命理工学科
+      - name: 情報理工学科
+      - name: 機能創造理工学科
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://www.sophia.ac.jp/jpn/
+    - https://www.sophia.ac.jp/jpn/academics/ug/
+    - https://www.sophia.ac.jp/jpn/aboutsophia/access/campus/
+    - https://fst.sophia.ac.jp/
+  extraction_status: success

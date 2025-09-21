@@ -1,0 +1,35 @@
+university:
+  name: 女子美術大学
+
+campuses:
+  - name: 相模原キャンパス
+    address: 〒252-8538 神奈川県相模原市南区麻溝台1900
+  - name: 杉並キャンパス
+    address: 〒166-8538 東京都杉並区和田1-49-8
+
+faculties:
+  - name: 芸術学部
+    campus_names:
+      - 相模原キャンパス
+      - 杉並キャンパス
+    departments:
+      - name: 美術学科
+      - name: デザイン・工芸学科
+      - name: アート・デザイン表現学科
+      - name: 共創デザイン学科
+
+  - name: 短期大学部
+    campus_names:
+      - 杉並キャンパス
+    departments:
+      - name: 造形学科
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://www.joshibi.ac.jp/
+    - https://www.joshibi.ac.jp/department
+    - https://www.joshibi.ac.jp/about
+    - https://www.joshibi.ac.jp/department/college
+    - https://www.joshibi.ac.jp/campuslife/establishment_sagamihara
+  extraction_status: success

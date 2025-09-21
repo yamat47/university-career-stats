@@ -1,0 +1,66 @@
+university:
+  name: 帝京平成大学
+
+campuses:
+  - name: 池袋キャンパス
+    address: 東京都豊島区東池袋二丁目51-4
+  - name: 中野キャンパス
+    address: 東京都中野区中野四丁目21-2
+  - name: 千葉キャンパス
+    address: 千葉県市原市うるいど南4-1
+  - name: ちはら台キャンパス
+    address: 千葉県市原市ちはら台西6-19
+
+faculties:
+  - name: 薬学部
+    campus_names:
+      - 中野キャンパス
+    departments:
+      - name: 薬学科
+
+  - name: 人文社会学部
+    campus_names:
+      - 中野キャンパス
+    departments:
+      - name: 児童学科
+      - name: 人間文化学科
+      - name: 経営学科
+      - name: 観光経営学科
+
+  - name: ヒューマンケア学部
+    campus_names:
+      - 池袋キャンパス
+      - 中野キャンパス
+    departments:
+      - name: 鍼灸学科
+      - name: 柔道整復学科
+      - name: 看護学科
+
+  - name: 健康メディカル学部
+    campus_names:
+      - 池袋キャンパス
+    departments:
+      - name: 健康栄養学科
+      - name: 心理学科
+      - name: 言語聴覚学科
+      - name: 作業療法学科
+      - name: 理学療法学科
+      - name: 医療科学科
+
+  - name: 健康医療スポーツ学部
+    campus_names:
+      - 千葉キャンパス
+      - ちはら台キャンパス
+    departments:
+      - name: 柔道整復学科
+      - name: リハビリテーション学科
+      - name: 医療スポーツ学科
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://shingakunet.com/gakko/SC000423/gakubugakka/
+    - https://ja.wikipedia.org/wiki/帝京平成大学
+    - https://search.keinet.ne.jp/2182/outline/department
+  extraction_status: success

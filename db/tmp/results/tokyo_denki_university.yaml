@@ -1,0 +1,64 @@
+university:
+  name: 東京電機大学
+
+campuses:
+  - name: 東京千住キャンパス
+    address: 〒120-8551 東京都足立区千住旭町5番
+  - name: 埼玉鳩山キャンパス
+    address: 〒350-0394 埼玉県比企郡鳩山町石坂
+
+faculties:
+  - name: システムデザイン工学部
+    campus_names:
+      - 東京千住キャンパス
+    departments:
+      - name: 情報システム工学科
+      - name: デザイン工学科
+
+  - name: 未来科学部
+    campus_names:
+      - 東京千住キャンパス
+    departments:
+      - name: 建築学科
+      - name: 情報メディア学科
+      - name: ロボット・メカトロニクス学科
+
+  - name: 工学部
+    campus_names:
+      - 東京千住キャンパス
+    departments:
+      - name: 電気電子工学科
+      - name: 電子システム工学科
+      - name: 応用化学科
+      - name: 機械工学科
+      - name: 先端機械工学科
+      - name: 情報通信工学科
+
+  - name: 工学部第二部
+    campus_names:
+      - 東京千住キャンパス
+    departments:
+      - name: 電気電子工学科
+      - name: 機械工学科
+      - name: 情報通信工学科
+
+  - name: 理工学部
+    campus_names:
+      - 埼玉鳩山キャンパス
+    departments:
+      - name: 理学系
+      - name: 生命科学系
+      - name: 情報システムデザイン学系
+      - name: 電子情報工学系
+      - name: 機械工学系
+      - name: 建築・都市環境学系
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://www.dendai.ac.jp/
+    - https://www.dendai.ac.jp/about/undergraduate/
+    - https://www.dendai.ac.jp/access/tokyo_senju.html
+    - https://www.dendai.ac.jp/access/saitama_hatoyama.html
+    - https://www.dendai.ac.jp/about/undergraduate/rikougaku/
+  extraction_status: success

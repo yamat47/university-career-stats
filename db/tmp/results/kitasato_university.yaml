@@ -3,34 +3,36 @@ university:
 
 campuses:
   - name: 白金キャンパス
-    address: 〒108-8641 東京都港区白金5-9-1
+    address: 東京都港区白金
   - name: 相模原キャンパス
-    address: 〒252-0373 神奈川県相模原市南区北里1-15-1
+    address: 神奈川県相模原市
   - name: 十和田キャンパス
-    address: 〒034-8628 青森県十和田市東二十三番町35-1
+    address: 青森県十和田市
   - name: 北本キャンパス
-    address: 〒364-8501 埼玉県北本市荄井6-100
+    address: 埼玉県北本市
   - name: 新潟キャンパス
-    address: 〒949-7241 新潟県南魚沼市黒土新田500
+    address: 新潟県南魚沼市黒土新田500番
   - name: 三陸キャンパス
-    address: 〒022-0101 岩手県大船渡市三陸町越喜来烏頭160-4
+    address: 岩手県大船渡市
+  - name: 八雲牧場
+    address: 北海道上磯郡
 
 faculties:
   - name: 薬学部
     campus_names:
       - 白金キャンパス
     departments:
-      - name: 生命創薬科学科
       - name: 薬学科
+      - name: 生命創薬科学科
 
   - name: 獣医学部
     campus_names:
-      - 十和田キャンパス
       - 相模原キャンパス
+      - 十和田キャンパス
     departments:
       - name: 獣医学科
       - name: 動物資源科学科
-      - name: グリーン環境創成科学科
+      - name: 生物環境科学科
 
   - name: 医学部
     campus_names:
@@ -41,13 +43,12 @@ faculties:
   - name: 海洋生命科学部
     campus_names:
       - 相模原キャンパス
-      - 三陸キャンパス
     departments:
       - name: 海洋生命科学科
 
   - name: 看護学部
     campus_names:
-      - 相模原キャンパス
+      - 北本キャンパス
     departments:
       - name: 看護学科
 
@@ -82,7 +83,9 @@ faculties:
       - name: 医療検査学科
 
 metadata:
-  extraction_date: 2025-09-20
+  extraction_date: 2025-09-21
   sources:
     - https://www.kitasato-u.ac.jp/jp/index.html
+    - https://www.kitasato-u.ac.jp/jp/academics/department/undergraduate_schools/undergraduate_schools.html
+    - https://www.kitasato-u.ac.jp/jp/campus-guide/index.html
   extraction_status: success

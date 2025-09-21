@@ -1,24 +1,28 @@
 university:
-  name: 聖泉大学
+  name: 清泉女子大学
 
 campuses:
-  - name: 聖泉大学
-    address: 〒521-1123 滋賀県彦根市肥田町720番地
+  - name: 品川キャンパス
+    address: 〒141-8642 東京都品川区東五反田3-16-21
 
 faculties:
-  - name: 看護学部
+  - name: 総合文化学部
     campus_names:
-      - 聖泉大学
+      - 品川キャンパス
     departments:
-      - name: 看護学科
-  - name: 人間学部
+      - name: 総合文化学科
+
+  - name: 地球市民学部
     campus_names:
-      - 聖泉大学
+      - 品川キャンパス
     departments:
-      - name: 人間心理学科
+      - name: 地球市民学科
 
 metadata:
-  extraction_date: 2025-09-20
+  extraction_date: 2025-09-21
   sources:
-    - https://www.seisen.ac.jp/
+    - https://www.seisen-u.ac.jp/
+    - https://www.seisen-u.ac.jp/access/
+    - https://www.seisen-u.ac.jp/faculty/humanities/index.html
+    - https://www.seisen-u.ac.jp/faculty/global/index.html
   extraction_status: success

@@ -3,9 +3,9 @@ university:
 
 campuses:
   - name: 千代田キャンパス
-    address: 〒102-8357 東京都千代田区三番町12
+    address: 〒102-8357 東京都千代田区三番町12番地
   - name: 多摩キャンパス
-    address: 〒206-8540 東京都多摩市唐木田2-7-1
+    address: 〒206-8540 東京都多摩市唐木田2丁目7番地1
 
 faculties:
   - name: 家政学部
@@ -31,14 +31,12 @@ faculties:
     departments:
       - name: 社会情報学科
 
-  - name: 人間共生学部
+  - name: 人間関係学部
     campus_names:
       - 多摩キャンパス
     departments:
-      - name: 心理学科
-      - name: 福祉学科
-      - name: 共生デザイン学科
-      - name: 社会学科
+      - name: 人間関係学科
+      - name: 人間福祉学科
 
   - name: 比較文化学部
     campus_names:
@@ -53,7 +51,13 @@ faculties:
       - name: データサイエンス学科
 
 metadata:
-  extraction_date: 2025-09-20
+  extraction_date: 2025-09-21
   sources:
     - https://www.otsuma.ac.jp/
+    - https://www.otsuma.ac.jp/academic/
+    - https://www.otsuma.ac.jp/academic/home/
+    - https://www.otsuma.ac.jp/academic/relations/
+    - https://www.otsuma.ac.jp/about/basic/access/chiyodacampus/
+    - https://www.otsuma.ac.jp/about/basic/access/tamacampus/
+    - https://www.otsuma.ac.jp/human-special/
   extraction_status: success

@@ -1,0 +1,73 @@
+university:
+  name: 東京農業大学
+
+campuses:
+  - name: 世田谷キャンパス
+    address: 〒156-8502 東京都世田谷区桜丘1-1-1
+  - name: 厚木キャンパス
+    address: 〒243-0034 神奈川県厚木市船子1737
+  - name: 北海道オホーツクキャンパス
+    address: 〒099-2493 北海道網走市八坂196
+
+faculties:
+  - name: 農学部
+    campus_names:
+      - 厚木キャンパス
+    departments:
+      - name: 農学科
+      - name: 動物科学科
+      - name: 生物資源開発学科
+      - name: デザイン農学科
+      - name: バイオセラピー学科
+
+  - name: 応用生物科学部
+    campus_names:
+      - 世田谷キャンパス
+    departments:
+      - name: 農芸化学科
+      - name: 醸造科学科
+      - name: 食品安全健康学科
+      - name: 栄養科学科
+
+  - name: 生命科学部
+    campus_names:
+      - 世田谷キャンパス
+    departments:
+      - name: バイオサイエンス学科
+      - name: 分子生命化学科
+      - name: 分子微生物学科
+
+  - name: 地域環境科学部
+    campus_names:
+      - 世田谷キャンパス
+    departments:
+      - name: 森林総合科学科
+      - name: 生産環境工学科
+      - name: 造園科学科
+      - name: 地域創成科学科
+
+  - name: 国際食料情報学部
+    campus_names:
+      - 世田谷キャンパス
+    departments:
+      - name: 国際農業開発学科
+      - name: 食料環境経済学科
+      - name: アグリビジネス学科
+      - name: 国際食農科学科
+
+  - name: 生物産業学部
+    campus_names:
+      - 北海道オホーツクキャンパス
+    departments:
+      - name: 北方圏農学科
+      - name: 海洋水産学科
+      - name: 食香粧化学科
+      - name: 自然資源経営学科
+
+metadata:
+  extraction_date: 2025-09-21
+  sources:
+    - https://www.nodai.ac.jp/
+    - https://www.nodai.ac.jp/academics/
+    - https://www.nodai.ac.jp/campus/map/
+  extraction_status: success

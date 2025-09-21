@@ -1,0 +1,131 @@
+university:
+  name: 東洋大学
+
+campuses:
+  - name: 白山キャンパス
+    address: 〒112-8606 東京都文京区白山5-28-20
+  - name: 赤羽台キャンパス
+    address: 〒115-8650 東京都北区赤羽台1-7-11
+  - name: 川越キャンパス
+    address: 〒350-8585 埼玉県川越市鯨井2100
+  - name: 朝霞キャンパス
+    address: 〒351-8510 埼玉県朝霞市岡48-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 白山キャンパス
+    departments:
+      - name: 哲学科
+      - name: 東洋思想文化学科
+      - name: 日本文学文化学科
+      - name: 英米文学科
+      - name: 史学科
+      - name: 教育学科
+      - name: 国際文化コミュニケーション学科
+
+  - name: 経済学部
+    campus_names:
+      - 白山キャンパス
+    departments:
+      - name: 経済学科
+      - name: 国際経済学科
+      - name: 総合政策学科
+
+  - name: 経営学部
+    campus_names:
+      - 白山キャンパス
+    departments:
+      - name: 経営学科
+      - name: マーケティング学科
+      - name: 会計ファイナンス学科
+
+  - name: 法学部
+    campus_names:
+      - 白山キャンパス
+    departments:
+      - name: 法律学科
+      - name: 企業法学科
+
+  - name: 社会学部
+    campus_names:
+      - 白山キャンパス
+    departments:
+      - name: 社会学科
+      - name: 国際社会学科
+      - name: メディアコミュニケーション学科
+      - name: 社会心理学科
+
+  - name: 国際学部
+    campus_names:
+      - 白山キャンパス
+    departments:
+      - name: グローバル・イノベーション学科
+      - name: 国際地域学科
+
+  - name: 国際観光学部
+    campus_names:
+      - 白山キャンパス
+    departments:
+      - name: 国際観光学科
+
+  - name: 情報連携学部
+    campus_names:
+      - 赤羽台キャンパス
+    departments:
+      - name: 情報連携学科
+
+  - name: 理工学部
+    campus_names:
+      - 川越キャンパス
+    departments:
+      - name: 機械工学科
+      - name: 電気電子情報工学科
+      - name: 応用化学科
+      - name: 都市環境デザイン学科
+      - name: 建築学科
+
+  - name: 総合情報学部
+    campus_names:
+      - 川越キャンパス
+    departments:
+      - name: 総合情報学科
+
+  - name: 福祉社会デザイン学部
+    campus_names:
+      - 朝霞キャンパス
+    departments:
+      - name: 社会福祉学科
+      - name: 子ども支援学科
+      - name: 人間環境デザイン学科
+
+  - name: 健康スポーツ科学部
+    campus_names:
+      - 朝霞キャンパス
+    departments:
+      - name: 健康スポーツ科学科
+      - name: 栄養科学科
+
+  - name: 生命科学部
+    campus_names:
+      - 朝霞キャンパス
+    departments:
+      - name: 生命科学科
+      - name: 生体医工学科
+      - name: 生物資源学科
+
+  - name: 食環境科学部
+    campus_names:
+      - 朝霞キャンパス
+    departments:
+      - name: 食環境科学科
+      - name: フードデータサイエンス学科
+      - name: 健康栄養学科
+
+metadata:
+  extraction_date: 2025-01-21
+  sources:
+    - https://www.toyo.ac.jp/
+    - https://www.toyo.ac.jp/nyushi/undergraduate/
+    - https://www.toyo.ac.jp/about/introducing/access/
+  extraction_status: success
