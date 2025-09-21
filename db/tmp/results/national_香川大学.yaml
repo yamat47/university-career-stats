@@ -1,0 +1,58 @@
+university:
+  name: 香川大学
+
+campuses:
+  - name: 幸町キャンパス
+    address: 〒760-8521 香川県高松市幸町1番1号
+  - name: 林町キャンパス
+    address: 〒761-0396 香川県高松市林町2217-20
+  - name: 三木町医学部キャンパス
+    address: 〒761-0793 香川県木田郡三木町池戸1750-1
+  - name: 三木町農学部キャンパス
+    address: 〒761-0795 香川県木田郡三木町池戸2393
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 幸町キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+
+  - name: 法学部
+    campus_names:
+      - 幸町キャンパス
+    departments:
+      - name: 法学科（昼間コース）
+      - name: 法学科（夜間主コース）
+
+  - name: 経済学部
+    campus_names:
+      - 幸町キャンパス
+    departments:
+      - name: 経済学科
+
+  - name: 医学部
+    campus_names:
+      - 三木町医学部キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+
+  - name: 創造工学部
+    campus_names:
+      - 幸町キャンパス
+      - 林町キャンパス
+    departments:
+      - name: 創造工学科
+
+  - name: 農学部
+    campus_names:
+      - 三木町農学部キャンパス
+    departments:
+      - name: 農学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.kagawa-u.ac.jp/
+  extraction_status: success

@@ -1,0 +1,46 @@
+university:
+  name: 群馬大学
+
+campuses:
+  - name: 荒牧キャンパス
+    address: 群馬県前橋市荒牧町4丁目2番地
+  - name: 昭和キャンパス
+    address: 群馬県前橋市昭和町3丁目39-22
+  - name: 桐生キャンパス
+    address: 群馬県桐生市天神町1丁目5-1
+  - name: 太田キャンパス
+    address: 群馬県太田市本町29-1
+
+faculties:
+  - name: 共同教育学部
+    campus_names:
+      - 荒牧キャンパス
+    departments:
+      - name: 共同教育学部（学科制ではなく専攻制）
+
+  - name: 情報学部
+    campus_names:
+      - 荒牧キャンパス
+    departments:
+      - name: 情報学部（学科制ではなくプログラム制）
+
+  - name: 医学部
+    campus_names:
+      - 昭和キャンパス
+    departments:
+      - name: 医学科
+      - name: 保健学科
+
+  - name: 理工学部
+    campus_names:
+      - 桐生キャンパス
+      - 太田キャンパス
+    departments:
+      - name: 物質・環境類
+      - name: 電子・機械類
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.gunma-u.ac.jp/
+  extraction_status: success

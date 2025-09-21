@@ -1,0 +1,24 @@
+university:
+  name: 愛知教育大学
+
+campuses:
+  - name: 愛知教育大学（本学）
+    address: 〒448-8542 愛知県刈谷市井ケ谷町広沢1
+  - name: 名古屋地区（附属学校園）
+    address: 〒461-0047 愛知県名古屋市東区大幸南1-126
+  - name: 岡崎地区（附属学校園）
+    address: 〒444-0072 愛知県岡崎市六供町八貫15
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 愛知教育大学（本学）
+    departments:
+      - name: 学校教員養成課程
+      - name: 教育支援専門職養成課程
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.aichi-edu.ac.jp/
+  extraction_status: success

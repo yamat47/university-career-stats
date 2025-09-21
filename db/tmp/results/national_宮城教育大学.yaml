@@ -1,0 +1,21 @@
+university:
+  name: 宮城教育大学
+
+campuses:
+  - name: 青葉山地区
+    address: 〒980-0845 宮城県仙台市青葉区荒巻字青葉149
+  - name: 上杉地区
+    address: 〒980-0845 宮城県仙台市青葉区荒巻字青葉149
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 青葉山地区
+    departments:
+      - name: 学校教育教員養成課程
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.miyakyo-u.ac.jp/
+  extraction_status: success

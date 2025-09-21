@@ -1,0 +1,40 @@
+university:
+  name: 東京藝術大学
+
+campuses:
+  - name: 上野キャンパス
+    address: 〒110-8714 東京都台東区上野公園12-8
+  - name: 取手キャンパス
+    address: 〒302-0001 茨城県取手市小文間5000番地
+
+faculties:
+  - name: 美術学部
+    campus_names:
+      - 上野キャンパス
+      - 取手キャンパス
+    departments:
+      - name: 絵画科
+      - name: 彫刻科
+      - name: 工芸科
+      - name: デザイン科
+      - name: 建築科
+      - name: 先端芸術表現科
+      - name: 芸術学科
+
+  - name: 音楽学部
+    campus_names:
+      - 上野キャンパス
+    departments:
+      - name: 作曲科
+      - name: 声楽科
+      - name: 器楽科
+      - name: 指揮科
+      - name: 邦楽科
+      - name: 楽理科
+      - name: 音楽環境創造科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.geidai.ac.jp/
+  extraction_status: success

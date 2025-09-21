@@ -1,0 +1,38 @@
+university:
+  name: 福島大学
+
+campuses:
+  - name: 金谷川キャンパス
+    address: 〒960-1296 福島県福島市金谷川1番地
+
+faculties:
+  - name: 人間発達文化学類
+    campus_names:
+      - 金谷川キャンパス
+    departments: []
+
+  - name: 行政政策学類
+    campus_names:
+      - 金谷川キャンパス
+    departments: []
+
+  - name: 経済経営学類
+    campus_names:
+      - 金谷川キャンパス
+    departments: []
+
+  - name: 共生システム理工学類
+    campus_names:
+      - 金谷川キャンパス
+    departments: []
+
+  - name: 食農学類
+    campus_names:
+      - 金谷川キャンパス
+    departments: []
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.fukushima-u.ac.jp/
+  extraction_status: success

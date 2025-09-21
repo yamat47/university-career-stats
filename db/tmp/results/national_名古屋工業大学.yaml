@@ -1,0 +1,25 @@
+university:
+  name: 名古屋工業大学
+
+campuses:
+  - name: 御器所キャンパス
+    address: 〒466-8555 愛知県名古屋市昭和区御器所町
+  - name: 先進セラミックス研究センター
+    address: 岐阜県多治見市
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - 御器所キャンパス
+    departments:
+      - name: 生命・応用化学科
+      - name: 物理工学科
+      - name: 電気・機械工学科
+      - name: 情報工学科
+      - name: 社会工学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.nitech.ac.jp/
+  extraction_status: success

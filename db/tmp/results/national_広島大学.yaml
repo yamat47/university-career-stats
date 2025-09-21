@@ -1,0 +1,105 @@
+university:
+  name: 広島大学
+
+campuses:
+  - name: 東広島キャンパス
+    address: 〒739-8511 東広島市鏡山一丁目3番2号
+  - name: 霞キャンパス
+    address: 〒734-8551 広島市南区霞一丁目2番3号
+  - name: 東千田キャンパス
+    address: 〒730-0053 広島市中区東千田町一丁目1番89号
+
+faculties:
+  - name: 総合科学部
+    campus_names:
+      - 東広島キャンパス
+    departments:
+      - name: 総合科学科
+      - name: 国際共創学科
+
+  - name: 文学部
+    campus_names:
+      - 東広島キャンパス
+    departments:
+      - name: 人文学科
+
+  - name: 教育学部
+    campus_names:
+      - 東広島キャンパス
+    departments:
+      - name: 第一類（学校教育系）
+      - name: 第二類（科学文化教育系）
+      - name: 第三類（言語文化教育系）
+      - name: 第四類（生活系教育系）
+      - name: 第五類（人間形成基礎系）
+
+  - name: 法学部
+    campus_names:
+      - 東千田キャンパス
+    departments:
+      - name: 法学科
+
+  - name: 経済学部
+    campus_names:
+      - 東広島キャンパス
+      - 東千田キャンパス
+    departments:
+      - name: 経済学科
+
+  - name: 理学部
+    campus_names:
+      - 東広島キャンパス
+    departments:
+      - name: 数学科
+      - name: 物理学科
+      - name: 化学科
+      - name: 生物科学科
+      - name: 地球惑星システム学科
+
+  - name: 医学部
+    campus_names:
+      - 霞キャンパス
+    departments:
+      - name: 医学科
+      - name: 保健学科
+
+  - name: 歯学部
+    campus_names:
+      - 霞キャンパス
+    departments:
+      - name: 歯学科
+      - name: 口腔健康科学科
+
+  - name: 薬学部
+    campus_names:
+      - 霞キャンパス
+    departments:
+      - name: 薬学科
+      - name: 薬科学科
+
+  - name: 工学部
+    campus_names:
+      - 東広島キャンパス
+    departments:
+      - name: 第一類（機械・輸送・材料・エネルギー系）
+      - name: 第二類（電気電子・システム情報系）
+      - name: 第三類（応用化学・生物工学・化学工学系）
+      - name: 第四類（建設・環境系）
+
+  - name: 生物生産学部
+    campus_names:
+      - 東広島キャンパス
+    departments:
+      - name: 生物生産学科
+
+  - name: 情報科学部
+    campus_names:
+      - 東広島キャンパス
+    departments:
+      - name: 情報科学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.hiroshima-u.ac.jp/index-j.html
+  extraction_status: success

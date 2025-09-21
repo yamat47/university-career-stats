@@ -1,0 +1,57 @@
+university:
+  name: 宇都宮大学
+
+campuses:
+  - name: 峰キャンパス
+    address: 〒321-8505 栃木県宇都宮市峰町350
+  - name: 陽東キャンパス
+    address: 〒321-8585 栃木県宇都宮市陽東7-1-2
+
+faculties:
+  - name: データサイエンス経営学部
+    campus_names:
+      - 峰キャンパス
+    departments:
+      - name: データサイエンス経営学科
+
+  - name: 地域デザイン科学部
+    campus_names:
+      - 陽東キャンパス
+    departments:
+      - name: コミュニティデザイン学科
+      - name: 建築都市デザイン学科
+      - name: 社会基盤デザイン学科
+
+  - name: 国際学部
+    campus_names:
+      - 峰キャンパス
+    departments:
+      - name: 国際学科
+
+  - name: 共同教育学部
+    campus_names:
+      - 峰キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+
+  - name: 工学部
+    campus_names:
+      - 陽東キャンパス
+    departments:
+      - name: 基盤工学科
+
+  - name: 農学部
+    campus_names:
+      - 峰キャンパス
+    departments:
+      - name: 生物資源科学科
+      - name: 応用生命化学科
+      - name: 農業環境工学科
+      - name: 農業経済学科
+      - name: 森林科学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.utsunomiya-u.ac.jp/
+  extraction_status: success

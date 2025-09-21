@@ -1,0 +1,48 @@
+university:
+  name: 一橋大学
+
+campuses:
+  - name: 国立キャンパス
+    address: 東京都国立市中2-1
+  - name: 小平国際キャンパス
+    address: 東京都小平市学園西町1-29-1
+  - name: 千代田キャンパス
+    address: 東京都千代田区一ツ橋2-1-2 学術総合センター
+
+faculties:
+  - name: 商学部
+    campus_names:
+      - 国立キャンパス
+    departments:
+      - name: 経営学科
+      - name: 商学科
+
+  - name: 経済学部
+    campus_names:
+      - 国立キャンパス
+    departments:
+      - name: 経済学科
+
+  - name: 法学部
+    campus_names:
+      - 国立キャンパス
+    departments:
+      - name: 法律学科
+
+  - name: 社会学部
+    campus_names:
+      - 国立キャンパス
+    departments:
+      - name: 社会学科
+
+  - name: ソーシャル・データサイエンス学部
+    campus_names:
+      - 国立キャンパス
+    departments:
+      - name: ソーシャル・データサイエンス学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.hit-u.ac.jp/
+  extraction_status: success

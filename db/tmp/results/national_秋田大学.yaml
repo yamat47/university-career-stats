@@ -1,0 +1,51 @@
+university:
+  name: 秋田大学
+
+campuses:
+  - name: 手形キャンパス
+    address: 〒010-8502 秋田市手形学園町1番1号
+  - name: 本道キャンパス
+    address: 〒010-8543 秋田市本道1丁目1の1
+  - name: 保戸野キャンパス
+    address: 〒010-0904 秋田市保戸野原の町
+
+faculties:
+  - name: 国際資源学部
+    campus_names:
+      - 手形キャンパス
+    departments:
+      - name: 国際資源学科
+
+  - name: 教育文化学部
+    campus_names:
+      - 手形キャンパス
+    departments:
+      - name: 学校教育課程
+      - name: 地域文化学科
+
+  - name: 医学部
+    campus_names:
+      - 本道キャンパス
+    departments:
+      - name: 医学科
+      - name: 保健学科
+
+  - name: 総合環境理工学部
+    campus_names:
+      - 手形キャンパス
+    departments:
+      - name: 応用化学生物学科
+      - name: 環境数物科学科
+      - name: 社会システム工学科
+
+  - name: 情報データ科学部
+    campus_names:
+      - 手形キャンパス
+    departments:
+      - name: 情報データ科学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.akita-u.ac.jp/
+  extraction_status: success

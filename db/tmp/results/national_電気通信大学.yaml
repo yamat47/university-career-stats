@@ -1,0 +1,22 @@
+university:
+  name: 電気通信大学
+
+campuses:
+  - name: 調布キャンパス
+    address: 〒182-8585 東京都調布市調布ケ丘一丁目5番地1
+
+faculties:
+  - name: 情報理工学域
+    campus_names:
+      - 調布キャンパス
+    departments:
+      - name: Ⅰ類（情報系）
+      - name: Ⅱ類（融合系）
+      - name: Ⅲ類（理工系）
+      - name: 先端工学基礎課程（夜間主課程）
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.uec.ac.jp/
+  extraction_status: success

@@ -1,0 +1,25 @@
+university:
+  name: 京都工芸繊維大学
+
+campuses:
+  - name: 松ヶ崎キャンパス
+    address: 〒606-8585 京都府京都市左京区松ヶ崎橋上町
+
+faculties:
+  - name: 工芸科学部
+    campus_names:
+      - 松ヶ崎キャンパス
+    departments:
+      - name: 応用生物学課程
+      - name: 応用化学課程
+      - name: 高分子機能工学課程
+      - name: 電子システム工学課程
+      - name: 情報工学課程
+      - name: 機械工学課程
+      - name: デザイン・建築学課程
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.kit.ac.jp/
+  extraction_status: success

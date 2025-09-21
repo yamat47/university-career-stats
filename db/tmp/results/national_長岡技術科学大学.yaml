@@ -1,0 +1,19 @@
+university:
+  name: 長岡技術科学大学
+
+campuses:
+  - name: 長岡技術科学大学
+    address: 〒940-2188 新潟県長岡市上富岡町1603-1
+
+faculties:
+  - name: 工学部
+    campus_names:
+      - 長岡技術科学大学
+    departments:
+      - name: 工学課程
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.nagaokaut.ac.jp/
+  extraction_status: success

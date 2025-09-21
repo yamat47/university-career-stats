@@ -1,0 +1,33 @@
+university:
+  name: 東京外国語大学
+
+campuses:
+  - name: 府中キャンパス
+    address: 〒183-8534 東京都府中市朝日町3-11-1
+  - name: 本郷サテライト
+    address: 〒113-0033 東京都文京区本郷2-14-10
+
+faculties:
+  - name: 言語文化学部
+    campus_names:
+      - 府中キャンパス
+    departments:
+      - name: 言語文化学科
+
+  - name: 国際社会学部
+    campus_names:
+      - 府中キャンパス
+    departments:
+      - name: 国際社会学科
+
+  - name: 国際日本学部
+    campus_names:
+      - 府中キャンパス
+    departments:
+      - name: 国際日本学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.tufs.ac.jp/
+  extraction_status: success

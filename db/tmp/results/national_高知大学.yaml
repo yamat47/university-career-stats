@@ -1,0 +1,59 @@
+university:
+  name: 高知大学
+
+campuses:
+  - name: 朝倉キャンパス
+    address: 高知市曙町二丁目5番1号
+  - name: 岡豊キャンパス
+    address: 高知県南国市岡豊町小蓮
+  - name: 物部キャンパス
+    address: 高知県南国市物部乙200
+
+faculties:
+  - name: 人文社会科学部
+    campus_names:
+      - 朝倉キャンパス
+    departments:
+      - name: 人文社会科学科
+
+  - name: 教育学部
+    campus_names:
+      - 朝倉キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+
+  - name: 理工学部
+    campus_names:
+      - 朝倉キャンパス
+    departments:
+      - name: 数学物理学科
+      - name: 情報科学科
+      - name: 生物科学科
+      - name: 化学生命理工学科
+      - name: 地球環境防災学科
+
+  - name: 医学部
+    campus_names:
+      - 岡豊キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+
+  - name: 農林海洋科学部
+    campus_names:
+      - 物部キャンパス
+    departments:
+      - name: 農林資源環境科学科
+      - name: 海洋資源科学科
+
+  - name: 地域協働学部
+    campus_names:
+      - 朝倉キャンパス
+    departments:
+      - name: 地域協働学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.kochi-u.ac.jp/JA/
+  extraction_status: success

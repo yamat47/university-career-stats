@@ -1,0 +1,88 @@
+university:
+  name: 京都大学
+
+campuses:
+  - name: 吉田キャンパス
+    address: 〒606-8501 京都市左京区吉田本町
+  - name: 宇治キャンパス
+    address: 〒611-0011 京都府宇治市五ケ庄
+  - name: 桂キャンパス
+    address: 〒615-8530 京都市西京区京都大学桂
+
+faculties:
+  - name: 総合人間学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 総合人間学科
+
+  - name: 文学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 人文学科
+
+  - name: 教育学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 教育科学科
+
+  - name: 法学部
+    campus_names:
+      - 吉田キャンパス
+    departments: []
+
+  - name: 経済学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 経済経営学科
+
+  - name: 理学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 理学科
+
+  - name: 医学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 医学科
+      - name: 人間健康科学科
+
+  - name: 薬学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 薬科学科
+      - name: 薬学科
+
+  - name: 工学部
+    campus_names:
+      - 桂キャンパス
+    departments:
+      - name: 地球工学科
+      - name: 建築学科
+      - name: 物理工学科
+      - name: 電気電子工学科
+      - name: 情報学科
+      - name: 工業化学科
+
+  - name: 農学部
+    campus_names:
+      - 吉田キャンパス
+    departments:
+      - name: 資源生物科学科
+      - name: 応用生命科学科
+      - name: 地域環境工学科
+      - name: 食料・環境経済学科
+      - name: 森林科学科
+      - name: 食品生物科学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.kyoto-u.ac.jp/
+  extraction_status: success

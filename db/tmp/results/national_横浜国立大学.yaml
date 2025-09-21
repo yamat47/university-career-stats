@@ -1,0 +1,50 @@
+university:
+  name: 横浜国立大学
+
+campuses:
+  - name: 常盤台キャンパス
+    address: 〒240-8501 神奈川県横浜市保土ケ谷区常盤台79番1号
+  - name: 峰沢国際交流会館
+    address: 〒240-0061 神奈川県横浜市保土ケ谷区峰沢町305-1
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 常盤台キャンパス
+    departments:
+      - name: 学校教員養成課程
+
+  - name: 経済学部
+    campus_names:
+      - 常盤台キャンパス
+    departments:
+      - name: 経済学科
+
+  - name: 経営学部
+    campus_names:
+      - 常盤台キャンパス
+    departments:
+      - name: 経営学科
+
+  - name: 理工学部
+    campus_names:
+      - 常盤台キャンパス
+    departments:
+      - name: 機械・材料・海洋系学科
+      - name: 化学・生命系学科
+      - name: 数物・電子情報系学科
+
+  - name: 都市科学部
+    campus_names:
+      - 常盤台キャンパス
+    departments:
+      - name: 都市社会共生学科
+      - name: 建築学科
+      - name: 都市基盤学科
+      - name: 環境リスク共生学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.ynu.ac.jp/
+  extraction_status: success

@@ -1,0 +1,71 @@
+university:
+  name: 静岡大学
+
+campuses:
+  - name: 静岡キャンパス
+    address: 静岡県静岡市駿河区大谷836
+  - name: 浜松キャンパス
+    address: 静岡県浜松市中央区城北3-5-1
+
+faculties:
+  - name: 人文社会科学部
+    campus_names:
+      - 静岡キャンパス
+    departments:
+      - name: 社会学科
+      - name: 言語文化学科
+      - name: 法学科
+      - name: 経済学科
+
+  - name: 教育学部
+    campus_names:
+      - 静岡キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+
+  - name: 情報学部
+    campus_names:
+      - 浜松キャンパス
+    departments:
+      - name: 情報科学科
+      - name: 行動情報学科
+      - name: 情報社会学科
+
+  - name: 理学部
+    campus_names:
+      - 静岡キャンパス
+    departments:
+      - name: 数学科
+      - name: 物理学科
+      - name: 化学科
+      - name: 生物科学科
+      - name: 地球科学科
+
+  - name: 工学部
+    campus_names:
+      - 浜松キャンパス
+    departments:
+      - name: 機械工学科
+      - name: 電気電子工学科
+      - name: 電子物質科学科
+      - name: 化学バイオ工学科
+      - name: 数理システム工学科
+
+  - name: 農学部
+    campus_names:
+      - 静岡キャンパス
+    departments:
+      - name: 生物資源科学科
+      - name: 応用生命科学科
+
+  - name: グローバル共創科学部
+    campus_names:
+      - 静岡キャンパス
+    departments:
+      - name: グローバル共創科学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.shizuoka.ac.jp/
+  extraction_status: success

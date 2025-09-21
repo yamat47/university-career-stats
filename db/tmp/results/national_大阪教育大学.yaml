@@ -1,0 +1,24 @@
+university:
+  name: 大阪教育大学
+
+campuses:
+  - name: 柏原キャンパス
+    address: 〒582-8582 大阪府柏原市旭ヶ丘4-698-1
+  - name: 天王寺キャンパス
+    address: 〒543-0054 大阪市天王寺区南河堀町4-88
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 柏原キャンパス
+      - 天王寺キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+      - name: 養護教諭養成課程
+      - name: 教育協働学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.osaka-kyoiku.ac.jp/
+  extraction_status: success

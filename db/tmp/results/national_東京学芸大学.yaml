@@ -1,0 +1,20 @@
+university:
+  name: 東京学芸大学
+
+campuses:
+  - name: 小金井キャンパス
+    address: 〒184-8501 東京都小金井市貫井北町4-1-1
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 小金井キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+      - name: 教育支援課程
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.u-gakugei.ac.jp/
+  extraction_status: success

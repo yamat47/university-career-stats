@@ -1,0 +1,38 @@
+university:
+  name: 東京海洋大学
+
+campuses:
+  - name: 品川キャンパス
+    address: 〒108-8477 東京都港区港南4-5-7
+  - name: 越中島キャンパス
+    address: 〒135-8533 東京都江東区越中島2-1-6
+
+faculties:
+  - name: 海洋生命科学部
+    campus_names:
+      - 品川キャンパス
+    departments:
+      - name: 海洋生物資源学科
+      - name: 食品生産科学科
+      - name: 海洋政策文化学科
+
+  - name: 海洋工学部
+    campus_names:
+      - 越中島キャンパス
+    departments:
+      - name: 海事システム工学科
+      - name: 海洋電子機械工学科
+      - name: 流通情報工学科
+
+  - name: 海洋資源環境学部
+    campus_names:
+      - 品川キャンパス
+    departments:
+      - name: 海洋環境科学科
+      - name: 海洋資源エネルギー学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.kaiyodai.ac.jp/
+  extraction_status: success
