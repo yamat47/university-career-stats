@@ -15,38 +15,32 @@ faculties:
       - name: 法経学科
       - name: 社会文化学科
       - name: 言語文化学科
-
   - name: 教育学部
     campus_names:
       - 松江キャンパス
     departments:
-      - name: 学校教育教員養成課程
-
+      - name: 学校教育課程
   - name: 人間科学部
     campus_names:
       - 松江キャンパス
     departments:
       - name: 人間科学科
-
   - name: 医学部
     campus_names:
       - 出雲キャンパス
     departments:
       - name: 医学科
       - name: 看護学科
-
   - name: 総合理工学部
     campus_names:
       - 松江キャンパス
     departments:
       - name: 総合理工学科
-
   - name: 材料エネルギー学部
     campus_names:
       - 松江キャンパス
     departments:
       - name: 材料エネルギー学科
-
   - name: 生物資源科学部
     campus_names:
       - 松江キャンパス
@@ -59,4 +53,11 @@ metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.shimane-u.ac.jp/
+    - https://www.hobun.shimane-u.ac.jp/
+    - https://www.edu.shimane-u.ac.jp/
+    - https://www.hmn.shimane-u.ac.jp/
+    - https://www.med.shimane-u.ac.jp/
+    - https://www.riko.shimane-u.ac.jp/
+    - https://www.mat.shimane-u.ac.jp/
+    - https://www.life.shimane-u.ac.jp/
   extraction_status: success

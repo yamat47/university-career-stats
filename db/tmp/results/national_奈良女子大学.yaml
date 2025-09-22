@@ -13,14 +13,12 @@ faculties:
       - name: 人文社会学科
       - name: 言語文化学科
       - name: 人間科学科
-
   - name: 理学部
     campus_names:
       - 奈良女子大学キャンパス
     departments:
       - name: 数物科学科
       - name: 化学生物環境学科
-
   - name: 生活環境学部
     campus_names:
       - 奈良女子大学キャンパス
@@ -29,7 +27,6 @@ faculties:
       - name: 心身健康学科
       - name: 住環境学科
       - name: 文化情報学科
-
   - name: 工学部
     campus_names:
       - 奈良女子大学キャンパス
@@ -39,5 +36,8 @@ faculties:
 metadata:
   extraction_date: 2025-09-22
   sources:
-    - http://www.nara-wu.ac.jp/
+    - https://www.nara-wu.ac.jp/
+    - https://www.nara-wu.ac.jp/nwu/faculty/
+    - https://www.nara-wu.ac.jp/nwu/intro/organ/
+    - https://www.nara-wu.ac.jp/nwu/intro/access/campusmap/
   extraction_status: success

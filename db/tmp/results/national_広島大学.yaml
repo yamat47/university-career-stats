@@ -16,13 +16,11 @@ faculties:
     departments:
       - name: 総合科学科
       - name: 国際共創学科
-
   - name: 文学部
     campus_names:
       - 東広島キャンパス
     departments:
       - name: 人文学科
-
   - name: 教育学部
     campus_names:
       - 東広島キャンパス
@@ -30,22 +28,18 @@ faculties:
       - name: 第一類（学校教育系）
       - name: 第二類（科学文化教育系）
       - name: 第三類（言語文化教育系）
-      - name: 第四類（生活系教育系）
+      - name: 第四類（生涯活動教育系）
       - name: 第五類（人間形成基礎系）
-
   - name: 法学部
     campus_names:
       - 東千田キャンパス
     departments:
       - name: 法学科
-
   - name: 経済学部
     campus_names:
       - 東広島キャンパス
-      - 東千田キャンパス
     departments:
       - name: 経済学科
-
   - name: 理学部
     campus_names:
       - 東広島キャンパス
@@ -55,43 +49,37 @@ faculties:
       - name: 化学科
       - name: 生物科学科
       - name: 地球惑星システム学科
-
   - name: 医学部
     campus_names:
       - 霞キャンパス
     departments:
       - name: 医学科
       - name: 保健学科
-
   - name: 歯学部
     campus_names:
       - 霞キャンパス
     departments:
       - name: 歯学科
       - name: 口腔健康科学科
-
   - name: 薬学部
     campus_names:
       - 霞キャンパス
     departments:
       - name: 薬学科
       - name: 薬科学科
-
   - name: 工学部
     campus_names:
       - 東広島キャンパス
     departments:
       - name: 第一類（機械・輸送・材料・エネルギー系）
-      - name: 第二類（電気電子・システム情報系）
+      - name: 第二類（電気・電子・情報系）
       - name: 第三類（応用化学・生物工学・化学工学系）
       - name: 第四類（建設・環境系）
-
   - name: 生物生産学部
     campus_names:
       - 東広島キャンパス
     departments:
       - name: 生物生産学科
-
   - name: 情報科学部
     campus_names:
       - 東広島キャンパス
@@ -102,4 +90,9 @@ metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.hiroshima-u.ac.jp/index-j.html
+    - https://www.hiroshima-u.ac.jp/about
+    - https://www.hiroshima-u.ac.jp/schools/schools
+    - https://www.hiroshima-u.ac.jp/about/about/list_addresses
+    - https://www.hiroshima-u.ac.jp/eng/organization
+    - https://www.hiroshima-u.ac.jp/access
   extraction_status: success

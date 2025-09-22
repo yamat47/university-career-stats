@@ -2,42 +2,39 @@ university:
   name: 和歌山大学
 
 campuses:
-  - name: 栄谷キャンパス
+  - name: 和歌山大学
     address: 〒640-8510 和歌山県和歌山市栄谷930
 
 faculties:
   - name: 教育学部
     campus_names:
-      - 栄谷キャンパス
+      - 和歌山大学
     departments:
-      - name: 学校教育教員養成課程
-
+      - name: 学校教育学科
   - name: 経済学部
     campus_names:
-      - 栄谷キャンパス
+      - 和歌山大学
     departments:
       - name: 経済学科
-
   - name: システム工学部
     campus_names:
-      - 栄谷キャンパス
+      - 和歌山大学
     departments:
       - name: システム工学科
-
   - name: 観光学部
     campus_names:
-      - 栄谷キャンパス
+      - 和歌山大学
     departments:
       - name: 観光学科
-
   - name: 社会インフォマティクス学環
     campus_names:
-      - 栄谷キャンパス
-    departments:
-      - name: 社会インフォマティクス学環
+      - 和歌山大学
+    departments: []
 
 metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.wakayama-u.ac.jp/
+    - https://www.wakayama-u.ac.jp/about/access.html
+    - https://search.keinet.ne.jp/1335/outline/department
   extraction_status: success

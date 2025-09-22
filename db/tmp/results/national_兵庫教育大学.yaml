@@ -5,7 +5,7 @@ campuses:
   - name: 加東キャンパス
     address: 〒673-1494 兵庫県加東市下久米942-1
   - name: 神戸ハーバーランドキャンパス
-    address: 〒650-0044 神戸市中央区東川崎町1-5-7 神戸情報文化ビル3階
+    address: 〒653-0036 神戸市長田区腕塚町5-2-1 新長田キャンパスプラザ7階
 
 faculties:
   - name: 学校教育学部
@@ -18,4 +18,8 @@ metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.hyogo-u.ac.jp/
+    - https://www.hyogo-u.ac.jp/admission/education/about.php
+    - https://ja.wikipedia.org/wiki/兵庫教育大学
+    - https://www.hyogo-u.ac.jp/access/
+    - https://www.hyogo-u.ac.jp/facility/khlc/
   extraction_status: success

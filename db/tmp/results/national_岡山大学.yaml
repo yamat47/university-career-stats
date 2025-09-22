@@ -3,39 +3,34 @@ university:
 
 campuses:
   - name: 津島キャンパス
-    address: 〒700-8530 岡山市北区津島中1-1-1
+    address: 〒700-8530 岡山市北区津島中1丁目1番1号
   - name: 鹿田キャンパス
-    address: 〒700-8558 岡山市北区鹿田町2-5-1
+    address: 〒700-8558 岡山市北区鹿田町2丁目5番1号
   - name: 東山地区
-    address: 〒703-8281 岡山市中区東山2-13-80
-  - name: 平井地区
-    address: 〒703-8282 岡山市中区平井3-914
-  - name: 倉敷地区
-    address: 〒710-0046 倉敷市中央2-20-1
-  - name: 三朝地区
-    address: 〒682-0192 鳥取県東伯郡三朝町山田827
+    address: 〒703-8281 岡山市中区東山2丁目13番80号
 
 faculties:
   - name: 文学部
     campus_names:
       - 津島キャンパス
-    departments: []
-
+    departments:
+      - name: 人文学科
   - name: 教育学部
     campus_names:
       - 津島キャンパス
-    departments: []
-
+    departments:
+      - name: 学校教育教員養成課程
+      - name: 養護教諭養成課程
   - name: 法学部
     campus_names:
       - 津島キャンパス
-    departments: []
-
+    departments:
+      - name: 法学科
   - name: 経済学部
     campus_names:
       - 津島キャンパス
-    departments: []
-
+    departments:
+      - name: 経済学科
   - name: 理学部
     campus_names:
       - 津島キャンパス
@@ -45,25 +40,23 @@ faculties:
       - name: 化学科
       - name: 生物学科
       - name: 地球科学科
-
   - name: 医学部
     campus_names:
       - 鹿田キャンパス
     departments:
       - name: 医学科
       - name: 保健学科
-
   - name: 歯学部
     campus_names:
       - 鹿田キャンパス
     departments:
       - name: 歯学科
-
   - name: 薬学部
     campus_names:
       - 津島キャンパス
-    departments: []
-
+    departments:
+      - name: 薬学科
+      - name: 創薬科学科
   - name: 工学部
     campus_names:
       - 津島キャンパス
@@ -72,21 +65,27 @@ faculties:
       - name: 環境・社会基盤系
       - name: 情報・電気・数理データサイエンス系
       - name: 化学・生命系
-
+  - name: 環境理工学部
+    campus_names:
+      - 津島キャンパス
+    departments:
+      - name: 環境数理学科
+      - name: 環境デザイン工学科
+      - name: 環境管理工学科
+      - name: 環境物質工学科
   - name: 農学部
     campus_names:
       - 津島キャンパス
     departments:
       - name: 総合農業科学科
 
-  - name: グローバル・ディスカバリー・プログラム
-    campus_names:
-      - 津島キャンパス
-    departments:
-      - name: DISCOVERY PROGRAM FOR GLOBAL LEARNERS
-
 metadata:
   extraction_date: 2025-09-22
   sources:
-    - http://www.okayama-u.ac.jp/
-  extraction_status: partial
+    - https://www.okayama-u.ac.jp/tp/faculty/index.html
+    - https://www.okayama-u.ac.jp/tp/access/index.html
+    - https://www.science.okayama-u.ac.jp/department/index.html
+    - https://www.engr.okayama-u.ac.jp/program/
+    - https://www.gels.okayama-u.ac.jp/department/index.html
+    - https://www.okayama-u.ac.jp/user/agr/profile/nougaku.html
+  extraction_status: success

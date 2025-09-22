@@ -2,18 +2,21 @@ university:
   name: 奈良教育大学
 
 campuses:
-  - name: 奈良教育大学
-    address: 〒630-8528 奈良市高畑町
+  - name: 高畑キャンパス
+    address: 〒630-8528 奈良県奈良市高畑町
 
 faculties:
   - name: 教育学部
     campus_names:
-      - 奈良教育大学
+      - 高畑キャンパス
     departments:
       - name: 学校教育教員養成課程
 
 metadata:
   extraction_date: 2025-09-22
   sources:
-    - http://www.nara-edu.ac.jp/home-jp.htm
+    - https://www.nara-edu.ac.jp/
+    - https://www.nara-edu.ac.jp/academic/
+    - https://www.nara-edu.ac.jp/access/
+    - https://www.nara-edu.ac.jp/campus_map/
   extraction_status: success

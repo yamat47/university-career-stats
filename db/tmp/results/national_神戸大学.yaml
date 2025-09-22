@@ -2,62 +2,60 @@ university:
   name: 神戸大学
 
 campuses:
-  - name: 六甲台第一キャンパス
-    address: 〒657-8501 兵庫県神戸市灘区六甲台町1-1
-  - name: 六甲台第二キャンパス
-    address: 〒657-8501 兵庫県神戸市灘区六甲台町1-1
-  - name: 鶴甲第一キャンパス
+  - name: 六甲台第1キャンパス
+    address: 〒657-8501 神戸市灘区六甲台町1-1
+  - name: 六甲台第2キャンパス
+    address: 〒657-8501 神戸市灘区六甲台町1-1
+  - name: 鶴甲第1キャンパス
     address: 神戸市灘区鶴甲
-  - name: 鶴甲第二キャンパス
+  - name: 鶴甲第2キャンパス
     address: 神戸市灘区鶴甲
   - name: 楠キャンパス
     address: 神戸市中央区楠町
   - name: 名谷キャンパス
-    address: 神戸市須磨区名谷町
+    address: 神戸市須磨区名谷
   - name: 深江キャンパス
-    address: 神戸市東灘区深江南町
+    address: 神戸市東灘区深江
 
 faculties:
   - name: 文学部
     campus_names:
-      - 六甲台第二キャンパス
-    departments: []
-
+      - 六甲台第2キャンパス
+    departments:
+      - name: 人文学科
   - name: 国際人間科学部
     campus_names:
-      - 鶴甲第一キャンパス
-      - 鶴甲第二キャンパス
+      - 鶴甲第1キャンパス
+      - 鶴甲第2キャンパス
     departments:
       - name: グローバル文化学科
       - name: 発達コミュニティ学科
       - name: 環境共生学科
       - name: 子ども教育学科
-
   - name: 法学部
     campus_names:
-      - 六甲台第一キャンパス
-    departments: []
-
+      - 六甲台第1キャンパス
+    departments:
+      - name: 法律学科
   - name: 経済学部
     campus_names:
-      - 六甲台第一キャンパス
-    departments: []
-
+      - 六甲台第1キャンパス
+    departments:
+      - name: 経済学科
   - name: 経営学部
     campus_names:
-      - 六甲台第一キャンパス
-    departments: []
-
+      - 六甲台第1キャンパス
+    departments:
+      - name: 経営学科
   - name: 理学部
     campus_names:
-      - 六甲台第二キャンパス
+      - 六甲台第2キャンパス
     departments:
       - name: 数学科
       - name: 物理学科
       - name: 化学科
       - name: 生物学科
       - name: 惑星学科
-
   - name: 医学部
     campus_names:
       - 楠キャンパス
@@ -66,43 +64,39 @@ faculties:
       - name: 医学科
       - name: 保健学科
       - name: 医療創成工学科
-
   - name: 工学部
     campus_names:
-      - 六甲台第二キャンパス
+      - 六甲台第2キャンパス
     departments:
       - name: 建築学科
       - name: 市民工学科
       - name: 電気電子工学科
       - name: 機械工学科
       - name: 応用化学科
-      - name: 情報知能工学科
-
   - name: システム情報学部
     campus_names:
-      - 六甲台第二キャンパス
-    departments: []
-
+      - 六甲台第2キャンパス
+    departments:
+      - name: システム情報学科
   - name: 農学部
     campus_names:
-      - 六甲台第二キャンパス
+      - 六甲台第2キャンパス
     departments:
       - name: 食料環境システム学科
       - name: 資源生命科学科
       - name: 生命機能科学科
-
   - name: 海洋政策科学部
     campus_names:
       - 深江キャンパス
-    departments: []
-
-  - name: 海事科学部
-    campus_names:
-      - 深江キャンパス
-    departments: []
+    departments:
+      - name: 海洋政策科学科
 
 metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.kobe-u.ac.jp/
+    - https://www.kobe-u.ac.jp/ja/schools/
+    - https://www.office.kobe-u.ac.jp/stdnt-examinavi/faculty/
+    - https://www.kobe-u.ac.jp/ja/site/access/
+    - https://www.fgh.kobe-u.ac.jp/ja/academics
   extraction_status: success

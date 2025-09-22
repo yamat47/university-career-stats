@@ -13,7 +13,6 @@ faculties:
       - 鳥取キャンパス（湖山キャンパス）
     departments:
       - name: 地域学科
-
   - name: 医学部
     campus_names:
       - 米子キャンパス
@@ -21,7 +20,6 @@ faculties:
       - name: 医学科
       - name: 生命科学科
       - name: 保健学科
-
   - name: 工学部
     campus_names:
       - 鳥取キャンパス（湖山キャンパス）
@@ -30,7 +28,6 @@ faculties:
       - name: 電気情報系学科
       - name: 化学バイオ系学科
       - name: 社会システム土木系学科
-
   - name: 農学部
     campus_names:
       - 鳥取キャンパス（湖山キャンパス）
@@ -42,4 +39,7 @@ metadata:
   extraction_date: 2025-09-22
   sources:
     - http://www.tottori-u.ac.jp/
+    - http://www.tottori-u.ac.jp/faculty/
+    - https://www.tottori-u.ac.jp/contact/campus/
+    - https://www.med.tottori-u.ac.jp/
   extraction_status: success
