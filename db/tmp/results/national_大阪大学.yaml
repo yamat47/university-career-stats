@@ -3,9 +3,9 @@ university:
 
 campuses:
   - name: 豊中キャンパス
-    address: 大阪府豊中市待兼山町1-1
+    address: 大阪府豊中市待兼山町
   - name: 吹田キャンパス
-    address: 大阪府吹田市山田丘2-1
+    address: 大阪府吹田市山田丘・大阪府茨木市美穂ヶ丘
   - name: 箕面キャンパス
     address: 大阪府箕面市船場東3-5-10
 

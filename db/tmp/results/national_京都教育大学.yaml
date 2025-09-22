@@ -10,7 +10,7 @@ faculties:
     campus_names:
       - 京都教育大学
     departments:
-      - name: 学校教育教員養成課程（13専攻）
+      - name: 学校教育教員養成課程
 
 metadata:
   extraction_date: 2025-09-22

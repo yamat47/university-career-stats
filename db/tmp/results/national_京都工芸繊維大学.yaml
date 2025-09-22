@@ -3,7 +3,13 @@ university:
 
 campuses:
   - name: 松ヶ崎キャンパス
-    address: 〒606-8585 京都府京都市左京区松ヶ崎橋上町
+    address: 〒606-8585 京都市左京区松ヶ崎橋上町
+  - name: 嵯峨キャンパス
+    address: 〒616-8354 京都市右京区嵯峨一本木町
+  - name: 福知山キャンパス
+    address: 〒620-0886 京都府福知山市字堀3385
+  - name: 綾部地域連携室
+    address: 〒623-0011 京都府綾部市青野町西馬場下33番1
 
 faculties:
   - name: 工芸科学部
@@ -12,7 +18,6 @@ faculties:
     departments:
       - name: 応用生物学課程
       - name: 応用化学課程
-      - name: 高分子機能工学課程
       - name: 電子システム工学課程
       - name: 情報工学課程
       - name: 機械工学課程
