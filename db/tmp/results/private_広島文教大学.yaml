@@ -1,0 +1,32 @@
+university:
+  name: 広島文教大学
+
+campuses:
+  - name: 本学キャンパス
+    address: 〒731-0295 広島市安佐北区可部東一丁目2番1号
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 本学キャンパス
+    departments:
+      - name: 教育学科
+  - name: 人間科学部
+    campus_names:
+      - 本学キャンパス
+    departments:
+      - name: 人間福祉学科
+      - name: 心理学科
+      - name: 人間栄養学科
+      - name: グローバルコミュニケーション学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.h-bunkyo.ac.jp/
+    - https://www.h-bunkyo.ac.jp/faculty/
+    - https://www.h-bunkyo.ac.jp/campus/access/
+    - https://www.h-bunkyo.ac.jp/about/
+    - https://www.h-bunkyo.ac.jp/faculty/education/
+    - https://www.h-bunkyo.ac.jp/faculty/human-sciences/
+  extraction_status: success

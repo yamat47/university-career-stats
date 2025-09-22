@@ -1,0 +1,61 @@
+university:
+  name: 広島国際大学
+
+campuses:
+  - name: 東広島キャンパス
+    address: 〒739-2695 広島県東広島市黒瀬学園台555-36
+  - name: 呉キャンパス
+    address: 〒737-0112 広島県呉市広古新開5-1-1
+
+faculties:
+  - name: 保健医療学部
+    campus_names:
+      - 東広島キャンパス
+    departments:
+      - name: 診療放射線学科
+      - name: 医療技術学科
+      - name: 救急救命学科
+  
+  - name: 総合リハビリテーション学部
+    campus_names:
+      - 東広島キャンパス
+    departments:
+      - name: リハビリテーション学科
+  
+  - name: 健康スポーツ学部
+    campus_names:
+      - 東広島キャンパス
+    departments:
+      - name: 健康スポーツ学科
+  
+  - name: 健康科学部
+    campus_names:
+      - 東広島キャンパス
+      - 呉キャンパス
+    departments:
+      - name: 心理学科
+      - name: 医療栄養学科
+      - name: 医療経営学科
+      - name: 社会学科
+  
+  - name: 看護学部
+    campus_names:
+      - 呉キャンパス
+    departments:
+      - name: 看護学科
+  
+  - name: 薬学部
+    campus_names:
+      - 呉キャンパス
+    departments:
+      - name: 薬学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.hirokoku-u.ac.jp/
+    - https://www.hirokoku-u.ac.jp/faculty/
+    - https://www.hirokoku-u.ac.jp/access/
+    - https://www.hirokoku-u.ac.jp/pharm/
+    - https://www.hirokoku-u.ac.jp/health_science/
+  extraction_status: success
