@@ -1,0 +1,78 @@
+university:
+  name: 鹿児島大学
+
+campuses:
+  - name: 郡元キャンパス
+    address: 〒890-8580 鹿児島市郡元1丁目21番24号
+  - name: 桜ヶ丘キャンパス
+    address: 〒890-8544 鹿児島市桜ヶ丘8丁目35番1号
+  - name: 下荒田キャンパス
+    address: 〒890-0056 鹿児島市下荒田4丁目50番20号
+
+faculties:
+  - name: 法文学部
+    campus_names:
+      - 郡元キャンパス
+    departments:
+      - name: 法経社会学科
+      - name: 人文学科
+  - name: 教育学部
+    campus_names:
+      - 郡元キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+  - name: 理学部
+    campus_names:
+      - 郡元キャンパス
+    departments:
+      - name: 理学科
+  - name: 医学部
+    campus_names:
+      - 桜ヶ丘キャンパス
+    departments:
+      - name: 医学科
+      - name: 保健学科
+  - name: 歯学部
+    campus_names:
+      - 桜ヶ丘キャンパス
+    departments:
+      - name: 歯学科
+  - name: 工学部
+    campus_names:
+      - 郡元キャンパス
+    departments:
+      - name: 先進工学科
+      - name: 建築学科
+  - name: 農学部
+    campus_names:
+      - 郡元キャンパス
+    departments:
+      - name: 農学科
+  - name: 水産学部
+    campus_names:
+      - 下荒田キャンパス
+    departments:
+      - name: 水産学科
+  - name: 共同獣医学部
+    campus_names:
+      - 郡元キャンパス
+    departments:
+      - name: 共同獣医学科
+      - name: 畜産学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.kagoshima-u.ac.jp/
+    - https://www.kagoshima-u.ac.jp/faculty/
+    - https://www.kagoshima-u.ac.jp/about/gakubu.html
+    - https://kadai-houbun.jp/
+    - https://www.eng.kagoshima-u.ac.jp/depts/
+    - https://sci-kagoshima-univ.jp/about/
+    - https://www.kagoshima-u.ac.jp/faculty/bukyoku-igaku.html
+    - https://edu.kagoshima-u.ac.jp/category/course_area_department/
+    - https://www.agri.kagoshima-u.ac.jp/
+    - https://www.kagoshima-u.ac.jp/faculty/bukyoku-kyoudoujuui.html
+    - https://www.kagoshima-u.ac.jp/faculty/bukyoku-shigaku.html
+    - https://www.kagoshima-u.ac.jp/about/campusmap.html
+  extraction_status: success

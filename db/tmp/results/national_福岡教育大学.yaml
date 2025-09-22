@@ -1,0 +1,26 @@
+university:
+  name: 福岡教育大学
+
+campuses:
+  - name: 福岡教育大学
+    address: 〒811-4192 福岡県宗像市赤間文教町1-1
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 福岡教育大学
+    departments:
+      - name: 初等教育教員養成課程
+      - name: 中等教育教員養成課程
+      - name: 特別支援教育教員養成課程
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.fukuoka-edu.ac.jp/
+    - https://www.fukuoka-edu.ac.jp/faculty/
+    - https://www.fukuoka-edu.ac.jp/access/
+    - https://www.fukuoka-edu.ac.jp/faculty/primary_majour/index.html
+    - https://www.fukuoka-edu.ac.jp/faculty/junior_majour/index.html
+    - https://www.fukuoka-edu.ac.jp/faculty/special_support/index.html
+  extraction_status: success

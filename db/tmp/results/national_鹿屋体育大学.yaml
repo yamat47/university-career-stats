@@ -1,0 +1,22 @@
+university:
+  name: 鹿屋体育大学
+
+campuses:
+  - name: 白水キャンパス
+    address: 鹿児島県鹿屋市白水町1番地
+
+faculties:
+  - name: 体育学部
+    campus_names:
+      - 白水キャンパス
+    departments:
+      - name: スポーツ総合課程
+      - name: 武道課程
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.nifs-k.ac.jp/
+    - https://search.keinet.ne.jp/1470/outline/department
+    - https://passnavi.obunsha.co.jp/univ/0940/department/
+  extraction_status: success

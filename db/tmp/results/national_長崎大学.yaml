@@ -1,0 +1,79 @@
+university:
+  name: 長崎大学
+
+campuses:
+  - name: 文教キャンパス
+    address: 〒852-8521 長崎市文教町1-14
+  - name: 坂本キャンパス1
+    address: 〒852-8523 長崎市坂本1-12-4
+  - name: 坂本キャンパス2
+    address: 〒852-8520 長崎市坂本1-7-1
+  - name: 片淵キャンパス
+    address: 〒850-8506 長崎市片淵4-2-1
+
+faculties:
+  - name: 多文化社会学部
+    campus_names:
+      - 文教キャンパス
+    departments:
+      - name: 多文化社会学科
+  - name: 教育学部
+    campus_names:
+      - 文教キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+  - name: 経済学部
+    campus_names:
+      - 片淵キャンパス
+    departments:
+      - name: 総合経済学科
+  - name: 医学部
+    campus_names:
+      - 坂本キャンパス1
+    departments:
+      - name: 医学科
+      - name: 保健学科
+  - name: 歯学部
+    campus_names:
+      - 坂本キャンパス2
+    departments:
+      - name: 歯学科
+  - name: 薬学部
+    campus_names:
+      - 文教キャンパス
+    departments:
+      - name: 薬学科
+      - name: 薬科学科
+  - name: 情報データ科学部
+    campus_names:
+      - 文教キャンパス
+    departments:
+      - name: 情報データ科学科
+  - name: 工学部
+    campus_names:
+      - 文教キャンパス
+    departments:
+      - name: 工学科
+  - name: 環境科学部
+    campus_names:
+      - 文教キャンパス
+    departments:
+      - name: 環境科学科
+  - name: 水産学部
+    campus_names:
+      - 文教キャンパス
+    departments:
+      - name: 水産学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.nagasaki-u.ac.jp/
+    - https://www.nagasaki-u.ac.jp/ja/edu/
+    - https://www.nagasaki-u.ac.jp/ja/access/
+    - https://www.eng.nagasaki-u.ac.jp/
+    - https://www.ph.nagasaki-u.ac.jp/
+    - https://www.am.nagasaki-u.ac.jp/
+    - https://www.med.nagasaki-u.ac.jp/med/
+    - https://www.de.nagasaki-u.ac.jp/
+  extraction_status: success

@@ -1,0 +1,60 @@
+university:
+  name: 佐賀大学
+
+campuses:
+  - name: 本庄キャンパス
+    address: 〒840-8502 佐賀市本庄町1
+  - name: 鍋島キャンパス
+    address: 〒849-8501 佐賀市鍋島5-1-1
+  - name: 有田キャンパス
+    address: 佐賀県西松浦郡有田町大野乙2441-1
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 本庄キャンパス
+    departments:
+      - name: 共同教員養成課程
+  - name: 芸術地域デザイン学部
+    campus_names:
+      - 本庄キャンパス
+      - 有田キャンパス
+    departments:
+      - name: 芸術地域デザイン学科
+  - name: 経済学部
+    campus_names:
+      - 本庄キャンパス
+    departments:
+      - name: 経済学科
+      - name: 経営学科
+      - name: 経済法学科
+  - name: 医学部
+    campus_names:
+      - 鍋島キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+  - name: 理工学部
+    campus_names:
+      - 本庄キャンパス
+    departments:
+      - name: 理工学科
+  - name: 農学部
+    campus_names:
+      - 本庄キャンパス
+    departments:
+      - name: 生物資源科学科
+  - name: コスメティックサイエンス学環
+    campus_names:
+      - 本庄キャンパス
+    departments:
+      - name: コスメティックサイエンス学環課程
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.saga-u.ac.jp/
+    - https://www.saga-u.ac.jp/access/
+    - https://www.sao.saga-u.ac.jp/admission_center/ouensite/faculty/
+    - https://www.se.saga-u.ac.jp/department/fes.html
+  extraction_status: success

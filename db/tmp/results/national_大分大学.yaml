@@ -1,0 +1,50 @@
+university:
+  name: 大分大学
+
+campuses:
+  - name: 旦野原キャンパス
+    address: 〒870-1192 大分県大分市大字旦野原700番地
+  - name: 挾間キャンパス
+    address: 〒879-5593 大分県由布市挾間町医大ケ丘1丁目1番地
+  - name: 王子キャンパス
+    address: 〒870-0819 大分県大分市王子新町1番1号
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 旦野原キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+  - name: 経済学部
+    campus_names:
+      - 旦野原キャンパス
+    departments:
+      - name: 総合経済学科
+  - name: 医学部
+    campus_names:
+      - 挾間キャンパス
+    departments:
+      - name: 医学科
+      - name: 看護学科
+      - name: 先進医療科学科
+  - name: 理工学部
+    campus_names:
+      - 旦野原キャンパス
+    departments:
+      - name: 理工学科
+  - name: 福祉健康科学部
+    campus_names:
+      - 旦野原キャンパス
+    departments:
+      - name: 福祉健康科学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://www.oita-u.ac.jp/
+    - https://www.ed.oita-u.ac.jp/gakubu/
+    - https://www.ec.oita-u.ac.jp/reorganization/
+    - https://www.med.oita-u.ac.jp/campus/med-kangogaku.html
+    - https://www.st.oita-u.ac.jp/college/
+    - https://www.fwhs.oita-u.ac.jp/course/
+  extraction_status: success
