@@ -1,0 +1,32 @@
+university:
+  name: 梅光学院大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒750-8511 山口県下関市向洋町1-1-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 人文学科
+  - name: 国際学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 国際言語文化学科
+  - name: 子ども学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 子ども未来学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.baiko.ac.jp/university/
+    - https://www.baiko.ac.jp/university/major/
+    - https://www.baiko.ac.jp/university/campus/facilities/
+    - https://www.baiko.ac.jp/university/outline/
+  extraction_status: success

@@ -1,0 +1,55 @@
+university:
+  name: 松山大学
+
+campuses:
+  - name: 文京キャンパス
+    address: 〒790-8578 愛媛県松山市文京町4番地2
+  - name: 御幸キャンパス
+    address: 〒790-0824 愛媛県松山市御幸1-513-1
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - 文京キャンパス
+    departments:
+      - name: 経済学科
+
+  - name: 経営学部
+    campus_names:
+      - 文京キャンパス
+    departments:
+      - name: 経営学科
+
+  - name: 人文学部
+    campus_names:
+      - 文京キャンパス
+    departments:
+      - name: 英語英米文学科
+      - name: 社会学科
+
+  - name: 法学部
+    campus_names:
+      - 文京キャンパス
+    departments:
+      - name: 法学科
+
+  - name: 薬学部
+    campus_names:
+      - 文京キャンパス
+    departments:
+      - name: 医療薬学科
+
+  - name: 情報学部
+    campus_names:
+      - 文京キャンパス
+    departments:
+      - name: 情報学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.matsuyama-u.ac.jp/
+    - https://www.matsuyama-u.ac.jp/faculty/
+    - https://www.matsuyama-u.ac.jp/guide/campus/bunkyo/
+    - https://www.matsuyama-u.ac.jp/guide/campus/miyuki/
+  extraction_status: success

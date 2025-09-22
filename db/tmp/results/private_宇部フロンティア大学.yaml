@@ -1,0 +1,28 @@
+university:
+  name: 宇部フロンティア大学
+
+campuses:
+  - name: 宇部フロンティア大学キャンパス
+    address: 〒755-0805 山口県宇部市文京台2-1-1
+
+faculties:
+  - name: 心理学部
+    campus_names:
+      - 宇部フロンティア大学キャンパス
+    departments:
+      - name: 心理学科
+
+  - name: 看護学部
+    campus_names:
+      - 宇部フロンティア大学キャンパス
+    departments:
+      - name: 看護学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.frontier-u.jp/
+    - https://www.frontier-u.jp/faculty/
+    - https://www.frontier-u.jp/campuslife/c-map-campus/
+    - https://www.frontier-u.jp/intro-univ/
+  extraction_status: success

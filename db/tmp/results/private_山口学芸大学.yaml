@@ -1,0 +1,21 @@
+university:
+  name: 山口学芸大学
+
+campuses:
+  - name: 山口学芸大学キャンパス
+    address: 〒754-0032 山口県山口市小郡みらい町一丁目7番1号
+
+faculties:
+  - name: 教育学部
+    campus_names:
+      - 山口学芸大学キャンパス
+    departments:
+      - name: 教育学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.y-gakugei.ac.jp/
+    - https://www.y-gakugei.ac.jp/faculty/
+    - https://www.y-gakugei.ac.jp/access/
+  extraction_status: success

@@ -1,0 +1,26 @@
+university:
+  name: 至誠館大学
+
+campuses:
+  - name: 萩本校キャンパス
+    address: 〒758-0011 山口県萩市椿東浦田5000
+  - name: 東京キャンパス
+    address: 〒164-0001 東京都中野区中野2-18-3
+
+faculties:
+  - name: 現代社会学部
+    campus_names:
+      - 萩本校キャンパス
+      - 東京キャンパス
+    departments:
+      - name: 現代社会学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.shiseikan.ac.jp/
+    - https://www.shiseikan.ac.jp/study
+    - https://www.shiseikan.ac.jp/other_info/13728
+    - https://www.shiseikan.ac.jp/guidance/access
+    - https://www.shiseikan.ac.jp/tokyo-campus
+  extraction_status: success

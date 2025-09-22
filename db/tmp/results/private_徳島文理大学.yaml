@@ -1,0 +1,82 @@
+university:
+  name: 徳島文理大学
+
+campuses:
+  - name: 徳島キャンパス
+    address: "〒770-8514 徳島県徳島市山城町西浜傍示180"
+  - name: 高松駅キャンパス
+    address: "〒760-8542 香川県高松市浜ノ町8-53"
+
+faculties:
+  - name: 薬学部
+    campus_names:
+      - 徳島キャンパス
+    departments:
+      - name: 薬学科
+
+  - name: 人間生活学部
+    campus_names:
+      - 徳島キャンパス
+    departments:
+      - name: 食物栄養学科
+      - name: 児童学科
+      - name: 心理学科
+      - name: メディアデザイン学科
+      - name: 建築デザイン学科
+      - name: 人間生活学科
+
+  - name: 保健福祉学部
+    campus_names:
+      - 徳島キャンパス
+    departments:
+      - name: 口腔保健学科
+      - name: 理学療法学科
+      - name: 看護学科
+      - name: 人間福祉学科
+      - name: 診療放射線学科
+      - name: 臨床工学科
+
+  - name: 総合政策学部
+    campus_names:
+      - 徳島キャンパス
+    departments:
+      - name: 総合政策学科
+      - name: 経営学科
+
+  - name: 音楽学部
+    campus_names:
+      - 徳島キャンパス
+    departments:
+      - name: 音楽学科
+
+  - name: 香川薬学部
+    campus_names:
+      - 高松駅キャンパス
+    departments:
+      - name: 薬学科
+
+  - name: 理工学部
+    campus_names:
+      - 徳島キャンパス
+    departments:
+      - name: ナノ物質工学科
+      - name: 機械創造工学科
+      - name: 電子情報工学科
+
+  - name: 文学部
+    campus_names:
+      - 徳島キャンパス
+    departments:
+      - name: 文化財学科
+      - name: 日本文学科
+      - name: 英語英米文化学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.bunri-u.ac.jp/index.html
+    - https://www.bunri-u.ac.jp/faculty/
+    - https://www.bunri-u.ac.jp/about/campus/
+    - https://www.bunri-u.ac.jp/access.html
+    - https://jyuken.bunri-u.ac.jp/academics/human-life/
+  extraction_status: success

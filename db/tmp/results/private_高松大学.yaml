@@ -1,0 +1,26 @@
+university:
+  name: 高松大学
+
+campuses:
+  - name: 高松大学キャンパス
+    address: 〒761-0194 香川県高松市春日町960番地
+
+faculties:
+  - name: 発達科学部
+    campus_names:
+      - 高松大学キャンパス
+    departments:
+      - name: 子ども発達学科
+  - name: 経営学部
+    campus_names:
+      - 高松大学キャンパス
+    departments:
+      - name: 経営学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.takamatsu-u.ac.jp/univ-jrcol/business/
+    - https://www.takamatsu-u.ac.jp/univ-jrcol/growth/
+    - https://www.takamatsu-u.ac.jp/study/area/access/
+  extraction_status: success

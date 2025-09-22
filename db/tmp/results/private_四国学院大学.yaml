@@ -1,0 +1,32 @@
+university:
+  name: 四国学院大学
+
+campuses:
+  - name: 善通寺キャンパス
+    address: 〒765-8505 香川県善通寺市文京町3-2-1
+
+faculties:
+  - name: 文学部
+    campus_names:
+      - 善通寺キャンパス
+    departments:
+      - name: 人文学科
+  - name: 社会学部
+    campus_names:
+      - 善通寺キャンパス
+    departments:
+      - name: カルチュラル・マネジメント学科
+  - name: 社会福祉学部
+    campus_names:
+      - 善通寺キャンパス
+    departments:
+      - name: 社会福祉学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.sg-u.ac.jp/
+    - https://www.sg-u.ac.jp/topics/18042/
+    - https://www.sg-u.ac.jp/about/info/
+    - https://www.sg-u.ac.jp/access/
+  extraction_status: success
