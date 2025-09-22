@@ -1,0 +1,25 @@
+university:
+  name: エリザベト音楽大学
+
+campuses:
+  - name: 幟町キャンパス
+    address: 〒730-0016 広島県広島市中区幟町4-15
+  - name: 西条キャンパス
+    address: 〒739-0036 広島県東広島市西条町田口239
+
+faculties:
+  - name: 音楽学部
+    campus_names:
+      - 幟町キャンパス
+    departments:
+      - name: 音楽文化学科
+      - name: 演奏学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.eum.ac.jp/
+    - https://www.eum.ac.jp/faculty/
+    - https://www.eum.ac.jp/facilities_access/
+    - https://www.eum.ac.jp/facilities_access/saijo_campus/
+  extraction_status: success

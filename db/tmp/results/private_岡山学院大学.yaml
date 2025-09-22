@@ -1,0 +1,22 @@
+university:
+  name: 岡山学院大学
+
+campuses:
+  - name: 本部キャンパス
+    address: 〒710-8511 岡山県倉敷市有城787
+
+faculties:
+  - name: デジタル生活学部
+    campus_names:
+      - 本部キャンパス
+    departments:
+      - name: フードマネジメント学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - http://owc.ac.jp/
+    - http://owc.ac.jp/about/
+    - http://owc.ac.jp/admission/
+    - http://owc.ac.jp/access/
+  extraction_status: success

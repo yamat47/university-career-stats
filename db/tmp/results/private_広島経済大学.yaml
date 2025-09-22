@@ -1,0 +1,33 @@
+university:
+  name: 広島経済大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒731-0192 広島市安佐南区祇園5-37-1
+
+faculties:
+  - name: 経済学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 経済学科
+  - name: 経営学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 経営学科
+      - name: スポーツ経営学科
+  - name: メディアビジネス学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: ビジネス情報学科
+      - name: メディアビジネス学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.hue.ac.jp/
+    - https://www.hue.ac.jp/dept/
+    - https://www.hue.ac.jp/about/
+  extraction_status: success

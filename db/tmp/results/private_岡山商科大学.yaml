@@ -1,0 +1,35 @@
+university:
+  name: 岡山商科大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒700-8601 岡山県岡山市北区津島京町2丁目10-1
+
+faculties:
+  - name: 法学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 法学科
+  
+  - name: 経済学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 経済学科
+  
+  - name: 経営学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 経営学科
+      - name: 商学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.osu.ac.jp/
+    - https://www.osu.ac.jp/about/
+    - https://www.osu.ac.jp/access-department/
+    - https://www.osu.ac.jp/faculties/
+  extraction_status: success

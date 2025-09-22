@@ -1,0 +1,43 @@
+university:
+  name: くらしき作陽大学
+
+campuses:
+  - name: くらしき作陽大学キャンパス
+    address: 〒710-0292 岡山県倉敷市玉島長尾3515
+
+faculties:
+  - name: 音楽学部
+    campus_names:
+      - くらしき作陽大学キャンパス
+    departments:
+      - name: 音楽学科
+
+  - name: 食文化学部
+    campus_names:
+      - くらしき作陽大学キャンパス
+    departments:
+      - name: 栄養学科
+
+  - name: 子ども教育学部
+    campus_names:
+      - くらしき作陽大学キャンパス
+    departments:
+      - name: 子ども教育学科
+
+  - name: 健康スポーツ教育学部
+    campus_names:
+      - くらしき作陽大学キャンパス
+    departments:
+      - name: 健康スポーツ教育学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.ksu.ac.jp/
+    - https://www.ksu.ac.jp/faculty/
+    - https://www.ksu.ac.jp/music/
+    - https://www.ksu.ac.jp/food/
+    - https://www.ksu.ac.jp/faculty/child/
+    - https://www.ksu-jukenouen.jp/health_sports/
+    - https://www.ksu.ac.jp/access/
+  extraction_status: success
