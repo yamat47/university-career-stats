@@ -1,0 +1,23 @@
+university:
+  name: 美作大学
+
+campuses:
+  - name: 美作大学キャンパス
+    address: 〒708-8511 岡山県津山市北園町50
+
+faculties:
+  - name: 生活科学部
+    campus_names:
+      - 美作大学キャンパス
+    departments:
+      - name: 食物学科
+      - name: 児童学科
+      - name: 社会福祉学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://mimasaka.jp/
+    - https://mimasaka.jp/undergraduate/
+    - https://mimasaka.jp/about/overview/access/
+  extraction_status: success

@@ -1,0 +1,30 @@
+university:
+  name: 倉敷芸術科学大学
+
+campuses:
+  - name: 本キャンパス
+    address: 〒712-8505 岡山県倉敷市連島町西之浦2640番地
+
+faculties:
+  - name: 芸術学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 芸術学科
+  - name: 生命科学部
+    campus_names:
+      - 本キャンパス
+    departments:
+      - name: 環境生命科学科
+      - name: 生命医科学科
+      - name: 動物生命科学科
+      - name: 健康科学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.kusa.ac.jp/
+    - https://www.kusa.ac.jp/academics/
+    - https://www.kusa.ac.jp/about-university/access/
+    - https://shingakunet.com/gakko/SC000370/gakubugakka/
+  extraction_status: success

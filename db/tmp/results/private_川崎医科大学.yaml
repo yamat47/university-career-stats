@@ -1,0 +1,21 @@
+university:
+  name: 川崎医科大学
+
+campuses:
+  - name: 川崎医科大学キャンパス
+    address: 〒701-0192 岡山県倉敷市松島577
+
+faculties:
+  - name: 医学部
+    campus_names:
+      - 川崎医科大学キャンパス
+    departments:
+      - name: 医学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://m.kawasaki-m.ac.jp/
+    - https://m.kawasaki-m.ac.jp/outline/
+    - https://m.kawasaki-m.ac.jp/campus/map.php
+  extraction_status: success

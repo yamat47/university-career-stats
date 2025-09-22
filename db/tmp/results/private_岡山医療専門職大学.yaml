@@ -1,0 +1,25 @@
+university:
+  name: 岡山医療専門職大学
+
+campuses:
+  - name: 岡山医療専門職大学
+    address: 〒700-0913 岡山県岡山市北区大供3-2-18
+
+faculties:
+  - name: 健康科学部
+    campus_names:
+      - 岡山医療専門職大学
+    departments:
+      - name: 理学療法学科
+      - name: 作業療法学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://opu.ac.jp/
+    - https://opu.ac.jp/faculty/
+    - https://opu.ac.jp/pt/
+    - https://opu.ac.jp/ot/
+    - https://opu.ac.jp/access/
+    - https://opu.ac.jp/disclosure/
+  extraction_status: success

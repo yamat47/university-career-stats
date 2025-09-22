@@ -1,0 +1,67 @@
+university:
+  name: 琉球大学
+
+campuses:
+  - name: 千原キャンパス
+    address: 〒903-0213 沖縄県中頭郡西原町字千原1番地
+  - name: 西普天間キャンパス
+    address: 〒901-2222 沖縄県宜野湾市字喜友名1076番地
+
+faculties:
+  - name: 人文社会学部
+    campus_names:
+      - 千原キャンパス
+    departments:
+      - name: 国際法政学科
+      - name: 人間社会学科
+      - name: 琉球アジア文化学科
+  - name: 国際地域創造学部
+    campus_names:
+      - 千原キャンパス
+    departments:
+      - name: 国際地域創造学科
+  - name: 教育学部
+    campus_names:
+      - 千原キャンパス
+    departments:
+      - name: 学校教育教員養成課程
+  - name: 理学部
+    campus_names:
+      - 千原キャンパス
+    departments:
+      - name: 数理科学科
+      - name: 物質地球科学科
+      - name: 海洋自然科学科
+  - name: 医学部
+    campus_names:
+      - 西普天間キャンパス
+    departments:
+      - name: 医学科
+      - name: 保健学科
+  - name: 工学部
+    campus_names:
+      - 千原キャンパス
+    departments:
+      - name: 工学科
+  - name: 農学部
+    campus_names:
+      - 千原キャンパス
+    departments:
+      - name: 亜熱帯地域農学科
+      - name: 亜熱帯農林環境科学科
+      - name: 地域農業工学科
+      - name: 亜熱帯生物資源科学科
+
+metadata:
+  extraction_date: 2025-09-22
+  sources:
+    - https://www.u-ryukyu.ac.jp/
+    - https://www.u-ryukyu.ac.jp/faculty/
+    - https://www.hs.u-ryukyu.ac.jp/
+    - https://www.grs.u-ryukyu.ac.jp/
+    - https://www.edu.u-ryukyu.ac.jp/
+    - https://www.sci.u-ryukyu.ac.jp/
+    - https://www.med.u-ryukyu.ac.jp/
+    - https://www.tec.u-ryukyu.ac.jp/
+    - https://www.agr.u-ryukyu.ac.jp/
+  extraction_status: success
